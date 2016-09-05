@@ -23,6 +23,13 @@ import os
 
 # -- General configuration ------------------------------------------------
 
+rst_prolog = """
+.. |mdT| replace:: mediaTUM
+.. |mdTurl| replace:: https://mediatum.ub.tum.de
+.. |mdt| replace:: Mediatum
+.. |mdturl| replace:: http://mediatum.github.io
+"""
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
@@ -116,7 +123,15 @@ html_theme = 'alabaster'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'github_user': 'mediatum',
+    'github_repo': 'mediatum',
+    'show_powered_by': False,
+    'sidebar_width': '16em',
+    #'fixed_sidebar': True, # only in ver 0.7.8 (May 2016)
+    'extra_nav_links': {'mediatum.github.io': 'http://mediatum.github.io',
+                        'github.com/mediatum': 'https:/github.com/mediatum'}
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -156,7 +171,15 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+        'donate.html',
+    ]
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -178,7 +201,7 @@ html_static_path = ['_static']
 #html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+html_show_copyright = False
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the

@@ -3,20 +3,36 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to mediatum's documentation!
-====================================
+######################
+Mediatum documentation
+######################
 
-Contents:
+Welcome to Mediatum's documentation.
+Mediatum is a digital repository for documents, media and data.
+Please refer to the :ref:`intro` to learn more about the high-level concepts and possible application areas for Mediatum.
+
+========
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
 
+   introduction
+   installation
+   editor/index
+   admin/index
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. topics to cover
+
+   masks
+   versioning
+   workflows
+   contributing
+   plugins
+
+
+
 
