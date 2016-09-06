@@ -75,6 +75,7 @@ browsing tree in standard Web interface or in the editor interface)
 
 **Example 1:** Usergroup G1 can see the complete example collection
 *Tree* (all folders and all objects).
+
 +-------------------+------------------------------------------------------------------+
 | Objects           | Explicit assignments or inheritance of the right *See*           |
 +===================+==================================================================+
@@ -108,6 +109,7 @@ disallow inherited rights indirectly, see below). **Example 2:** A
 collection consists of two folders. The first folder (*Worldwide
 folder*) can be seen worldwide, the other folder (*Group access folder*)
 can be seen by members of the user group G1 only.
+
 +-----------------------+------------------------------------------------------------------+
 | Objects               | Explicit assignments or inheritance of the right *See*           |
 +=======================+==================================================================+
@@ -176,6 +178,7 @@ The rights assigned in lower hierarchical levels expand the rights which
 result from the inheritance process. **Example 1:** Enabling the user
 group G1 to edit the complete example collection *Tree* (all folders and
 all objects).
+
 +-------------------+------------------------------------------------------------------+
 | Objects           | Explicit assignments or inheritance of the right *See*           |
 +===================+==================================================================+
@@ -232,13 +235,8 @@ The logic of the assignment of authorizations regarding the *Download*
 operation are identical to the logic of the *See* process. Therefore the
 assignment process is analogous to the *See* process.
 
-.. |Assign the right to see to the group G1| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights2.jpg
-.. |Inherited right to see| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/inherited-rights.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/inherited-rights.jpg
-.. |image2| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rightarrow.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rightarrow.jpg
-.. |Rights for everyone| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights-empty.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights-empty.jpg
-.. |image4| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-rights.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-rights.jpg
+.. |Assign the right to see to the group G1|  image:: images/rights2.jpg
+.. |Inherited right to see|  image:: images/inherited-rights.jpg
+.. |image2|  image:: images/rightarrow.jpg
+.. |Rights for everyone|  image:: images/rights-empty.jpg
+.. |image4|  image:: images/edit-rights.jpg

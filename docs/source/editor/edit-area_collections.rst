@@ -12,8 +12,13 @@ editing functions on collection levels follows.
 #. Create new collection by means of the *General administrative
    functions* panel.
 
-[caption id="attachment\_1062" align="alignnone" width="600"
-caption="Create collection"]\ |Create collection|\ [/caption]
+
+
+.. figure:: images/create_coll.jpg
+   :width: 600 px
+
+   Create collection
+
 
 2. Editing name and default display format of a collection
 
@@ -38,9 +43,12 @@ caption="Create collection"]\ |Create collection|\ [/caption]
 #. You can decide wheather a collection or directory is displayed
    straight after it was created or only when it holds objects.
 
-[caption id="attachment\_1068" align="alignnone" width="635"
-caption="Edit collection settings"]\ |Edit collection
-settings|\ [/caption] These settings can be made only at collection
+.. figure:: images/edit-collectionsettings.jpg
+   :width: 635 px
+
+   Edit collection settings
+
+These settings can be made only at collection
 level. That means a setting on directory level will be overwritten by
 the setting that is made at collection level above. **Remark:** Every
 user can change the default setting in the normal Website view by
@@ -51,9 +59,12 @@ the right hand side.
 #. Thumbnail display
 #. List display
 
-[caption id="attachment\_1071" align="alignnone" width="865"
-caption="Change display settings"]\ |Change display
-settings|\ [/caption] This setting is sometimes remembered by the system
+.. figure:: images/display-setting.jpg
+   :width: 865 px
+
+   Change display settings
+
+This setting is sometimes remembered by the system
 when coming back. That means that the content is not displayed like the
 default setting but like your local preference.
 
@@ -70,8 +81,11 @@ default setting but like your local preference.
 #. You can test the URL by clicking the |image3| symbol (the linked site
    opens in a new tab of your browser).
 
-[caption id="attachment\_1076" align="alignnone" width="552"
-caption="Edit logo"]\ |Edit logo|\ [/caption]
+.. figure:: images/edit-logo.jpg
+   :width: 552 px
+
+   Edit logo
+
 
 4. Set a default sorting for a collection
 
@@ -134,17 +148,33 @@ start defining certain search fields or putting fields together.
    are displayed.
 
 **Result:** The *Advanced search* for the collection is automatically
-available next to the standard search in the web view. [caption
-id="attachment\_1091" align="alignnone" width="302" caption="Advanced
-search"]\ |Advanced search|\ [/caption] Click on *Advanced Search* and
+available next to the standard search in the web view. 
+
+.. figure:: images/advanced-search.jpg
+   :width: 302 px
+
+   Advanced search
+
+Click on *Advanced Search* and
 as default three search fields come up. (If needded you can have more
-fields displayed by clicking on *More Searchfields*. [caption
-id="attachment\_1093" align="alignnone" width="291" caption="Search
-fields"]\ |Search fields|\ [/caption] The fields all hold a list of the
+fields displayed by clicking on *More Searchfields*. 
+
+.. figure:: images/searchfields.jpg
+   :width: 291 px
+
+   Search fields
+
+The fields all hold a list of the
 defined search fields. You can choose a field (e.g. author) and combine
 it with another one (e.g. year) to get more specific search results.
-[caption id="attachment\_1095" align="alignnone" width="291"
-caption="Search fields"]\ |Search fields|\ [/caption] **Add fields from
+
+
+.. figure:: images/searchfields2.jpg
+   :width: 291 px
+
+   Search fields
+
+**Add fields from
 other metadata schemes** **Functional description:** If you have more
 than one metadata scheme in use, the fields you want to offer may be
 part of another metadata scheme and not the one that was loaded first in
@@ -163,8 +193,14 @@ your search mask.
    fields from all the metadata schemes that you are using as you wish.
 
 **Result:** The added search mask field will appear in the advanced
-search. [caption id="attachment\_1106" align="alignnone" width="293"
-caption="Advanced search"]\ |Advanced search|\ [/caption] **Combine
+search. 
+
+.. figure:: images/advanced-search2.jpg
+   :width: 293 px
+
+   Advanced search
+
+**Combine
 fields from different schemes to one search field** **Example:** Combine
 fields abstract and title to one search field.
 
@@ -173,9 +209,14 @@ fields abstract and title to one search field.
    repeat the described procedure by adding another field to the search
    field.
 
-The defined fields will be listed as shown: [caption
-id="attachment\_1108" align="alignnone" width="468" caption="Combine
-search fields"]\ |Combine search fields|\ [/caption] **Remark:** Be
+The defined fields will be listed as shown: 
+
+.. figure:: images/combined-searchfield.jpg
+   :width: 468 px
+
+   Combine search fields
+
+**Remark:** Be
 careful with combination of fields. Two index fields with the same name
 from different schemes can not be combined as well as you should not
 combine different field types (e.g. text field and index field). This
@@ -200,23 +241,5 @@ The inherited search mask will not be displayed on the lower level; it
 is only shown and can be edited on the collection level where it was
 originally defined.
 
-.. |Create collection| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create_coll.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create_coll.jpg
-.. |Edit collection settings| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-collectionsettings.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-collectionsettings.jpg
-.. |Change display settings| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/display-setting.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/display-setting.jpg
-.. |image3| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Extlink.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Extlink.png
-.. |Edit logo| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-logo.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-logo.jpg
-.. |Advanced search| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/advanced-search.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/advanced-search.jpg
-.. |Search fields| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/searchfields.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/searchfields.jpg
-.. |Search fields| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/searchfields2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/searchfields2.jpg
-.. |Advanced search| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/advanced-search2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/advanced-search2.jpg
-.. |Combine search fields| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/combined-searchfield.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/combined-searchfield.jpg
+
+.. |image3|  image:: images/Extlink.png

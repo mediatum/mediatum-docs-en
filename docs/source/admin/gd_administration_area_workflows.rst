@@ -11,10 +11,20 @@ directions, or stop when the end of the workflow has been reached.
 2. Create a new workflow
 
 You can start the creation of a new workflow by clicking on the golden
-box icon. [caption id="attachment\_1162" align="alignnone"
-width="853"]\ |Create new workflow| Create new workflow[/caption]
-[caption id="attachment\_1169" align="alignnone" width="502"]\ |Create
-new workflow| Create new workflow[/caption] **Procedure:**
+box icon. 
+
+.. figure:: images/create-workflow.jpg
+   :width: 853 px
+
+   Create new workflow
+
+
+.. figure:: images/create-new-workflow.png
+   :width: 502 px
+
+   Create new workflow
+
+**Procedure:**
 
 #. Enter workflow name.
 #. Choose the usergroup with write access for this workflow.
@@ -27,9 +37,14 @@ and process workflows.
 #. You may give a short description.
 
 The following overview shows the basic workflow handling in the fashion
-similar to usergroups, users, metadata types, et cetera: [caption
-id="attachment\_1172" align="alignnone" width="754"]\ |Existing
-worklfows| Existing workflows[/caption] **Editing functions:**
+similar to usergroups, users, metadata types, et cetera: 
+
+.. figure:: images/existing-workflows.png
+   :width: 754 px
+
+   Existing workflows
+
+**Editing functions:**
 
 -  Delete workflow by clicking on the red x sign
 -  Edit of workflow methadata by clicking on |image3|
@@ -42,8 +57,14 @@ worklfows| Existing workflows[/caption] **Editing functions:**
 
 When you click on the icon |image6| to edit and create workflow steps
 you will arrive at a new administration view with a golden box to create
-new workflowsteps. [caption id="attachment\_1184" align="alignnone"
-width="570"]\ |Create workflow step| Create worklfow step[/caption]
+new workflowsteps. 
+
+.. figure:: images/create-workflow-node.jpg
+   :width: 570 px
+
+   Create workflow step
+
+
 **Procedure:**
 
 #. Enter a name for the workflow step.
@@ -365,28 +386,47 @@ node:**
 
 The following screenshots show an example of a workfow step overview and
 a snippet from the corresponding workflow diagram created using the
-editing functions discribed above. [caption id="attachment\_1205"
-align="alignnone" width="768"]\ |Example workflow| Example
-workflow[/caption] **Remark:** The worklow steps are alphabetically
+editing functions discribed above. 
+
+.. figure:: images/example-workflow.jpg
+   :width: 768 px
+
+   Example workflow
+
+**Remark:** The worklow steps are alphabetically
 ordered in this list. In the following workflow diagram the nodes are
 represented as rectangles with green arrows linking to the node for
 *True* and red arrows linking to the node for *False*. This diagram will
 be shown after clicking on *open workflow definition* in the top left
 corner of the preceding view, or by clicking on the reading-glass sign
-in the *Existing workflows* view. [caption id="attachment\_1209"
-align="alignnone" width="359"]\ |Workflow diagram| Workflow
-diagram[/caption]
+in the *Existing workflows* view. 
+
+.. figure:: images/workflow-diagram.jpg
+   :width: 359 px
+
+   Workflow diagram
+
 
 6. Starting a workflow
 
 If you are logged in with workflow rights you will see a menu item
 *Workflows*. |image10| After selecting the menu item *Workflows*, a list
-of the available workflows will be shown. [caption id="attachment\_1214"
-align="alignnone" width="583"]\ |Available workflows| Available
-workflows[/caption] After clicking on the name of a workflow a status
-page for that workflows will be shown. [caption id="attachment\_1216"
-align="alignnone" width="721"]\ |Status page of a worklow| Status page
-of a workflow[/caption] In the status page the various workflow nodes
+of the available workflows will be shown. 
+
+.. figure:: images/available-workflows.jpg
+   :width: 583 px
+
+   Available workflows
+
+After clicking on the name of a workflow a status
+page for that workflows will be shown. 
+
+.. figure:: images/status-page.jpg
+   :width: 721 px
+
+   Status page of a worklow
+
+In the status page the various workflow nodes
 are listed with the count of the objects that are currently waiting to
 be processed by that workflow step. Workflow steps marked as Admin steps
 are highlighted (check data in this example). This might be usefull when
@@ -399,9 +439,14 @@ user will be asked to create a new object associated with the start
 node. After doing so the user will be transfered to the node for *True*
 of the start node. **Remark:** When clicking on the object count of the
 steps other than the start of the workflow, an overview list of the
-objects waiting to be processed by that step will be shown. [caption
-id="attachment\_1218" align="alignnone" width="730"]\ |Objects to be
-processed| Objects to be processed[/caption] In this overview the ID of
+objects waiting to be processed by that step will be shown. 
+
+.. figure:: images/objects-to-be-processed.jpg
+   :width: 730 px
+
+   Objects to be processed
+
+In this overview the ID of
 the node representing the object is shown together with the creation
 time of the object. The name is only shown when the object has been
 named. In the other columns a click on the last column will transfer the
@@ -422,106 +467,129 @@ which has a right to upload pdf files, can
 -  apply for publication of his article
 
 The publication will be then permitted (or denied) by administrator.
-Here the workflow definition: [caption id="attachment\_1330"
-align="aligncenter" width="500"]\ |Workflow properties| Workflow
-properties[/caption] As you can see the users from the usergroup
+Here the workflow definition: 
+
+.. figure:: images/workflow1.png
+   :width: 500 px
+
+   Workflow properties
+
+As you can see the users from the usergroup
 ``irareGroup`` have a writing right for this workflow. The administrator
 has automatically all the rights for all workflows. |image15|\ |image16|
 In the diagramm above you can see all the defined workflow steps. The
-definition of each step follows below. [caption id="attachment\_1328"
-align="aligncenter" width="1010"]\ |Workflow steps| Workflow
-steps[/caption] In the definition of the start step the type of node to
+definition of each step follows below. 
+
+.. figure:: images/workflow2.png
+   :width: 1010 px
+
+   Workflow steps
+
+In the definition of the start step the type of node to
 be created is defined. This step is visible for users of the group
-``irareGroup``. [caption id="attachment\_1326" align="aligncenter"
-width="655"]\ |Start step| Start step[/caption] The next step is the
-upload step: [caption id="attachment\_1323" align="aligncenter"
-width="585"]\ |Upload step| Upload step[/caption] Then we should give
+``irareGroup``. 
+
+.. figure:: images/startstep.png
+   :width: 655 px
+
+   Start step
+
+The next step is the
+upload step: 
+
+.. figure:: images/uploadstep.png
+   :width: 585 px
+
+   Upload step
+
+Then we should give
 the user the opportunity to enter the author's name and the title of the
-article. [caption id="attachment\_1333" align="aligncenter"
-width="560"]\ |Edit step| Edit step[/caption] After a user has pushed
+article. 
+
+.. figure:: images/editstep1.png
+   :width: 560 px
+
+   Edit step
+
+After a user has pushed
 the button *Apply for publication* a text page with a short message will
-be shown. [caption id="attachment\_1335" align="aligncenter"
-width="566"]\ |Text page| Text page[/caption] Notice that the labels of
+be shown. 
+
+.. figure:: images/textstep.png
+   :width: 566 px
+
+   Text page
+
+Notice that the labels of
 true and false operations are empty, in order to prevent the publication
 by the user itself. For the same reason, we mark the next step as admin
-step. [caption id="attachment\_1337" align="aligncenter"
-width="595"]\ |First admin step| First admin step[/caption] After the
-administrator has permitted the publication, the publish-node will be
-executed. [caption id="attachment\_1340" align="aligncenter"
-width="564"]\ |Publish| Publish[/caption] After the article was
-published, it will be integrated into the browsing structure of
-**mediaTUM**. [caption id="attachment\_1342" align="aligncenter"
-width="565"]\ |Classify node| Classify node[/caption] Then the workflow
-will be finished. [caption id="attachment\_1344" align="aligncenter"
-width="571"]\ |End step| End step[/caption] Now the user ``irare`` of
-the ``irareGroup`` can upload a document and complete its metadata:
-[caption id="attachment\_1348" align="aligncenter" width="488"]\ |An
-article was uploaded| An article was uploaded[/caption] After entering
-the author's name and title of the article, the user ``irare`` can see
-the following page [caption id="attachment\_1350" align="aligncenter"
-width="735"]\ |Text displayed to the user| Text displayed to the
-user[/caption] In oder to publish the uploaded document, administrator
-has to permit the publication. As you can see in the table below, the
-document hangs at the first administrator step. [caption
-id="attachment\_1353" align="aligncenter" width="694"]\ |Document
-attached at the first "administarotr step"| Document attached at the
-first "administarotr step"[/caption]
+step. 
 
-.. |Create new workflow| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create-workflow.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create-workflow.jpg
-.. |Create new workflow| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create-new-workflow.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create-new-workflow.png
-.. |Existing worklfows| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/existing-workflows.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/existing-workflows.png
-.. |image3| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Edit.gif
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Edit.gif
-.. |image4| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/export.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/export.png
-.. |image5| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rightarrow.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rightarrow.png
-.. |image6| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rightarrow1.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rightarrow1.png
-.. |Create workflow step| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create-workflow-node.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/create-workflow-node.jpg
-.. |Example workflow| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example-workflow.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example-workflow.jpg
-.. |Workflow diagram| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow-diagram.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow-diagram.jpg
-.. |image10| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/worklfow.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/worklfow.jpg
-.. |Available workflows| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/available-workflows.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/available-workflows.jpg
-.. |Status page of a worklow| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/status-page.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/status-page.jpg
-.. |Objects to be processed| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/objects-to-be-processed.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/objects-to-be-processed.jpg
-.. |Workflow properties| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow1.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow1.png
-.. |image15| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow-diagram1.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow-diagram1.jpg
-.. |image16| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow-diagram2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow-diagram2.jpg
-.. |Workflow steps| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow2.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow2.png
-.. |Start step| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/startstep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/startstep.png
-.. |Upload step| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/uploadstep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/uploadstep.png
-.. |Edit step| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editstep1.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editstep1.png
-.. |Text page| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/textstep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/textstep.png
-.. |First admin step| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/firstadminstep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/firstadminstep.png
-.. |Publish| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/publishstep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/publishstep.png
-.. |Classify node| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/classifystep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/classifystep.png
-.. |End step| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/endstep.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/endstep.png
-.. |An article was uploaded| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit.png
-.. |Text displayed to the user| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/text.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/text.png
-.. |Document attached at the first "administarotr step"| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow.png
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/workflow.png
+.. figure:: images/firstadminstep.png
+   :width: 595 px
+
+   First admin step
+
+After the
+administrator has permitted the publication, the publish-node will be
+executed. 
+
+.. figure:: images/publishstep.png
+   :width: 564 px
+
+   Publish
+
+After the article was
+published, it will be integrated into the browsing structure of
+**mediaTUM**. 
+
+.. figure:: images/classifystep.png
+   :width: 565 px
+
+   Classify node
+
+Then the workflow
+will be finished. 
+
+.. figure:: images/endstep.png
+   :width: 571 px
+
+   End step
+
+Now the user ``irare`` of
+the ``irareGroup`` can upload a document and complete its metadata:
+
+
+.. figure:: images/edit.png
+   :width: 488 px
+
+   An article was uploaded
+
+After entering
+the author's name and title of the article, the user ``irare`` can see
+the following page 
+
+.. figure:: images/text.png
+   :width: 735 px
+
+   Text displayed to the user
+
+In oder to publish the uploaded document, administrator
+has to permit the publication. As you can see in the table below, the
+document hangs at the first administrator step. 
+
+.. figure:: images/workflow.png
+   :width: 694 px
+
+   Document attached at the first "administarotr step"
+
+
+
+
+.. |image3|  image:: images/Edit.gif
+.. |image4|  image:: images/export.png
+.. |image5|  image:: images/rightarrow.png
+.. |image6|  image:: images/rightarrow1.png
+.. |image10|  image:: images/worklfow.jpg
+.. |image15|  image:: images/workflow-diagram1.jpg
+.. |image16|  image:: images/workflow-diagram2.jpg

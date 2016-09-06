@@ -28,6 +28,7 @@ the longer the upload process will take. To upload a file select
 *Files*, then *Upload* in the *General administrative functions* panel,
 or select the folder *Uploads* in your user directory in the *Folder
 administration*.
+
 .. rubric:: 2. Creating metadata sets without attached digital objects.
    Creating bibliographic data sets
 
@@ -46,12 +47,20 @@ possible to create metadata sets by uploading BibTeX files
    from your (local) system or network (e.g. example.bib).
 -  Click on *Create/Upload* button to load file up.
 
-[caption id="attachment\_927" align="alignnone" width="963"
-caption="Import bibtex data"]\ |Import bibtex data|\ [/caption]
+.. figure:: images/bibtex.jpg
+   :width: 963 px
+
+   Import bibtex data
+
 **Result:** Content of file is automatically turned into a metadata set
-without object (bibliographic data set). [caption id="attachment\_930"
-align="alignnone" width="795" caption="Bibliographic data
-set"]\ |Bibliographic data set|\ [/caption] **Remark:** The bibtex
+without object (bibliographic data set). 
+
+.. figure:: images/bibtex_2.jpg
+   :width: 795 px
+
+   Bibliographic data set
+
+**Remark:** The bibtex
 import function is not a general setting and does not necessarily be
 available for your metadata schema. There are different data
 types/formats for BibTeX that have to be defined in the metadata schema
@@ -97,8 +106,11 @@ fields are tagged by an orange star \* . **Metadata field types:**
    -  *Data entry / editing*: via keyboard, no restrictions.
    -  *Examples*: Title, abstract, description, non-structured data.
 
-   [caption id="attachment\_936" align="alignnone" width="640"
-   caption="Example"]\ |Example|\ [/caption]
+.. figure:: images/example.jpg
+   :width: 640 px
+
+   Example
+
 -  Index fields
 
    -  *Data entry / editing*: via keyboard, no restrictions. If needed
@@ -110,14 +122,24 @@ fields are tagged by an orange star \* . **Metadata field types:**
    An index field can be identified by the button *Index* behind the
    text field. Entered attributes are saved in a specific index list.
    You can recall the saved values for later for different data sets,
-   clicking on that button. [caption id="attachment\_938"
-   align="alignnone" width="646"
-   caption="Example"]\ |Example|\ [/caption] To see the index entries
+   clicking on that button. 
+
+.. figure:: images/example2.jpg
+   :width: 646 px
+
+   Example
+
+To see the index entries
    click button *Index*. New window with index entries will be opened.
    Select entry via mouse click to select one entry. Hold Ctrl-key and
-   select entries one by one to select more than one entry. [caption
-   id="attachment\_941" align="alignnone" width="408" caption="Index
-   entries"]\ |Index entries|\ [/caption] To change existing data enter
+   select entries one by one to select more than one entry. 
+
+.. figure:: images/index-values.jpg
+   :width: 408 px
+
+   Index entries
+
+To change existing data enter
    new values, select other entries from field index and separate
    different values by semicolon. **Advantages of index fields:**
 
@@ -136,19 +158,33 @@ fields are tagged by an orange star \* . **Metadata field types:**
       interface (list is managed by Administrator).
    -  *Examples*: Fields with a limited number of attribute values.
 
-   [caption id="attachment\_945" align="alignnone" width="609"
-   caption="Example"]\ |Example|\ [/caption] **Remark:** The first enty
+.. figure:: images/example3.jpg
+   :width: 609 px
+
+   Example
+
+**Remark:** The first enty
    of a drop down list will always be set for an object. This can be a
    comfortable way of automatically set values. You can always change to
    another value if required. If that is not needed and you want to keep
    the possibility of not setting any value, an *empty* value can be
    added to the list (see *TUM Standort* field in examples below). The
    empty value can be used for objects that do not hold a value for the
-   specific field. [caption id="attachment\_947" align="alignnone"
-   width="608" caption="List without empty value"]\ |List without empty
-   value|\ [/caption] or [caption id="attachment\_949" align="alignnone"
-   width="610" caption="List with an empty value"]\ |List with an empty
-   value|\ [/caption]
+   specific field. 
+
+.. figure:: images/tum1.jpg
+   :width: 608 px
+
+   List without empty value
+
+or 
+
+.. figure:: images/tum2.jpg
+   :width: 610 px
+
+   List with an empty value
+
+
 -  Lists of field values with multiple selection
 
    -  *Data entry / editing*: selecting one or more entries from list of
@@ -158,8 +194,14 @@ fields are tagged by an orange star \* . **Metadata field types:**
       entry.
    -  *Examples*: fields with a limited number of attribute values.
 
-   [caption id="attachment\_953" align="alignnone" width="606"
-   caption="Example"]\ |Example|\ [/caption] If necessary the entries in
+   
+
+.. figure:: images/example41.jpg
+   :width: 606 px
+
+   Example
+
+If necessary the entries in
    the list of field values can be structured hierarchically (see
    example above). Certain entries can be excluded from the selection
    process; these entries will be displayed in boldface (see "Sciences"
@@ -197,9 +239,14 @@ objects in a certain directory of your collection as well.
    feature that should be used carefully.
 
 Click on *Change/add digital object* in the *Edit metadata* menu. A list
-of all related files and their size will be displayed: [caption
-id="attachment\_965" align="alignnone" width="650" caption="Change/add
-digital object"]\ |Change/add digital object|\ [/caption] **Exchanging
+of all related files and their size will be displayed: 
+
+.. figure:: images/change.jpg
+   :width: 650 px
+
+   Change/add digital object
+
+**Exchanging
 digital objects while keeping existing descriptive metadata**
 **Functional description:** It happens that you upload and edit an
 object that later turns out to be not the object you thought it was
@@ -260,8 +307,14 @@ thumbnail, for a descripion how to do this see above. **How to do it:**
    system, mark it and click *Open*.
 #. Click on *Create/upload*.
 
-[caption id="attachment\_975" align="alignnone" width="549" caption="Add
-new thumbnail"]\ |Add new thumbnail|\ [/caption] The thumbnail will be
+
+
+.. figure:: images/thumbnail.jpg
+   :width: 549 px
+
+   Add new thumbnail
+
+The thumbnail will be
 automatically added to the object, you do not have to reprocess the
 digital object. **Add additional files to the attachement browser**
 **Functional description:** The attachement browser is a special feature
@@ -286,12 +339,23 @@ To attach more than one additional object:
    you want to attach.
 #. Click on *Create/upload* to attach the files.
 
-[caption id="attachment\_979" align="alignnone" width="473"
-caption="Attach directory"]\ |Attach directory|\ [/caption] **Result:**
+
+
+.. figure:: images/attach-directory.jpg
+   :width: 473 px
+
+   Attach directory
+
+**Result:**
 The table *Attachements* is visible and the attachement directory *test*
-has been created. It holds the file that was uploaded. [caption
-id="attachment\_1018" align="alignnone" width="548" caption="Attachment
-directory"]\ |Attachment directory|\ [/caption] **Remark:** the table
+has been created. It holds the file that was uploaded. 
+
+.. figure:: images/attachment.jpg
+   :width: 548 px
+
+   Attachment directory
+
+**Remark:** the table
 *Files* above the attachement browser shows all existing thumbnails and
 files that are related to the actual data set. To attach only one
 additional object to data set:
@@ -301,8 +365,14 @@ additional object to data set:
    you want to attach.
 #. Click on *Create/Upload* to attach the files.
 
-[caption id="attachment\_1021" align="alignnone" width="562"
-caption="Attached file"]\ |Attached file|\ [/caption]
+
+
+.. figure:: images/attach-file.jpg
+   :width: 562 px
+
+   Attached file
+
+
 .. rubric:: 7. Technical metadata: Object administration.
 
 **Functional description:** Technical metadata is the term for all
@@ -324,9 +394,14 @@ this can be:
 There are a range of special functions for objects that will be listed
 and explained in this part. Choose *Edit metadata* and then
 *Administration* in the menu and a similar looking page will come up:
-[caption id="attachment\_1025" align="alignnone" width="619"
-caption="Overview of technical metadata"]\ |Overview of technical
-metadata|\ [/caption] **You can see the following sections:**
+
+
+.. figure:: images/techmetadata.jpg
+   :width: 619 px
+
+   Overview of technical metadata
+
+**You can see the following sections:**
 
 -  *Node information and special functions for object editing*. In
    general the system updates changes to objects automatically, but
@@ -377,45 +452,19 @@ or URN has be generated, it won't be changed anymore.
 
 To get a preview of an object you have to choose *Layout* and then
 *Preview* from the menu. A preview with all metadata fields that hold
-values will be displayed with the full view thumbnail. [caption
-id="attachment\_1033" align="alignnone" width="738" caption="Object
-preview"]\ |Object preview|\ [/caption] To create a printable form of an
+values will be displayed with the full view thumbnail. 
+
+.. figure:: images/object-preview.jpg
+   :width: 738 px
+
+   Object preview
+
+To create a printable form of an
 object that holds thumbnail and metadata click on one of the printer
 symbol on the right. This will create a data sheet in the PDF format
 that can either be saved or printed via the print function of the PDF
 reader.
 
-.. |Import bibtex data| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/bibtex.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/bibtex.jpg
-.. |Bibliographic data set| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/bibtex_2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/bibtex_2.jpg
-.. |Example| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example.jpg
-.. |Example| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example2.jpg
-.. |Index entries| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/index-values.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/index-values.jpg
-.. |Example| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example3.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example3.jpg
-.. |List without empty value| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/tum1.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/tum1.jpg
-.. |List with an empty value| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/tum2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/tum2.jpg
-.. |Example| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example41.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/example41.jpg
-.. |Change/add digital object| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/change.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/change.jpg
-.. |Add new thumbnail| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/thumbnail.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/thumbnail.jpg
-.. |Attach directory| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/attach-directory.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/attach-directory.jpg
-.. |Attachment directory| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/attachment.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/attachment.jpg
-.. |Attached file| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/attach-file.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/attach-file.jpg
-.. |Overview of technical metadata| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/techmetadata.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/techmetadata.jpg
-.. |image15| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Update_index.gif
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Update_index.gif
-.. |Object preview| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/object-preview.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/object-preview.jpg
+
+.. |image15|  image:: images/Update_index.gif
+

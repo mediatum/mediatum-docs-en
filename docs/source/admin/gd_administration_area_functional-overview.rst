@@ -5,8 +5,9 @@ The Administration area is divided into 5 sections. You can access these
 subsections via the links at the administration start page or the
 permanent menu on top of the administration area.
 
-|Main menu|
-Main menu
+.. figure:: images/2_1-overview-300x284.jpg
+
+   Main menu
 
 **1. User administration**
 
@@ -38,6 +39,3 @@ Lists) **3. Datatypes** *Types of metadata*
 -  Access to log files and caches
 -  Overview over the mediaTUM configuration
 -  Menu configuration
-
-.. |Main menu| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/2_1-overview-300x284.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/2_1-overview.jpg

@@ -45,17 +45,26 @@ subfolders by selecting |image0| or hide subfolders by selecting
    folder are being displayed in a short format in the lower part of the
    screen **(3)**.
 
-**Remark:** Content of subfolders will not be displayed. [caption
-id="attachment\_853" align="alignnone" width="934" caption="Selecting
-folder for editing"]\ |Selecting folder for editing|\ [/caption]
+**Remark:** Content of subfolders will not be displayed. 
+
+.. figure:: images/select_directory.jpg
+   :width: 934 px
+
+   Selecting folder for editing
+
 
 2. Directory editing by means of the *General administrative functions*
 panel
 
 There are two categories of editing operations which can be initiated by
-means of the *General administrative functions* panel. [caption
-id="attachment\_855" align="alignnone" width="278" caption="Directory
-menu"]\ |Directory menu|\ [/caption] Editing of **directory structure**
+means of the *General administrative functions* panel. 
+
+.. figure:: images/directory-menu.jpg
+   :width: 278 px
+
+   Directory menu
+
+Editing of **directory structure**
 
 -  create directory
 -  move a directory to another position in the tree
@@ -114,10 +123,20 @@ operation. **How to do it:**
 #. Select the target directory into which the moving folder is to be
    inserted.
 
-[caption id="attachment\_867" align="alignnone" width="372"
-caption="Move folder"]\ |Move folder|\ [/caption] **Result:** [caption
-id="attachment\_869" align="alignnone" width="211" caption="Moved
-folder"]\ |Moved folder|\ [/caption]
+
+
+.. figure:: images/move-folder.jpg
+   :width: 372 px
+
+   Move folder
+
+**Result:** 
+
+.. figure:: images/moveddirectory_3.jpg
+   :width: 211 px
+
+   Moved folder
+
 
 2.4 Edit directory
 
@@ -127,8 +146,12 @@ folder"]\ |Moved folder|\ [/caption]
 -  Select *Directory* and *Edit* in the *General administrative
    functions* panel.
 
-[caption id="attachment\_871" align="alignnone" width="271"
-caption="Edit folder"]\ |Edit folder|\ [/caption] **Result:** The *Edit
+.. figure:: images/editfolder.jpg
+   :width: 271 px
+
+   Edit folder
+
+**Result:** The *Edit
 metadata* dialogue of the data editing section will be automatically
 opened and you can edit the name of the new folder/directory and select
 a display format for result lists.
@@ -147,38 +170,62 @@ directories/folders within a given hierarchical level.
 
 3. Folder editing in the *Data editing* frame.
 
-Screen layout of the *Folder data editing* frame: [caption
-id="attachment\_876" align="alignnone" width="968" caption="Editing
-frame"]\ |Editing frame|\ [/caption]
+Screen layout of the *Folder data editing* frame: 
+
+.. figure:: images/screenlayout-new.jpg
+   :width: 968 px
+
+   Editing frame
+
 
 3.1 Editing operations. Overview.
 
 There are four sections that hold various functions in a subcategory.
 You can see those functions by moving the mouse on one of the sections -
-the menus will appear. **Layout** [caption id="attachment\_878"
-align="alignnone" width="353" caption="Layout options"]\ |Layout
-options|\ [/caption] **Content:** Display of all images, documents, etc
+the menus will appear. **Layout** 
+
+.. figure:: images/layout.jpg
+   :width: 353 px
+
+   Layout options
+
+**Content:** Display of all images, documents, etc
 which are contained in selected folder. Selection of one or more objects
 for data editing. **Manage start page:** Managing and editing of HTML
 data which will be shown in the standard Web Interface. Creation of
 front pages for collections or subdirectories. Images used for these
 start pages can be uploaded here as well. **Preview:** Feature not
-relevant for folders but for single objects. **Edit metadata** [caption
-id="attachment\_882" align="alignnone" width="354" caption="Edit
-metadata"]\ |Edit metadata|\ [/caption] **Edit metadata**: Edit folder
+relevant for folders but for single objects. **Edit metadata** 
+
+.. figure:: images/editmetadata1.jpg
+   :width: 354 px
+
+   Edit metadata
+
+**Edit metadata**: Edit folder
 name and select display format for result lists. **Edit logo:** Set logo
 for the folder. An image can be uploaded here. **Change/add digital
 object:** Exchange or add digital object, e.g. for thumbnail, logo,
 image, etc. **Administration:** Display of technical metadata regarding
 folder (upload time, uploading person, etc.) **Search mask:** **Sort
-files:** Sort files in the selected folder. **Rights** [caption
-id="attachment\_885" align="alignnone" width="336" caption="Rights
-management"]\ |Rights management|\ [/caption] **Rights management:**
+files:** Sort files in the selected folder. **Rights** 
+
+.. figure:: images/rights.jpg
+   :width: 336 px
+
+   Rights management
+
+**Rights management:**
 Assignment of permissions and authorizations (see, edit, download)
 regarding the selected folder and the contained objects (images,
-documents, etc). **Spetial functions** [caption id="attachment\_888"
-align="alignnone" width="406" caption="Spetial functions
-menu"]\ |Spetial functions|\ [/caption] **Search:** Searching for
+documents, etc). **Spetial functions** 
+
+.. figure:: images/spetial-functions.jpg
+   :width: 406 px
+
+   Special functions
+
+**Search:** Searching for
 objects (images, documents) which are contained in selected folder.
 Search results can be transferred to object data editing. **Sort
 subfolders:** Sort subfolders of the selected folder (sorting means here
@@ -205,12 +252,21 @@ be displayed. **Select/mark folder objects**
 -  Option 2: Select one or more objects simultaneously by means of the
    "Mark"-Drop down menu.
 
-[caption id="attachment\_894" align="alignnone" width="632"
-caption="Select objects"]\ |Select objects|\ [/caption] **Delete folder
+.. figure:: images/Selectobjects.jpg
+   :width: 632 px
+
+   Select objects
+
+**Delete folder
 objects** Select objects. Select *Files* and *Delete* in the *General
-administrative functions* panel.[caption id="attachment\_896"
-align="alignnone" width="263" caption="Delete file"]\ |Delete
-file|\ [/caption] **Remark:** If the objects to be deleted are contained
+administrative functions* panel.
+
+.. figure:: images/deletefile.jpg
+   :width: 263 px
+
+   Delete file
+
+**Remark:** If the objects to be deleted are contained
 only in the edited folder, they will be moved to the *Trashbox*. If the
 objects are contained in other folders as well, they are only deleted
 from the edited folder, but will still be found in those other folders.
@@ -235,14 +291,23 @@ objects**
 
 **Sort subfolders** Select directory. Activate *Special-functions* and
 *Sort Subfolders* or select *Directory* and *Sort subfolders* in the
-*General administrative functions* panel. [caption id="attachment\_907"
-align="alignnone" width="966" caption="Sort subfolders"]\ |Sort
-subfolders|\ [/caption] Now you can sort manually or automatically by
+*General administrative functions* panel. 
+
+.. figure:: images/sortsubfolders.jpg
+   :width: 966 px
+
+   Sort subfolders
+
+Now you can sort manually or automatically by
 attribute, e.g. name. To come up in the list, the attributes have to be
 defined as sorting fields before (in Admin area). You can also choose
-between ascending and descending sorting. [caption id="attachment\_909"
-align="alignnone" width="861" caption="Sort subfolders"]\ |Sort
-subfolders|\ [/caption]
+between ascending and descending sorting. 
+
+.. figure:: images/wayssortsubfolders.jpg
+   :width: 861 px
+
+   Sort subfolders
+
 
 3.3 Edit metadata
 
@@ -256,11 +321,22 @@ similar and described as follows:
    valid only for collection type folders
 
 **Example:** Editing at Collection level Select collection. Select *Edit
-metadata* and again *Edit metadata* in the *Data editing* frame.[caption
-id="attachment\_911" align="alignnone" width="342" caption="Edit
-metadata"]\ |Edit metadata|\ [/caption] The following screen will come
-up: [caption id="attachment\_913" align="alignnone" width="861"
-caption="Edit metadata"]\ |Edit metadata|\ [/caption] Here you can edit
+metadata* and again *Edit metadata* in the *Data editing* frame.
+
+.. figure:: images/editmetadata11.jpg
+   :width: 342 px
+
+    Edit metadata
+
+The following screen will come
+up: 
+
+.. figure:: images/editmetadata2.jpg
+   :width: 861 px
+
+   Edit metadata
+
+Here you can edit
 the general parameters of a collection, e.g. name. You can set the
 display format of objects for a collection to a default display setting.
 Therefore you have to change from *Standard edit mask* to *Edit mask for
@@ -302,9 +378,12 @@ assign a right to a user group), then the collection content can be seen
 and downloaded without restriction by everyone (worldwide)! In order to
 manage the rights select directory, select *Rights* and than *Rights
 management*. Select user group by clicking on it and assign or disallow
-permissions via clicking the button. [caption id="attachment\_918"
-align="alignnone" width="1028" caption="Rights management"]\ |Rights
-management|\ [/caption]
+permissions via clicking the button. 
+
+.. figure:: images/rights1.jpg
+   :width: 1028 px
+
+   Rights management
 
 3.5 Start page of a collection or directory.
 
@@ -350,9 +429,12 @@ start page has been created and you can edit the following:
    content. Don't forget to save the changes.
 #. Save changes to keep name and language settings.
 
-[caption id="attachment\_1045" align="alignnone" width="732"
-caption="Edit start page settings"]\ |Edit start page
-settings|\ [/caption] You can create another start page by clicking on
+.. figure:: images/edit-startpage.jpg
+   :width: 732 px
+
+   Edit start page settings
+
+You can create another start page by clicking on
 the yellow box and change language settings as you need. **Manage and
 use images in the HTML editing tool** You can use images that are
 already saved as objects in mediaTUM. Simply use the link provided in
@@ -374,12 +456,19 @@ images specially for the display on the start page.
 #. Click on *Send it to server* button.
 #. Click on *OK* to finish upload process.
 
-[caption id="attachment\_1050" align="alignnone" width="424"
-caption="Upload an image"]\ |Upload an image|\ [/caption] **Result:**
+.. figure:: images/imagemanager.jpg
+   :width: 424 px
+
+   Upload an image
+
+**Result:**
 The image is stored on the server and ready to use. The image manager
-shows the *Image Info* tab now and you can edit the image. [caption
-id="attachment\_1052" align="alignnone" width="423" caption="Image
-info"]\ |Image info|\ [/caption]
+shows the *Image Info* tab now and you can edit the image. 
+
+.. figure:: images/imageinfo.jpg
+   :width: 423 px
+
+   Image info
 
 #. The field URL shows the image path on the server.
 #. You can enter alternative text that is shown when the cursor moves
@@ -394,15 +483,25 @@ info"]\ |Image info|\ [/caption]
 #. Save the new values by clicking OK.
 
 **Result:** The image is shown in the HTML editor with the content.
-[caption id="attachment\_1055" align="alignnone" width="603"
-caption="Uploaded image"]\ |Uploaded image|\ [/caption] To upload more
+
+
+.. figure:: images/uploaded-image.jpg
+   :width: 603 px
+
+   Uploaded image
+
+To upload more
 images just repeat the described procedure. To use already uploaded
 images simply click on the image button |image24| of the menu and then
 click on *Browse server*. A pop-up window that shows all uploaded images
 of that node/directory will appear. Choose the one you want to use and
 click OK. You can change the image size, etc, for every use with
-different settings. [caption id="attachment\_1058" align="alignnone"
-width="596" caption="Select an image"]\ |Select an image|\ [/caption]
+different settings. 
+
+.. figure:: images/imagemanager3.jpg
+   :width: 596 px
+
+   Select an image
 
 3.6 Spetial functions. Object lists/Checksum.
 
@@ -414,60 +513,16 @@ checksums, file sizes). This function ist only relevant for image files.
 -  select *Special-functions* and then *Object lists/Checksum*
 -  select link *Create object list*
 
-[caption id="attachment\_1166" align="alignnone" width="486"
-caption="Object list"]\ |Object list|\ [/caption]
+.. figure:: images/object-list.jpg
+   :width: 486 px
 
-.. |image0| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Plus.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Plus.jpg
-.. |image1| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Minus.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Minus.jpg
-.. |Selecting folder for editing| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/select_directory.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/select_directory.jpg
-.. |Directory menu| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/directory-menu.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/directory-menu.jpg
-.. |Move folder| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/move-folder.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/move-folder.jpg
-.. |Moved folder| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/moveddirectory_3.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/moveddirectory_3.jpg
-.. |Edit folder| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editfolder.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editfolder.jpg
-.. |Editing frame| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/screenlayout-new.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/screenlayout-new.jpg
-.. |Layout options| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/layout.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/layout.jpg
-.. |Edit metadata| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editmetadata1.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editmetadata1.jpg
-.. |Rights management| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights.jpg
-.. |Spetial functions| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/spetial-functions.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/spetial-functions.jpg
-.. |Select objects| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Selectobjects.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/Selectobjects.jpg
-.. |Delete file| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/deletefile.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/deletefile.jpg
-.. |Sort subfolders| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/sortsubfolders.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/sortsubfolders.jpg
-.. |Sort subfolders| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/wayssortsubfolders.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/wayssortsubfolders.jpg
-.. |Edit metadata| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editmetadata11.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editmetadata11.jpg
-.. |Edit metadata| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editmetadata2.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/editmetadata2.jpg
-.. |Rights management| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights1.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/rights1.jpg
-.. |Edit start page settings| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-startpage.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/edit-startpage.jpg
-.. |image20| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagebutton.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagebutton.jpg
-.. |Upload an image| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagemanager.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagemanager.jpg
-.. |Image info| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imageinfo.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imageinfo.jpg
-.. |Uploaded image| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/uploaded-image.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/uploaded-image.jpg
-.. |image24| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagebutton1.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagebutton1.jpg
-.. |Select an image| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagemanager3.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/imagemanager3.jpg
-.. |Object list| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/object-list.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2012/01/object-list.jpg
+   Object list
+
+
+
+
+
+.. |image0|  image:: images/Plus.jpg
+.. |image1|  image:: images/Minus.jpg
+.. |image20|  image:: images/imagebutton.jpg
+.. |image24|  image:: images/imagebutton1.jpg

@@ -33,8 +33,12 @@ of fields that can be used for:
 **How to get started:** Choose *Data types* in main menu and click on
 *Types of metadata*.
 
-[caption id="attachment\_791" align="alignnone" width="629"
-caption="Types of metadata"]\ |Types of metadata|\ [/caption]
+.. figure:: images/metadata.jpg
+   :width: 629 px
+
+   Types of metadata
+
+
 .. rubric:: 1.2 Overview
 
 The overview gives you a status display, that shows all existing
@@ -42,9 +46,11 @@ metadata schemes. If you are using a freshly installed mediatum system,
 there will be no schemas available. The example shows two schemas
 imported via xml-files that were exported from another mediatum system.
 
-[caption id="attachment\_793" align="alignnone" width="870"
-caption="Types of metadata. Overview."]\ |Types of metadata.
-Overview.|\ [/caption]
+.. figure:: images/overview-metadata.jpg
+   :width: 870 px
+
+   Types of metadata. Overview.
+
 
 General description of metadata schema overview:
 
@@ -75,8 +81,10 @@ General description of metadata schema overview:
 Click on *Create new* symbol. Fill form with values. Fields with an
 orange star \* are mandatory fields.
 
-[caption id="attachment\_797" align="alignnone" width="864" caption="New
-scheme"]\ |New scheme|\ [/caption]
+.. figure:: images/5_3_new-scheme.jpg
+   :width: 864 px
+
+   New scheme
 
 **Procedure:**
 
@@ -111,9 +119,10 @@ scheme"]\ |New scheme|\ [/caption]
 Use editing function 1 from the figure "Types of metadata. Overview"
 (Section 1.2).
 
-[caption id="attachment\_805" align="alignnone" width="862"
-caption="Edit fields of metadata scheme"]\ |Edit fields of metadata
-scheme|\ [/caption]
+.. figure:: images/edit_fields_of_metadata_scheme.jpg
+   :width: 862 px
+
+   Edit fields of metadata scheme
 
 **Remark:** It is recommended to change the order of the fields. In the
 way they are already in the required order for the edit mask. Use the
@@ -124,8 +133,11 @@ blue triangles to move a field up or down.
 Click on symbol |image4|. Fill the form with values. Fields with an
 orange star \* are mandatory fields.
 
-[caption id="attachment\_809" align="alignnone" width="541"
-caption="Create new field"]\ |Create new field|\ [/caption]
+.. figure:: images/5_5_new-field.jpg
+   :width: 541 px
+
+   Create new field
+
 **Procedure:**
 
 #. *Name*. Enter a name (this will be used as an internal system
@@ -190,8 +202,10 @@ You can create simple lists or hierarchical lists. Just create a simple
 text file with every value in a new line and copy that in the field
 *List values* in the definition of *Type*.
 
-[caption id="attachment\_813" align="alignnone" width="447"
-caption="Value list"]\ |Value list|\ [/caption]
+.. figure:: images/valuelists-admin.jpg
+   :width: 447 px
+
+   Value list
 
 **Examples:**
 
@@ -209,8 +223,10 @@ hierarchical level.
 
 .. rubric:: 1.5 Display and edit masks
 
-[caption id="attachment\_823" align="alignnone" width="904"
-caption="Edit mask"]\ |Edit mask|\ [/caption] **Edit functions:**
+.. figure:: images/editmasks.jpg
+   :width: 904 px
+
+   Edit mask
 
 #. *Edit mask fields*. Edit, create or delete single fields of a mask
    and change the order of the of the fields.
@@ -225,6 +241,7 @@ caption="Edit mask"]\ |Edit mask|\ [/caption] **Edit functions:**
 **Remark:** After a new metadata scheme has been created, masks do not
 yet exist. Three masks are required by default and must have the
 following standard names and mask types:
+
 +-------------+-----------------+-------------------------------------+
 | Nodebig     | Full display    | Full display in search interface    |
 +-------------+-----------------+-------------------------------------+
@@ -237,19 +254,5 @@ following standard names and mask types:
 
 Will be added soon.
 
-.. |Types of metadata| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/metadata.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/metadata.jpg
-.. |Types of metadata. Overview.| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/overview-metadata.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/overview-metadata.jpg
-.. |New scheme| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/5_3_new-scheme.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/5_3_new-scheme.jpg
-.. |Edit fields of metadata scheme| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/edit_fields_of_metadata_scheme.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/edit_fields_of_metadata_scheme.jpg
-.. |image4| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/Archive2.gif
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/Archive2.gif
-.. |Create new field| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/5_5_new-field.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/5_5_new-field.jpg
-.. |Value list| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/valuelists-admin.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/valuelists-admin.jpg
-.. |Edit mask| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/editmasks.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/editmasks.jpg
+
+.. |image4| image:: images/Archive2.gif

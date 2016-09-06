@@ -8,8 +8,10 @@ step is creating a user group that can hold one or more single user.
 After installing the system there is just one user group, the
 Administration group.
 
-[caption id="attachment\_754" align="alignnone" width="300"
-caption="Usergroups"]\ |Usergroups|\ [/caption]
+.. figure:: images/3_1-usergroup-300x138.jpg
+   :width: 300 px
+
+   Usergroups
 
 The following user group operations are available:
 
@@ -19,8 +21,12 @@ The following user group operations are available:
 
 1.1 Create new usergroup
 
-[caption id="attachment\_759" align="alignnone" width="300"
-caption="Create usergroup"]\ |Create usergroup|\ [/caption]
+.. figure:: images/3_1_1_createusergroup-300x215.jpg
+   :width: 300 px
+
+   Create usergroup
+
+
 
 #. Click on the yellow box symbol in the right upper corner of the user
    group overview.
@@ -39,8 +45,11 @@ caption="Create usergroup"]\ |Create usergroup|\ [/caption]
 
 **Result:** New usergroup is listed in overview:
 
-[caption id="attachment\_762" align="alignnone" width="300" caption="New
-usergroup"]\ |New usergroup|\ [/caption]
+.. figure:: images/3_1-usergroup-3-300x115.jpg
+   :width: 300 px
+
+   New usergroup
+
 
 1.2 Edit / delete usergroups
 
@@ -48,8 +57,13 @@ The overview **(1)** shows you all existing user groups, the number of
 users in the user group **(2)**, the assigned metadata schemes **(3)**,
 if editing rights **(4)** and workflow rights **(5)** are given.
 
-[caption id="attachment\_764" align="alignnone" width="300"
-caption="Usergroups overview"]\ |Usergroups overview|\ [/caption]
+
+
+.. figure:: images/3_1_2-groupoverview-300x73.jpg
+   :width: 300 px
+
+   Usergroups overview
+
 
 You can edit usergroups by clicking on the yellow pen symbol **(6)**;
 delete user groups by clicking on the red symbol **(7)**. **Remark:** A
@@ -57,16 +71,21 @@ usergroup can only be deleted when no users are assigned to this group.
 
 2. Users
 
-[caption id="attachment\_768" align="alignnone" width="300"
-caption="Users"]\ |Users|\ [/caption]
+.. figure:: images/3_2-start-300x115.jpg
+   :width: 300 px
+
+   Users
+
 
 To get an overview of all existing users, click on *Users* in submenu
 *User administration*. All users are listed with their username and
 email address and optional first and/or last name and organsation. You
 can also see the usergroups that are assigned to the user.
 
-[caption id="attachment\_771" align="alignnone" width="300"
-caption="Users overview"]\ |Users overview|\ [/caption]
+.. figure:: images/users_overview1-300x81.jpg
+   :width: 300 px
+
+   Users overview
 
 The following user operations are available:
 
@@ -80,8 +99,11 @@ The following user operations are available:
 Click on yellow box in user overview. The single user edit interface
 will come up.
 
-[caption id="attachment\_773" align="alignnone" width="270" caption="Add
-user"]\ |Add user|\ [/caption]
+.. figure:: images/3_2_1_adduser-270x300.jpg
+   :width: 270 px
+
+   Add user
+
 
 **Procedure:**
 
@@ -95,8 +117,10 @@ user"]\ |Add user|\ [/caption]
 
 **Result:** User is listed in overview with all assigned usergroups.
 
-[caption id="attachment\_777" align="alignnone" width="300"
-caption="Users overview"]\ |Users overview|\ [/caption]
+.. figure:: images/3_2-email-new2-300x134.jpg
+   :width: 300 px
+
+   Users overview
 
 To send the login details to the user via email, click the envelope
 symbol **(5)**. Preformatted text will be displayed. This text can be
@@ -125,21 +149,8 @@ have to create the account in the common way. Do not send the login
 information (user name & password) via the envelope symbol. Instead send
 the new login information to the user in a separate email.
 
-.. |Usergroups| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1-usergroup-300x138.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1-usergroup.jpg
-.. |Create usergroup| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1_1_createusergroup-300x215.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1_1_createusergroup.jpg
-.. |New usergroup| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1-usergroup-3-300x115.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1-usergroup-3.jpg
-.. |Usergroups overview| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1_2-groupoverview-300x73.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_1_2-groupoverview.jpg
-.. |Users| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_2-start-300x115.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_2-start.jpg
-.. |Users overview| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/users_overview1-300x81.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/users_overview1.jpg
-.. |Add user| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_2_1_adduser-270x300.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_2_1_adduser.jpg
-.. |Users overview| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_2-email-new2-300x134.jpg
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/3_2-email-new2.jpg
-.. |image8| image:: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/Archive.gif
-   :target: http://mediatum.sourceforge.net/documentation/wp-content/uploads/2011/12/Archive.gif
+
+
+
+.. |image8| image:: images/Archive.gif
+
