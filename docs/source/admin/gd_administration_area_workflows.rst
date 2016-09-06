@@ -476,12 +476,20 @@ Here the workflow definition:
 
 As you can see the users from the usergroup
 ``irareGroup`` have a writing right for this workflow. The administrator
-has automatically all the rights for all workflows. |image15|\ |image16|
+has automatically all the rights for all workflows.
+
+.. image:: images/workflow-diagram1.png
+   :width: 90 %
+
+.. image:: images/workflow-diagram2.png
+   :width: 65%
+
+
 In the diagramm above you can see all the defined workflow steps. The
 definition of each step follows below. 
 
 .. figure:: images/workflow2.png
-   :width: 1010 px
+   :width: 100 %
 
    Workflow steps
 
@@ -591,5 +599,3 @@ document hangs at the first administrator step.
 .. |image5|  image:: images/rightarrow.png
 .. |image6|  image:: images/rightarrow1.png
 .. |image10|  image:: images/worklfow.jpg
-.. |image15|  image:: images/workflow-diagram1.jpg
-.. |image16|  image:: images/workflow-diagram2.jpg
