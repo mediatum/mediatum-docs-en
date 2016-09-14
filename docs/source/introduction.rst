@@ -74,10 +74,10 @@ File upload
 
 Different file formats can be uploaded and displayed:
 
-  * PDF documents
-  * Image files (JPEG, TIFF)
-  * Video files (MP4)
-  * Audio files (MP3)
+* PDF documents
+* Image files (JPEG, TIFF)
+* Video files (MP4)
+* Audio files (MP3)
 
 Are we doing any kind of file format validation?
 
@@ -86,10 +86,11 @@ Displaying documents and media
 
 Images:
 
- * Browsing thumbnails
- * Viewing high-resolution versions of images
- * EXIF metadata manipulation
- * Zoomify viewer (flash)
+* Browsing thumbnails
+* Viewing high-resolution versions of images
+* EXIF metadata manipulation
+* Zoomify viewer (flash)
+
 
 Playing video and audio files.
 
@@ -102,9 +103,7 @@ Two different search modes are implemented: simple and extended.
 Mediatum provides search on the meta data and the fulltext of submitted documents.
 Text is also extracted from e.g. PDF files.
 `PostgreSQL fulltext search <https://www.postgresql.org/docs/current/static/textsearch.html>`_ is used as search engine.
-
-The search is implemented at `/core/search <https://github.com/mediatum/mediatum/tree/postgres/core/search>`_.
-It is also accessible via the webservice, see e.g. `issue #833 <https://mediatumdev.ub.tum.de/issues/833>`_.
+It is also accessible via the webservice.
 
 Result pages can be sorted by multiple criteria.
 
