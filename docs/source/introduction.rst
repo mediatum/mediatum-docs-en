@@ -141,7 +141,7 @@ Metadata can be imported via multiple formats: BibTeX files, DOIs.
 
 
 Usage and content statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^ŝ
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Aggregated data about the number and types of documents and accesses/downloads can be generated.
 
