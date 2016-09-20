@@ -56,6 +56,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+#project = 'mediaTUM'
 project = 'mediatum'
 copyright = '2016, mediatum authors'
 author = 'mediatum authors'
@@ -119,18 +120,24 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'alabaster'
+#html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
+html_theme_options = { # for alabaster
     'github_user': 'mediatum',
     'github_repo': 'mediatum',
     'show_powered_by': False,
-    'sidebar_width': '16em',
-    #'fixed_sidebar': True, # only in ver 0.7.8 (May 2016)
+    'sidebar_width': '12em',
+    'fixed_sidebar': True, # only in ver 0.7.8 (May 2016)
     'extra_nav_links': {'mediatum.github.io': 'http://mediatum.github.io',
-                        'github.com/mediatum': 'https:/github.com/mediatum'}
+                        'github.com/mediatum': 'https:/github.com/mediatum',
+                        'Impressum': 'https://www.ub.tum.de/impressum'},
+    'font_family': 'Arial, Helvetica, sans-serif',
+    'head_font_family': 'Arial, Helvetica, sans-serif',
+    'caption_font_size': '85%',
+    'font_size': '120%'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -195,7 +202,7 @@ html_sidebars = {
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
