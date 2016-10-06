@@ -3,7 +3,7 @@
 Introduction
 ============
 
-Mediatum is an open source software product for image, document and video archiving and retrieval written in Python.
+mediaTUM is an open source software product for image, document and video archiving and retrieval written in Python.
 It was originally developed in the framework of the DFG project IntegraTUM and is continuously expanded with new functionalities as required.
 
 It can be used as:
@@ -37,7 +37,7 @@ For all these use cases you will also get:
 * A Web-API to request entries in XML or JSON format
 
 
-The source code of Mediatum is hosted at https://github.com/mediatum/mediatum .
+The source code of mediaTUM is hosted at https://github.com/mediatum/mediatum .
 Contributions in the form of pull requests are welcome.
 
 
@@ -48,7 +48,7 @@ Concepts & features
 General concepts
 ^^^^^^^^^^^^^^^^
 
-A mediatum instance comprises collections, directories and data nodes.
+A mediaTUM instance comprises collections, directories and data nodes.
 Metadata can be added and edited for all data items.
 Role-based access control allows a fine-grained manipulation of who can see or edit data nodes.
 
@@ -79,7 +79,6 @@ Different file formats can be uploaded and displayed:
 * Video files (MP4)
 * Audio files (MP3)
 
-Are we doing any kind of file format validation?
 
 Displaying documents and media
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -100,7 +99,7 @@ Search features
 
 Two different search modes are implemented: simple and extended.
 
-Mediatum provides search on the meta data and the fulltext of submitted documents.
+mediaTUM provides search on the meta data and the fulltext of submitted documents.
 Text is also extracted from e.g. PDF files.
 `PostgreSQL fulltext search <https://www.postgresql.org/docs/current/static/textsearch.html>`_ is used as search engine.
 It is also accessible via the webservice.
@@ -110,7 +109,7 @@ Result pages can be sorted by multiple criteria.
 Workflows
 ^^^^^^^^^
 
-Workflows define how documents are entering Mediatum.
+Workflows define how documents are entering mediaTUM.
 
 
 Versioning

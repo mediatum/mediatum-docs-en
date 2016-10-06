@@ -4,12 +4,12 @@
    contain the root `toctree` directive.
 
 ######################
-Mediatum documentation
+mediaTUM documentation
 ######################
 
-Welcome to Mediatum's documentation.
-Mediatum is a digital repository for documents, media and data.
-Please refer to the :ref:`intro` to learn more about the high-level concepts and possible application areas for Mediatum.
+Welcome to mediaTUM's documentation.
+mediaTUM is a digital repository for documents, media and data.
+Please refer to the :ref:`intro` to learn more about the high-level concepts and possible application areas for mediaTUM.
 
 ========
 Contents

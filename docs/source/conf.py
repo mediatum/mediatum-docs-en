@@ -57,9 +57,9 @@ master_doc = 'index'
 
 # General information about the project.
 #project = 'mediaTUM'
-project = 'mediatum'
-copyright = '2016, mediatum authors'
-author = 'mediatum authors'
+project = 'mediaTUM'
+copyright = '2016, mediaTUM authors'
+author = 'mediaTUM authors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
