@@ -22,9 +22,10 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
-   introduction
-   installation
+   introduction/introduction
+   user/index
    editor/index
    admin/index
 
