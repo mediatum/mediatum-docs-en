@@ -667,38 +667,28 @@ Metadaten editieren > Suchmaske
    
 Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
 
--  keine Suchmaske
--  vererbt von Elternobjekt
--  eigene Suchmaske
+#. keine Suchmaske
+    Wird hier "keine Suchmaske" ausgewählt, wird in der Recherche
+    ausschließlich die einfache Suche angeboten.
 
-keine Suchmaske
-^^^^^^^^^^^^^^^
+#. vererbt von Elternobjekt
+    Bei dieser Option werden die Einstellungen der Suchmaske des
+    hierarchisch höheren Elements vererbt, also identisch übernommen.
 
-Wird hier "keine Suchmaske" ausgewählt, wird in der Recherche
-ausschließlich die einfache Suche angeboten.
+#. eigene Suchmaske
+    Eine eigene Suchmaske kann nur für Kollektionen eingerichtet werden. Es
+    wird eine erweiterte Suche angeboten, in der nach unterschiedlichen
+    Feldern gesucht werden kann. Diese Felder können mit dem Anklicken von
+    "Neues Feld erzeugen" neu erstellt werden. Das Bearbeiten erfolgt mit
+    dem "Plus"-Zeichen. Es kann eine Bezeichnung ausgewählt werden, die
+    anschließend im Dropdown-Menü der erweiterten Suche auftaucht.
 
-vererbt von Elternobjekt
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Bei dieser Option werden die Einstellungen der Suchmaske des
-hierarchisch höheren Elements vererbt, also identisch übernommen.
-
-eigene Suchmaske
-^^^^^^^^^^^^^^^^
-
-Eine eigene Suchmaske kann nur für Kollektionen eingerichtet werden. Es
-wird eine erweiterte Suche angeboten, in der nach unterschiedlichen
-Feldern gesucht werden kann. Diese Felder können mit dem Anklicken von
-"Neues Feld erzeugen" neu erstellt werden. Das Bearbeiten erfolgt mit
-dem "Plus"-Zeichen. Es kann eine Bezeichnung ausgewählt werden, die
-anschließend im Dropdown-Menü der erweiterten Suche auftaucht.
-
-.. figure:: images/Suchfeld2.jpg
-   :alt: Suchfeld2.jpg
+    .. figure:: images/Suchfeld2.jpg
+       :alt: Suchfeld2.jpg
 
 
-In dem Feld "Folgende Felder werden durchsucht" wird das Metadatenschema
-ausgewählt und anschließend das zu durchsuchende Feld angegeben.
+    In dem Feld "Folgende Felder werden durchsucht" wird das Metadatenschema
+    ausgewählt und anschließend das zu durchsuchende Feld angegeben.
 
 Sonstiges
 ---------
