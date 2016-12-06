@@ -9,17 +9,23 @@ Benutzer / -gruppen Verwaltung
 Nach dem Login erweitert sich die Menüleiste um:
 
 -  User
+
  -  User
  -  User Group
  -  Authenticator Info
+
 -  Node
+
  -  Node
  -  File
+
 -  Setting
 -  ACL
+
  -  Access Rule
  -  Access Ruleset
  -  Access Ruleset To Rule
+
 -  Redis Cli
 
 Ganz rechts ist ein kleines Dreieck in der Menüleist, über das man den
@@ -37,9 +43,13 @@ in tabellarischer Sicht einsehen. Es ist ein Suchschlitz vorhanden und
 es kann nach Spalten auf-/absteigend sortiert werden. Mit Add Filter
 kann man die Suche eingrenzen und mit "With Selected" ausgewählte Nutzer
 z.B. löschen. Das Löschen funktioniert ebenfalls über die Liste mit dem
-Mülleimersymbol. **Achtung:** Hat ein Nutzer sich jemals eingeloggt, ist
-das Löschen nicht mehr möglich!!! In diesem Fall müssen sämtliche
-Gruppen des Nutzers entfernt werden. So wird der Account deaktiviert!
+Mülleimersymbol.
+
+.. warning::
+
+    **Achtung:** Hat ein Nutzer sich jemals eingeloggt, ist
+    das Löschen nicht mehr möglich! In diesem Fall müssen sämtliche
+    Gruppen des Nutzers entfernt werden. So wird der Account deaktiviert!
 
 Blau unterlegte Felder lassen sich in der Liste direkt ankliegen und
 bearbeiten.
