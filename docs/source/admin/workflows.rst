@@ -238,8 +238,10 @@ Dokument hochladen darf.
    geprüft hat.
 
 -  **admin\_wfstep\_single\_upload:**
+
  -  |Unchecked| Mehrere Uploads möglich.
  -  |Checked| Nur ein Upload möglich.
+ 
 -  **Erl. Dateiendungen (;-separiert):** Listen Sie hier alle
    Dateiendungen auf, die Sie für den Upload erlauben möchten.
 
@@ -415,6 +417,7 @@ Ihr Objekt platziert werden soll.
    eingibt.
 
 -  **Nur Unterknoten:**
+
  -  |Unchecked| Der aktuelle Knoten wird direkt als Kind des Zielknotens angelegt. Zusätzlich wird im Unterordner der Attributname vom Eingabefeld spezifiziert.
  -  |Checked| Nur als Unterknoten eintragen - Verhindert das gerade Beschriebene.
 
@@ -600,13 +603,18 @@ Formulars werden entsprechend der Attributwerte des Dokuments ausgefüllt
 -  **Eine PDF-Form hier hochladen:** Laden Sie hier das PDF-Formular
    hoch.
 -  **PDF-Form-Felder editierbar:**
+
  -  |Unchecked| Felder können nicht verändert werden.
  -  |Checked| Felder sind editierbar.
+
 -  **PDF\_Form separat an Knoten anhängen:**
+
  -  |Unchecked| PDF-Formulatr wird dem Dokument vorangestellt.
  -  |Checked| PDF-Formular wird dem Knoten als Datei mit dem Typ
    "pdf-form" angehängt
+   
 -  **PDF-Form überschreiben:**
+
  -  |Unchecked| PDF-Formular wird nicht ersetzt.
  -  |Checked| PDF-Formular wird ersetzt.
 
