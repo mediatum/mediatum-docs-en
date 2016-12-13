@@ -29,11 +29,11 @@ Erste Schritte
 
 
 Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite 
-http://mediatum.ub.tum.de links oben auf **Login** klicken. Geben Sie
-Ihre Kennung sowie das zugehörige Passwort ein und klicken auf
-**Anmelden**. Sie erkennen an der Anzeige Ihres Benutzernamens oben
-links, dass Sie eingeloggt sind. Klicken Sie nun oben links auf
-Bearbeiten, um in den Bearbeitungsmodus zu wechseln.
+links oben auf **Login** klicken. Geben Sie Ihre Kennung sowie das 
+zugehörige Passwort ein und klicken auf **Anmelden**. Sie erkennen 
+an der Anzeige Ihres Benutzernamens oben links, dass Sie eingeloggt 
+sind. Klicken Sie nun oben links auf Bearbeiten, um in den 
+Bearbeitungsmodus zu wechseln.
 
 
 .. figure:: images/Edit.jpg
@@ -299,10 +299,9 @@ editieren) auswählen.
    :alt: Bearb2.jpg
 
 
-**Ergebnis:** Die Eingabemaske für die Metadaten öffnet sich. Die
-weiteren Optionen – der Datensatz kann verschoben
-(|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
-gelöscht (|LoeschenEdit|) werden – werden weiter unten erklärt.
+**Ergebnis:** Die Eingabemaske für die Metadaten öffnet sich. Weitere Optionen:
+ der Datensatz kann verschoben (|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
+gelöscht (|LoeschenEdit|) werden.
 
 Daten eingeben und Informationen zu Feldtypen
 """""""""""""""""""""""""""""""""""""""""""""
@@ -414,9 +413,14 @@ nicht mehr im Arbeitsverzeichnis enthalten.
 
 Beim Anlegen eines Datensatzes wird eine eindeutige ID vergeben. Der
 publizierte Datensatz ist jetzt über seine Dokument-ID direkt aufrufbar,
-z.B. http://mediatum.ub.tum.de/1166386. Die ID eines Datensatzes
-finden Sie, wenn Sie den Datensatz im Editbereich aufrufen, die ID steht
-in der rechten oberen Ecke.
+z.B.:
+
+.. code-block:: ruby
+
+    http://mediatum.ub.tum.de/1166386 
+    
+Die ID eines Datensatzes finden Sie, wenn Sie den Datensatz im Editbereich 
+aufrufen, die ID steht in der rechten oberen Ecke.
 
 
 
