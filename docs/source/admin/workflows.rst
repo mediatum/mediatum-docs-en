@@ -150,6 +150,7 @@ In diesen Feldern vergeben Sie:
 #. Entscheiden Sie sich, ob dieser Workflow Schritt als Adminstep hervorgehoben werden soll.
 #. Im Kommentarfeld können Sie versteckte Informationen zur Erklärung des Knotens hinzufügen
 #. Bestimmen welcher Knotentyp verwendet wird, möglich sind z.B.
+
  -  Start- / Endknoten
  -  Warten
  -  Email senden
@@ -191,6 +192,7 @@ den Startknoten.
    ersten möglichen Aktion auf true oder evtl. false zu klicken.
 
 -  **Fortsetzen erlauben:**
+
  -  |Unchecked|
  -  |Checked|
 
@@ -279,6 +281,7 @@ Email-Adresse vom Sender, Empfänger, den Inhalt und den Betreff an.
 -  **PDF-Form als Anhang senden:** Wenn eine PDF Datei an den aktuellen
    Knoten angehängt wurde (z.B. bei dem Workflow Schritt "Füge PDF
    Seiten hinzu"), wird bei
+   
  -  ... |Unchecked| nichts an die Email angehängt.
  -  ... |Checked| die PDF an die Email angehängt.
 
@@ -401,6 +404,7 @@ Ihr Objekt platziert werden soll.
 
 -  Ein Attribut vom aktuellen Knoten kann genannt werden, um einen
    Unterordner zu spezifizieren.
+   
 -  **Beispiel:** Der aktuelle Knoten hat ein Attribut "year-published",
    es enthält Wert "2008" - das aktuelle Objekt wird im Unterverzeichnis
    "2008" als Kindknoten eingehängt. Existiert das Unterverzeichnis mit
@@ -415,12 +419,13 @@ Ihr Objekt platziert werden soll.
    und es enthält den Wert im Format "yyy-mm-dd", kann das Jahr allein
    ausgegeben werden, indem man ``date-published|substring 0,4``
    eingibt.
-
+ 
 -  **Nur Unterknoten:**
 
  -  |Unchecked| Der aktuelle Knoten wird direkt als Kind des Zielknotens angelegt. Zusätzlich wird im Unterordner der Attributname vom Eingabefeld spezifiziert.
  -  |Checked| Nur als Unterknoten eintragen - Verhindert das gerade Beschriebene.
 
+ 
 Doublettencheck (Metadaten)
 """""""""""""""""""""""""""
 
@@ -500,6 +505,7 @@ Knoten mehr.
 -  **Textseite:** Der hier eingetragene Text erscheint nachdem der
    Workflow beendet wurde. Der Standardtext lautet: Fertig.
 -  **Entferne aus Workflow:**
+
  -  |Unchecked| Das Objekt bleibt im Workflow.
  -  |Checked| Das vom Workflow erstellte Objekt wird nach Beenden des Workflows gelöscht.
 
