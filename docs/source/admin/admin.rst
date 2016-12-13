@@ -253,11 +253,256 @@ Symbole
 | |Export|           | Auswahl exportieren                |
 +--------------------+------------------------------------+
 
+
+.. _Sortieren:
+
+Metadatentyp / Metadatenschema
+------------------------------
+
+
+.. figure:: images_metadata/Metadatentypen.png
+   :alt: Metadatentypen.png
+
+
+Metadatentypen sind die verschiedenen Eingabemasken zum Anlegen Ihrer 
+individuellen Objekttypen. Ein Metadatentyp kann zum Beispiel ein Buch, 
+Zeitschriftenaufsatz etc. sein. Der Metadatentyp legt fest, welche 
+Felder eingetragen werden können. Des Weiteren gehören diverse Masken 
+zu diesem Bereich. So können Sie z.B. eine Vollansicht für die spätere 
+Trefferanzeige einzelner Dokumente und eine Kurzansicht innerhalb der 
+Trefferliste anzeigen lassen. Oder auch das Aussehen der Eingabemaske 
+einrichten.
+
+
+.. figure:: images_metadata/UebersichtMetadatentypen.png
+   :alt: UebersichtMetadatentypen.png
+
+   
+
+   
+Ihre Metadatentypen werden in einer Liste aufgeführt, diese können Sie 
+nach „Schema-ID“ oder „Name“ filtern lassen. Oder sich alle Schemata die 
+mit einem bestimmten Buchstaben beginnen anzeigen lassen, indem Sie auf 
+den entsprechenden Button klicken.
+
+* **ID:** Der Inhalt dieses Feldes muss eindeutig sein, es darf kein anderes Metadatenschema mit der gleichen ID existieren.
+* **Name:** Der Name des Metadatenschemas darf frei gewählt werden.
+* **Beschreibung:** Die Beschreibung sollte deutlich machen, für welche Art Objekt das Metadatenschema gedacht ist.
+* **Aktiv:** Zeigt an, ob das Metadatenschema für den Upload von Dokumenten freigeschaltet wurde.
+* **Datentypen:** Beschreibt den Datentyp genauer, ist auswählbar aus einer Liste.
+* **ACL:** Für diesen Metadatentyp wurde bereits eine ACL-Regel angelegt und somit für Benutzergruppen verfügbar ist.
+* |Neu|: Erzeuge ein neues Metadatenschema. Als erstes sind die Metadaten zum Schema anzugeben.
+* |Pfeil|: Hinzufügen neuer Felder, bearbeiten von vorhandenen Feldern und Anzeige aller Felder des Metadatenschemas.
+* |Maske|: Hinzufügen neuer Masken, bearbeiten von vorhandenen Masken und Anzeige aller Masken des Metadatenschemas.
+* |Lupe|: Erzeugt eine Tabelle aller Felder und Details zur Ansicht und bei Bedarf zum Ausdruck.
+* |Export|: Exportiert das vollständige Metadatenschema im XML-Format. Kann anschließend in ein anderes mediaTUM importiert werden.
+* |Bearbeiten|: Bearbeiten der Metadaten des Metadatenschemas.
+* |Loeschen|: Löscht das gesamte Metadatenschema. 
+
+
+.. figure:: images_metadata/ImportMetadatenschema.png
+   :alt: ImportMetadatenschema.png
+   
+   
+Diese Importfunktion finden Sie unter der Liste Ihrer Metadatentypen. Wenn 
+Sie eine XML-Datei eines Metadatentyps aus einem anderen mediaTUM haben, 
+können Sie dieses über diese Funktion importieren. Der Name des Originals 
+erhält das Präfix „Import-“ und kann daraufhin weiterbearbeitet werden. Sie 
+können so auch eine Kopie Ihres Metadatenschemas anlegen, wenn Sie ein weiteres 
+ähnliches Metadatenschema erstellen möchten – Sie müssen also nur noch Änderungen
+vornehmen und nicht das Vollständige Metadatenschema einrichten.
+
+
+Neues Metadatenschema anlegen (oder bearbeiten)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Klicken Sie in der Liste der vorhandenen Metadatenschemata auf |Neu| oder |Bearbeiten|. Anschließend 
+erscheint diese Ansicht zur Eingabe der Metadaten Ihres neuen Metadatentyps:
+
+.. figure:: images_metadata/MetaMetadaten.png
+   :alt: MetaMetadaten.png
+   
+Diese Ansicht ist leer, bei neuen Metadatentypen und ausgefüllt, wenn Sie ein Metadatenschema bearbeiten.
+   
+* **ID:** Vergeben Sie eine eindeutige ID, nach dieser kann gefiltert werden. Diese ID darf noch nicht vorhanden sein.
+* **Name:** Vergeben Sie einen Namen, nach diesem kann gefiltert werden.
+* **Beschreibung:** Beschreiben Sie optional, für welche Objekte dieses Metadatenschema gedacht ist.
+* **Aktiv:** 
+
+ * |Checked| Upload von Inhalten zum Objekt ist möglich.
+ * |Unchecked| Upload von Inhalten zum Objekt wird verhindert.
+
+* **Datentypen:** Wählen Sie aus der Liste aus, welcher Datentyp Ihr Metadatenschema darstellen soll.
+
+* **BibTeX-Import-Mapping:**
+
+.. #####################################
+
+* **citeproc / CSL mapping:** 
+
+.. ####################################
+
+* **Berechtigung:** Ordnen Sie dem Mapping Benutzergruppen zu, die dieses Metadatenschema verwenden dürfen. Es ist auch andersherum möglich: Jeder Benutzergruppe kann ein Metadatenschema zugeordnet werden. 
+
+.. ############################ Link zu Flask Usergroups Metadatentyp zuordnen.############################
+
+* **Speichern:** Nach dem Ausfüllen dieser Maske speichern Sie Ihre Eingaben ab. Sie gelangen in die Übersicht aller Metadatentypen.
+
+
+Neue Felder anlegen (oder bearbeiten)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Navigieren Sie von der Übersicht der Metadatentypen mit |Pfeil| zur Liste aller Felder des Metadatenschemas.
+
+
+.. figure:: images_metadata/FelderListe.png
+   :alt: FelderListe.png
+  
+  
+Sind bereits Felder vorhanden, werden alle aufgelistet und lassen sich wie 
+Metadatentypen sortieren und filtern (Vgl. :ref:`Sortieren`).  
+
+Legen Sie mit |Neu| ein neues Feld an oder bearbeiten Sie vorhandene Felder mit |Bearbeiten|.
+Sie erhalten jeweils diese Ansicht:
+
+
+.. figure:: images_metadata/FeldMeta.png
+   :alt: FeldMeta.png
+
+   
+Wenn das Feld neu ist, sehen Sie hier zunächst eine leere Maske, oder wie im Beispiel 
+die eingetragenen Werte des vorhandenen Feldes.
+
+* **Name:** Der eindeutige Name dieses Feldes, wird hier eingetragen.
+* **Label:** Das Label kann frei gewählt werden, es handelt sich hierbei um die Standardbeschreibung in der Maske vor dem Feld in dem Metadaten später eingetragen werden.
+* **Typ:** Wählen Sie den Typ aus, in dem später die Metadaten eingetragen werden. Nähere Informationen zu den unterschiedlichen Typen finden Sie in dem Button "i" daneben.
+* **Mehrsprachigkeit aktivieren:** So aktivieren Sie die möglichkeit der Darstellung auch auf Englisch.
+* **Beschreibung:** Hier können Sie einen beliebigen Text eintragen. 
+* **Optionen:**
+
+ * **Suchfeld:** In der Recherche wird dieses Feld bei |Checked| in der einfachen Suche berücksichtigt, bzw. bei |Unchecked| ignoriert.
+ * **Sortierfeld:** In der Trefferliste nach einer Suche kann bei |Checked| eine Sortierung dieses Feldes durchgeführt werden bzw. ist dies bei |Unchecked| nicht möglich.
+
+* **Speichern:** Speichern Sie Ihre Änderungen ab und gelangen Sie dadurch wieder zur Übersicht aller Felder.
+ 
+
+Neue Maske anlegen (oder bearbeiten) 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Masken definieren sowohl die Darstellung von Eingabe-, Ausgabe-, Import- und Exportmasken. 
+
+Navigieren Sie von der Übersicht der Metadatentypen mit |Maske| zur Liste aller Masken 
+des Metadatenschemas.
+
+
+.. figure:: images_metadata/MaskenUebersicht.png
+   :alt: MaskenUebersicht.png
+   
+   
+Existieren bereits Masken, werden alle hier aufgelistet, ansonsten ist diese Liste leer. 
+Das Sortieren und Filtern dieser Masken ist analog zu :ref:`Sortieren`. Neu dagegen sind 
+die Spalten STD. Maske und Sprache. Die Bedeutungen dieser Felder werden gleich genauer 
+erklärt.
+
+* |Pfeil|: Hier kann das Aussehen der Maske bestimmt werden.
+* |Klonen|: Legen Sie eine Kopie dieser Maske an.
+* |Bearbeiten|: Bearbeiten Sie die Metadaten der Maske.
+* |Loeschen|: Löschen Sie die Maske vollständig.
+ 
+
+ 
+Metadaten zur Maske
+"""""""""""""""""""
+
+Legen Sie mit |Neu| eine leere Maske an oder bearbeiten sie eine Maske mit |Bearbeiten|.
+Sie erhalten diese Ansicht (leer oder ausgefüllt):
+
+
+.. figure:: images_metadata/MetaMaske.png	
+	:alt: MetaMaske.png
+	
+
+* **Name:** Geben Sie Ihrer Maske einen eindeutigen Namen.
+* **Maskentyp:**
+
+ * **Vollansicht:** Zur Darstellung sämtlicher Felder, z.B. in der Einzelansicht eines Objekts.
+ * **Kurzanzeige:** Zur verkürzten Darstellung, z.B. in der Trefferliste einer Suche.
+ * **Suchmaske:** 
+ 
+.. ################################
+
+ * **Editormaske:** Zur Darstellung der Eingabemaske. Diese Maske wird Ausgefüllt, wenn ein neues Objekt angelegt wird.
+ * **Export:**
+ 
+.. ########################################
+
+* **Standard Maske:** Entspricht in der Liste "STD. Maske". Wird ausgewählt, wenn es sich um eine Standard Maske handelt.
+* **Feld-Trenner:** Der Inhalt in diesem Feld wird in der Darstellung zwischen einzelnen Feldern eingefügt.
+* **Sprache:** Erzeugen Sie für eine "Maske" eine Kopie und verändern Sie diese so, dass eine Kopie deutsch ist und die andere englisch. Ist jeweils als Sprache einmal "deutsch" und "englisch" ausgewählt, wird von mediaTUM automatisch die korrekte Maske angezeigt. Je nach der Spracheinstellung für mediaTUM durch den Nutzer.
+* **Berechtigung:**	Ordnen Sie Benutzergruppen zu einer Maske zu, damit die Maske nur für gewählte Gruppen verfügbar ist.
+* **Speichern:** Nach dem Speichern gelangen Sie in die Übersicht der vorhandenen Masken.
+
+
+Maskenfelder
+""""""""""""
+
+In der Übersicht der vorhanden Masken klicken Sie auf |Pfeil| um die Felder für die Maske einzurichten.
+
+
+.. figure:: images_metadata/Maskenfelder.png	
+	:alt: Maskenfelder.png
+
+
+Fügen Sie alle Felder, die der Maske zugeordnet werden mit |Neu| hinzu. Anschließend können Sie auch
+nachträglich neben den Feldern mit dem Button |Pfeile| die Reihenfolge verändern, Felder wieder löschen
+mit |Loeschen| oder erneut mit |Bearbeiten| bearbeiten.
+
+
+Felder müssen einzeln definiert werden. Erzeugen Sie zuerst ein neues Feld |Neu|:
+
+.. figure:: images_metadata/Maskenfelder.png	
+	:alt: Maskenfelder.png
+
+Es gibt unterschiedliche Feldtypen:
+
+* **Horizontale Feldgruppe:** Vereint mehrere normale Felder horizontal, indem diese in eine Zeile geschrieben werden. 
+* **Vertikale Feldgruppe:** Vereint mehrere normale Felder die in einem Kasten dargestellt werden. 
+* **Label:** Erzeugt lediglich Text, der in der Maske dargestellt wird. Ein Feld wird hier nicht verknüpft bzw. benötigt.
+* **Normales Feld:** Das normale Feld ist die Standardauswahl:
+
+.. figure:: images_metadata/MaskeFeldMeta.png 
+    :alt: MaskeFeldMeta.png
+	
+* **Name/Label:** Geben Sie den Inhalt an, der später vor dem Feld erscheinen soll. Doppelpunkte werden automatisch ergänzt. So wird z.B. aus Ihrer Eingabe "Titel" die Darstellung in der Maske zu "Titel:".
+* **Position (vor):** Hier erscheint eine Liste, der bisher erzeugten Felder. Geben Sie an, an welcher Position das Feld eingegliedert werden soll.
+* **Feldauswahl:** 
+
+ * **vorhandenes Feld:** Wählen Sie ein Feld aus Ihrem Metadatenschema aus. 
+ * **neues Feld:** 
+ 
+ .. ###############################################
+ 
+ * **Typ:** In beiden Fällen ist die Art des Inhalts anzugeben.
+
+* **Pflichtfeld:** Markiert dieses Feld in Eingabe-/Editormasken als Pflichtfeld.
+* **Feldbreite:** Geben Sie die Breite des Feldes in Pixel an.
+* **Einheit:** Handelt es sich bei Ihrem Feld z.B. um einen Zahlenwert, der immer in einer bestimmten Einheit genannt wird, können Sie diese an das Feld in der Darstellung anhängen, ohne die Metadaten zu verändern.
+* **Format:**
+
+.. ###########################################################
+
+* **Separator:** 
+
+.. ##############################
+
+* **Speichern:** Nach dem Speichern der Änderungen gelangen Sie in die Übersicht der Maske.
+
+
 .. |BenutzerAuge| image:: images/BenutzerAuge.jpg
 .. |BenutzerStift| image:: images/BenutzerStift.jpg
 .. |GruppeCreate| image:: images/GruppeCreate.jpg
 
-
+.. |Klonen| image:: ../images/Klonen.png
 .. |Edit| image:: ../images/Edit.jpg
 .. |Pfeile| image:: ../images/Pfeile.jpg
 .. |Pfeil| image:: ../images/Pfeil.jpg
@@ -267,3 +512,5 @@ Symbole
 .. |Maske| image:: ../images/Maske.jpg
 .. |Bearbeiten| image:: ../images/Bearbeiten.jpg
 .. |Export| image:: ../images/Export.jpg
+.. |Unchecked| image:: ../images/Unchecked.jpg
+.. |Checked| image:: ../images/Checked.jpg
