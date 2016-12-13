@@ -9,18 +9,13 @@ Anwender - Dokumentation
 Suche
 -----
 
-Einfache / Erweiterte Suche
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Wenn eine Suche durchgeführt wird, wirkt sie sich immer auf den Bereich
-aus, den Sie in der linken Liste ausgewählt haben. Befinden Sie sich zum
-Beispiel in der Kollektion „xy“, werden nur Treffer aus dieser
-Kollektion angezeigt. Die einfache Suche ist immer möglich. Dagegen ist
-die erweiterte Suche nur in bestimmten Bereichen verfügbar. Diese kann
-für eine Kollektion eingerichtet werden und unterscheidet sich durch
-benutzerdefinierte Wünsche. Die Auswahl, nach welchen Feldern gesucht
-werden kann ist individuell, ebenso ob die Suche nach einem bestimmten
-Feld per Eingabe oder mit einem Index umgesetzt wird. Vgl. :ref:`Suche Einrichten`.
+In dem Eingabefeld links oben kann eine einfache Suche durchgeführt werden. 
+Beim Aufruf der Startseite von mediaTUM wird eine Suche im Gesamtbestand durchgeführt. 
+Wechselt man in eine Kollektion oder ein Unterverzeichnis, werden nur diese Bestände durchsucht.
+Für einzelne Kollektionen kann auch eine erweiterte Suche durchgeführt werden, 
+erreichbar über den Link "Erweiterte Suche". Hier kann gezielt nach Inhalten in einzelnen 
+Felder gesucht werden: neben der Eingabe von Suchbegriffen ist eine Auswahl aus Index-Listen möglich. 
+Welche Felder durchsuchbar sind, wird vom Inhaber der Kollektion festgelegt: :ref:`Suche Einrichten`.
 
 
 
