@@ -426,23 +426,25 @@ die Datensätze wirklich löschen möchten. Bei einer Bestätigung mit
 **OK** wird der Datensatz gelöscht bzw. in den Papierkorb im
 Arbeitsverzeichnis verschoben.
 
-FTP-Daten verarbeiten
-^^^^^^^^^^^^^^^^^^^^^
 
-**Voraussetzung:** Konfiguration muss entsprechend eingerichtet sein.
 
-Wählen Sie Ihren Uploadordner aus und wählen Sie anschließend Metadaten
-editieren > FTP-Daten verarbeiten wie im Screenshot gezeigt aus.
+.. FTP-Daten verarbeiten
+.. ^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: images/Ftp2.jpg
+.. **Voraussetzung:** Konfiguration muss entsprechend eingerichtet sein.
+
+.. Wählen Sie Ihren Uploadordner aus und wählen Sie anschließend Metadaten
+.. editieren > FTP-Daten verarbeiten wie im Screenshot gezeigt aus.
+
+.. :: images/Ftp2.jpg
    :alt: Ftp2.jpg
 
 
-Wählen Sie im Dropdownmenü ein Schema aus und klicken Sie anschließend
-auf |Pfeil| (Process file...). Die hochgeladene Datei ist nun im
-Upload Verzeichnis verfügbar. Anstelle von einem FTP Kommandos in der
-cmd, können Sie auch FTP-Upload Programme nutzen, wie zum Beispiel
-FileZilla.
+..  Wählen Sie im Dropdownmenü ein Schema aus und klicken Sie anschließend
+    auf |Pfeil| (Process file...). Die hochgeladene Datei ist nun im
+    Upload Verzeichnis verfügbar. Anstelle von einem FTP Kommandos in der
+    cmd, können Sie auch FTP-Upload Programme nutzen, wie zum Beispiel
+    FileZilla.
 
 
 .. _Datensätze publizieren:
