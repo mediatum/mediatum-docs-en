@@ -28,7 +28,7 @@ Erste Schritte
    :alt: Recherche.png
 
 
-Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite
+Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite 
 http://mediatum.ub.tum.de links oben auf **Login** klicken. Geben Sie
 Ihre Kennung sowie das zugehörige Passwort ein und klicken auf
 **Anmelden**. Sie erkennen an der Anzeige Ihres Benutzernamens oben
@@ -61,7 +61,7 @@ Bearbeiten, um in den Bearbeitungsmodus zu wechseln.
 |ErstSchri1|
 
 Hier sehen Sie nun die Funktionen Aussehen, Metadaten editieren, Berechtigungen und
-Spezialfunktionen. Diese Funktionen stehen Ihnens zum Beispiel für das
+Spezialfunktionen. Diese Funktionen stehen Ihnen zum Beispiel für das
 Bearbeiten von Objekten und Verzeichnissen zur Verfügung.	
 Auf der linken Seite des Bearbeitungsmodus können Sie in den
 Verzeichnissen von mediaTUM navigieren.
