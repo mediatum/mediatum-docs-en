@@ -4,8 +4,6 @@ Editor
 Erste Schritte
 --------------
 
-.. figure:: images/Edit.jpg
-   :alt: Edit.jpg
 
 
 .. |ErstSchri1| image:: images/ErstSchri1.jpg
@@ -24,6 +22,27 @@ Erste Schritte
 .. |LoeschenEdit| image:: ../images/LoeschenEdit.jpg
 .. |BearbeitenEdit| image:: ../images/BearbeitenEdit.jpg
 
+
+
+.. figure:: ../user/images/Recherche.png
+   :alt: Recherche.png
+
+
+Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite
+http://mediatum.ub.tum.de links oben auf **Login** klicken. Geben Sie
+Ihre Kennung sowie das zugehörige Passwort ein und klicken auf
+**Anmelden**. Sie erkennen an der Anzeige Ihres Benutzernamens oben
+links, dass Sie eingeloggt sind. Klicken Sie nun oben links auf
+Bearbeiten, um in den Bearbeitungsmodus zu wechseln.
+
+
+.. figure:: images/Edit.jpg
+   :alt: Edit.jpg
+   
+   
+  
+   
+
 +----------------+-----------------------------------------------------------------+
 | Symbol         | Beschreibung                                                    |
 +================+=================================================================+
@@ -36,20 +55,14 @@ Erste Schritte
 +----------------+-----------------------------------------------------------------+
 
 
-Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite
-http://mediatum.ub.tum.de links oben auf **Login** klicken. Geben Sie
-Ihre TUM-Kennung sowie das zugehörige Passwort ein und klicken auf
-**Anmelden**. Sie erkennen an der Anzeige Ihres Benutzernamens oben
-links, dass Sie eingeloggt sind. Klicken Sie nun oben links auf
-Bearbeiten, um in den Bearbeitungsmodus zu wechseln. Hier sehen Sie nun
-die Funktionen Aussehen, Metadaten editieren, Berechtigungen und
-Spezialfunktionen. Diese Funktionen stehen Ihnens zum Beispiel für das
-Bearbeiten von Objekten und Verzeichnissen zur Verfügung.
+
 
 
 |ErstSchri1|
 
-	
+Hier sehen Sie nun die Funktionen Aussehen, Metadaten editieren, Berechtigungen und
+Spezialfunktionen. Diese Funktionen stehen Ihnens zum Beispiel für das
+Bearbeiten von Objekten und Verzeichnissen zur Verfügung.	
 Auf der linken Seite des Bearbeitungsmodus können Sie in den
 Verzeichnissen von mediaTUM navigieren.
 
