@@ -98,11 +98,18 @@ Navigation auf den grauen Balken.
    :alt: ErstSchri5.jpg
 
 
-Anlegen eines bibliographischen Datensatzes
--------------------------------------------
+   
+   
+Datensätze   
+----------    
+
+
+Neue Metadaten anlegen   
+^^^^^^^^^^^^^^^^^^^^^^
+
 
 Manuelles Anlegen eines bibliographischen Datensatzes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Wechseln Sie in den Upload-Bereich über das Pfeil-Symbol: |Download|
 oder über die Verzeichnisstruktur Ihres Arbeitsverzeichnisses. Wählen
@@ -127,7 +134,7 @@ siehe :ref:`Datensatz bearbeiten`.
 
 
 Anlegen eines bibliographischen Datensatzes über einen Identifier
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Wurde für das zu veröffentlichende Dokument bereits eine DOI vergeben
 (z.B. für einen Aufsatz in einer Fachzeitschrift), wählen Sie im Menü
@@ -144,7 +151,7 @@ bearbeitet und ergänzt werden, siehe :ref:`Datensatz bearbeiten`.
 
 
 Automatisches Anlegen bibliographischer Datensätze im BibTeX-Import
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Sie möchten eine Publikationsliste aus Ihrem
 Literaturverwaltungsprogramm (z.B. Citavi oder EndNote) nach mediaTUM
@@ -181,14 +188,10 @@ auf **Objekte erzeugen**.
 **Ergebnis:** Die Datensätze werden angelegt und können jetzt editiert
 werden, siehe :ref:`Datensatz bearbeiten`.
 
-Anlegen eines Datensatzes mit einem digitalen Objekt
-----------------------------------------------------
 
-Sie möchten eine PDF-Datei (z.B. einen Aufsatz einer Fachzeitschrift)
-nach mediaTUM übertragen.
 
-Digitales Objekt hochladen
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Upload von digitalen Objekten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Wechseln Sie in den Upload-Bereich über das
 Pfeil-Symbol:\ |Download| oder über die Verzeichnisstruktur Ihres
@@ -223,8 +226,10 @@ und klicken dann auf **Objekte erzeugen**.
 **Ergebnis:** Die Datensätze werden angelegt und können jetzt editiert
 werden, siehe :ref:`Datensatz bearbeiten`.
 
+
+
 Digitale Objekte austauschen und hinzufügen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""
 
 Zu einem Datensatz können nachträglich digitale Objekte ergänzt bzw.
 ausgetauscht werden. Wechseln Sie in das Verzeichnis, in welchem sich
@@ -265,8 +270,8 @@ groß sein.
 
 .. _Datensatz bearbeiten:
 
-Datensatz bearbeiten / Daten eingeben
--------------------------------------
+Bearbeite Datensatz
+^^^^^^^^^^^^^^^^^^^
 
 Wechseln Sie zunächst in das Upload-Verzeichnis. Der Hinweis (rot hinterlegt) 
 auf die Funktion „Quick-Publisher“ erscheint und weist auf unpublizierte Objekte hin. 
@@ -282,7 +287,7 @@ auf die Funktion „Quick-Publisher“ erscheint und weist auf unpublizierte Obj
 
 
 Angelegte Datensätze öffnen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""
 
 Ein neu angelegter Datensatz kann zur Bearbeitung geöffnet werden.
 Bewegen Sie dazu den Mauszeiger auf die Datensatz-Anzeige. In der
@@ -299,8 +304,8 @@ weiteren Optionen – der Datensatz kann verschoben
 (|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
 gelöscht (|LoeschenEdit|) werden – werden weiter unten erklärt.
 
-Daten eingeben
-^^^^^^^^^^^^^^
+Daten eingeben und Informationen zu Feldtypen
+"""""""""""""""""""""""""""""""""""""""""""""
 
 Sie können alle Daten, die Ihnen bekannt sind, für den Datensatz
 eingeben. Für jeden Datentyp sind unterschiedliche Felder vorgegeben.
@@ -309,10 +314,6 @@ ausfüllen möchten; es gibt jedoch für jedes Metadatenschema einige
 Pflichtfelder, die mit einem roten Stern \* gekennzeichnet sind. Hier
 muss ein Wert eingetragen werden, sonst kann der Datensatz nicht
 veröffentlicht werden.
-
-Im Recherche-Bereich sind Beispieldatensätze für einzelne Datentypen
-verfügbar. Sie finden die Beispiele unter **Hilfe > Upload / Publizieren
-> Jahrbuch: Beispiele für die Dateneingabe**.
 
 Beachten Sie, dass es verschiedene Arten von Feldern gibt:
 
@@ -344,115 +345,16 @@ vorgegebene Format.
 des Buttons „Speichern“ gesichert werden.
 
 
-Datensatz ändern
-^^^^^^^^^^^^^^^^
-
-Ein Datensatz kann über das Symbol |BearbeitenEdit| in der
-Datensatz-Anzeige des Verzeichnisses erneut aufgerufen werden, um
-Ergänzungen und Korrekturen vorzunehmen.
-
-.. figure:: images/Bearb4.jpg
-   :alt: Bearb4.jpg
-
-
-Sie können mehrere Datensätze hintereinander bearbeiten: Nachdem Sie
-einen Datensatz zur Bearbeitung geöffnet haben, können Sie über die
-Pfeile am oberen Rand zum nächsten oder vorherigen Datensatz wechseln.
-Über das Pulldown-Menü können einzelne Datensätze auch direkt aufgerufen
-werden.
-
-Mehrere Datensätze gleichzeitig bearbeiten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Es ist möglich, mehre Datensätze zu selektieren und dann gleichzeitig zu
-bearbeiten. Wählen Sie dazu die Datensätze eines Verzeichnisses aus,
-indem Sie die **Markieren-Checkbox** der betreffenden Datensätze
-anhaken. Über das Pulldown-Menü **Markieren** können Sie auch alle
-Datensätze eines Verzeichnisses markieren, eine Auswahl invertieren oder
-aufheben.
-
-.. figure:: images/Bearb5.jpg
-   :alt: Bearb5.jpg
-
-
-Klicken Sie anschließend auf das Symbol |BearbeitenEdit| (Metadaten
-selektierter Objekte gleichzeitig bearbeiten), das sich neben dem
-Pulldown-Menü **Markieren** befindet.
-
-Die selektierten Datensätze werden nun in einer Eingabemaske angezeigt.
-Ist der Inhalt eines Feldes bei allen Datensätzen identisch, wird der
-Inhalt angezeigt. Bei unterschiedlicher Feldbelegung wird ein
-Fragezeichen im Eingabefeld angezeigt. Nicht belegte Felder bleiben
-leer.
-
-Jetzt können Sie neue Inhalte in die Felder eintragen
-:ref:`Datensatz bearbeiten`, diese werden dann in alle
-ausgewählten Datensätze übernommen. Um ein Feld neu zu belegen, in dem
-ein Fragezeichen angezeigt wird, müssen Sie zunächst die Checkbox
-**überschreiben anhaken**, das sich neben dem Eingabefeld befindet.
-
-Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
-
-.. warning::
-
-    Bitte beachten Sie, dass nur Datensätze eines Metadatenschemas
-    gleichzeitig bearbeitet werden können.
-
-Datensätze löschen
-^^^^^^^^^^^^^^^^^^
-
-Wechseln Sie zunächst in das Verzeichnis, in dem der zu löschende
-Datensatz liegt:
-
-Einen einzelnen Datensatz löschen
-"""""""""""""""""""""""""""""""""
-
-Bewegen Sie den Mauszeiger auf den zu löschenden Datensatz. In der
-rechten oberen Ecke der Anzeige erscheint das Lösch-Symbol
-(|LoeschenEdit|). Klicken Sie auf dieses Lösch-Symbol. mediaTUM
-fragt noch einmal nach, ob Sie den Datensatz wirklich löschen möchten.
-Bei einer Bestätigung mit **OK** wird der Datensatz gelöscht bzw. in den
-Papierkorb im Arbeitsverzeichnis verschoben.
-
-Mehrere Datensätze gleichzeitig löschen
-"""""""""""""""""""""""""""""""""""""""
-
-Markieren Sie die Datensätze, die Sie löschen wollen, durch Anklicken
-der **Checkbox Markieren** oben links in der Datensatz-Anzeige. Es
-erscheint ein Häkchen in der Checkbox. Alternativ können Sie die zu
-löschenden Datensätze über das Pulldown-Menü **Markieren** auswählen:
-**Alles markieren – Markierung aufheben – Markierung invertieren.**
-Klicken Sie auf das Lösch-Symbol (|LoeschenEdit|) links oben neben
-dem Pulldown-Menü **Markieren**. mediaTUM fragt noch einmal nach, ob Sie
-die Datensätze wirklich löschen möchten. Bei einer Bestätigung mit
-**OK** wird der Datensatz gelöscht bzw. in den Papierkorb im
-Arbeitsverzeichnis verschoben.
-
-
-
-.. FTP-Daten verarbeiten
-.. ^^^^^^^^^^^^^^^^^^^^^
-
-.. **Voraussetzung:** Konfiguration muss entsprechend eingerichtet sein.
-
-.. Wählen Sie Ihren Uploadordner aus und wählen Sie anschließend Metadaten
-.. editieren > FTP-Daten verarbeiten wie im Screenshot gezeigt aus.
-
-.. :: images/Ftp2.jpg
-   :alt: Ftp2.jpg
-
-
-..  Wählen Sie im Dropdownmenü ein Schema aus und klicken Sie anschließend
-    auf |Pfeil| (Process file...). Die hochgeladene Datei ist nun im
-    Upload Verzeichnis verfügbar. Anstelle von einem FTP Kommandos in der
-    cmd, können Sie auch FTP-Upload Programme nutzen, wie zum Beispiel
-    FileZilla.
+Datensätze veröffentlichen
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 .. _Datensätze publizieren:
 
-Datensätze publizieren (Freischalten für die Öffentlichkeit)
-------------------------------------------------------------
+
+Quick Publisher
+"""""""""""""""
+
 
 Wir empfehlen Ihnen, mehrere Datensätze fertig anzulegen und diese dann
 auf einmal zu publizieren. Beim Publizieren werden die Datensätze in Ihr
@@ -460,11 +362,6 @@ auf einmal zu publizieren. Beim Publizieren werden die Datensätze in Ihr
 Öffentlichkeit sichtbar. Prüfen Sie daher vorher genau, ob die Daten
 auch richtig eingegeben worden sind.
 
-.. warning::
-
-    Bitte beachten Sie, dass nur Datensätze veröffentlicht werden können,
-    bei denen alle Pflichtfelder (das sind alle mit einem roten Sternchen
-    gekennzeichneten Felder) ausgefüllt sind.
 
 Klicken Sie auf den Upload-Ordner, der die zu veröffentlichenden
 Einträge enthält. Die Datensätze werden zusammen mit dem Hinweis auf den
@@ -522,6 +419,8 @@ finden Sie, wenn Sie den Datensatz im Editbereich aufrufen, die ID steht
 in der rechten oberen Ecke.
 
 
+
+
 .. _Datensätze verschieben:
 
 Datensätze verschieben
@@ -551,6 +450,12 @@ den betreffenden Datensatz bewegen.
 
 .. _Datensätze kopieren:
 
+
+
+.. Datensätze in Browsingstruktur (Klassifikation) einhängen
+.. """""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
 Datensätze kopieren
 ^^^^^^^^^^^^^^^^^^^
 
@@ -577,8 +482,128 @@ mediaTUM, so sind dieses Anpassungen in allen Kopien sichtbar. Löschen
 Sie eine Kopie eines Datensatzes, bleibt das Original in mediaTUM
 erhalten.
 
+
+Datensatz ändern
+^^^^^^^^^^^^^^^^
+
+Ein Datensatz kann über das Symbol |BearbeitenEdit| in der
+Datensatz-Anzeige des Verzeichnisses erneut aufgerufen werden, um
+Ergänzungen und Korrekturen vorzunehmen.
+
+.. figure:: images/Bearb4.jpg
+   :alt: Bearb4.jpg
+
+
+Sie können mehrere Datensätze hintereinander bearbeiten: Nachdem Sie
+einen Datensatz zur Bearbeitung geöffnet haben, können Sie über die
+Pfeile am oberen Rand zum nächsten oder vorherigen Datensatz wechseln.
+Über das Pulldown-Menü können einzelne Datensätze auch direkt aufgerufen
+werden.
+
+
+
+Datensätze löschen
+^^^^^^^^^^^^^^^^^^
+
+Wechseln Sie zunächst in das Verzeichnis, in dem der zu löschende
+Datensatz liegt. Bewegen Sie den Mauszeiger auf den zu löschenden Datensatz. 
+In der rechten oberen Ecke der Anzeige erscheint das Lösch-Symbol
+(|LoeschenEdit|). Klicken Sie auf dieses Lösch-Symbol. mediaTUM
+fragt noch einmal nach, ob Sie den Datensatz wirklich löschen möchten.
+Bei einer Bestätigung mit **OK** wird der Datensatz gelöscht bzw. in den
+Papierkorb im Arbeitsverzeichnis verschoben.
+
+
+Mehrere Datensätze gleichzeitig bearbeiten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Markieren sie im Verzeichnis mehrere Datensätze und klicken Sie im oberen Navigationsbereich 
+auf das Symbol |Bearbeiten|, |Verschieben|, |Kopieren| oder |Loeschen| so gelangen Sie in die 
+gleichzeitige Bearbeitungsfunktion.
+
+
+Es ist möglich, mehre Datensätze zu selektieren und dann gleichzeitig zu
+bearbeiten. Wählen Sie dazu die Datensätze eines Verzeichnisses aus,
+indem Sie die **Markieren-Checkbox** der betreffenden Datensätze
+anhaken. Über das Pulldown-Menü **Markieren** können Sie auch alle
+Datensätze eines Verzeichnisses markieren, eine Auswahl invertieren oder
+aufheben.
+
+.. figure:: images/Bearb5.jpg
+   :alt: Bearb5.jpg
+   
+
+Klicken Sie anschließend auf |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| und Sie können diese 
+Aktion für alle ausgewählten Dokumente durchführen.
+
+
+Bearbeiten mehrerer Metadaten gleichzeitig
+""""""""""""""""""""""""""""""""""""""""""
+
+Klicken Sie anschließend auf das Symbol |BearbeitenEdit| (Metadaten
+selektierter Objekte gleichzeitig bearbeiten), das sich neben dem
+Pulldown-Menü **Markieren** befindet.
+
+Die selektierten Datensätze werden nun in einer Eingabemaske angezeigt.
+Ist der Inhalt eines Feldes bei allen Datensätzen identisch, wird der
+Inhalt angezeigt. Bei unterschiedlicher Feldbelegung wird ein
+Fragezeichen im Eingabefeld angezeigt. Nicht belegte Felder bleiben
+leer.
+
+Jetzt können Sie neue Inhalte in die Felder eintragen
+:ref:`Datensatz bearbeiten`, diese werden dann in alle
+ausgewählten Datensätze übernommen. Um ein Feld neu zu belegen, in dem
+ein Fragezeichen angezeigt wird, müssen Sie zunächst die Checkbox
+**überschreiben anhaken**, das sich neben dem Eingabefeld befindet.
+
+Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
+
+.. warning::
+
+    Bitte beachten Sie, dass nur Datensätze eines Metadatenschemas
+    gleichzeitig bearbeitet werden können.
+
+
+
+
+.. FTP-Daten verarbeiten
+.. ^^^^^^^^^^^^^^^^^^^^^
+
+.. **Voraussetzung:** Konfiguration muss entsprechend eingerichtet sein.
+
+.. Wählen Sie Ihren Uploadordner aus und wählen Sie anschließend Metadaten
+.. editieren > FTP-Daten verarbeiten wie im Screenshot gezeigt aus.
+
+.. :: images/Ftp2.jpg
+   :alt: Ftp2.jpg
+
+
+..  Wählen Sie im Dropdownmenü ein Schema aus und klicken Sie anschließend
+    auf |Pfeil| (Process file...). Die hochgeladene Datei ist nun im
+    Upload Verzeichnis verfügbar. Anstelle von einem FTP Kommandos in der
+    cmd, können Sie auch FTP-Upload Programme nutzen, wie zum Beispiel
+    FileZilla.
+
+
+
+Verzeichnisse
+-------------
+
+Verzeichnis anlegen
+^^^^^^^^^^^^^^^^^^^
+
+In der Auswahl von **Neuen Ordner anlegen** wählen Sie aus, ob Sie eine
+Kollektion oder ein Verzeichnis anlegen wollen. Anschließend wird der
+neue Ordner mit dem Namen **Neuer Ordner** angelegt.
+
+.. figure:: images/VerzeichnisBearb2.jpg
+   :alt: VerzeichnisBearb2.jpg
+
+
+   
+
 Verzeichnisse bearbeiten
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Um ein Verzeichnis bearbeiten zu können, wählen Sie mit einem Klick der
 linken Maustaste dieses Verzeichnis aus. Das Verzeichnis wird durch die
@@ -592,19 +617,9 @@ Bearbeitungsmöglichkeiten bietet.
    :alt: VerzeichnisBearb1.jpg
 
 
-Unterordner anlegen
-^^^^^^^^^^^^^^^^^^^
 
-In der Auswahl von **Neuen Ordner anlegen** wählen Sie aus, ob Sie eine
-Kollektion oder ein Verzeichnis anlegen wollen. Anschließend wird der
-neue Ordner mit dem Namen **Neuer Ordner** angelegt.
-
-.. figure:: images/VerzeichnisBearb2.jpg
-   :alt: VerzeichnisBearb2.jpg
-
-
-Ordner umbenennen
-^^^^^^^^^^^^^^^^^
+Verzeichnisse umbenennen
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Nachdem Sie mit der linken Maustaste das gewünschte Verzeichnis
 ausgewählt und dann die rechte Maustaste geklickt haben, klicken Sie im
@@ -614,8 +629,10 @@ Speichern Sie die Eingaben, um die Änderungen zu sichern. Alternativ
 können Sie nach der Auswahl des Verzeichnisses die Eingabemaske über den
 Navigationspunkt **Metadaten editieren: Metadaten editieren** erreichen.
 
-Unterordner sortieren
-^^^^^^^^^^^^^^^^^^^^^
+
+
+Verzeichnisse  sortieren
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Nachdem Sie einen Ordner markiert haben, können Sie die Unterordner über
 eine Spezialfunktion in der **Menüleiste > Spezialfunktionen >
@@ -632,19 +649,20 @@ oder absteigend) und klicken auf den Button **Sortieren**. Oder Sie
 verändern die Reihenfolge der Ordner unter **Manuell sortieren** mit der
 Drag-and-Drop-Funktion.
 
-Ordner verschieben
-^^^^^^^^^^^^^^^^^^
+Verzeichnisse verschieben
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Klicken Sie im Bearbeitungsmenü auf **Ordner ausschneiden**. Klicken Sie
 mit der linken Maustaste den Ordner an, in den der Container eingefügt
 werden soll. Im Menü wählen Sie dann die Option **Ordner einfügen** aus.
 
-Ordner löschen
-^^^^^^^^^^^^^^
+Verzeichnisse löschen
+^^^^^^^^^^^^^^^^^^^^^
 
 Ein ausgewähltes Verzeichnis können Sie über den Menüpunkt **Löschen**
 entfernen. Das Verzeichnis ist nicht endgültig gelöscht, sondern wird
 zunächst in den Papierkorb verschoben.
+
 
 
 .. _Suche einrichten:
@@ -652,8 +670,8 @@ zunächst in den Papierkorb verschoben.
 Suche einrichten
 ----------------
 
-Schnellsuche
-^^^^^^^^^^^^
+Schnellsuche einrichten
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Die Startseite einer Kollektion kann individuell gestaltet werden. Dazu
 gehört auch das Hinzufügen einer Schnellsuche. Zusätzlich zu dem
@@ -671,8 +689,8 @@ IDs müssen ausgetauscht werden, können per Metadatentypen-Export
 ermittelt werden.
 
 
-Erweiterte Suche
-^^^^^^^^^^^^^^^^
+Erweiterte Suche einrichten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^    
 
 Um eine erweiterte Suche einrichten zu können muss der Bereich in dem
 gesucht werden kann eine Kollektion sein. Nur in Kollektionen kann die
@@ -712,6 +730,7 @@ Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
     In dem Feld "Folgende Felder werden durchsucht" wird das Metadatenschema
     ausgewählt und anschließend das zu durchsuchende Feld angegeben.
 
+    
 Sonstiges
 ---------
 
@@ -729,6 +748,8 @@ die Inhalte endgültig gelöscht.
 .. figure:: images/PapierkorbLeeren.jpg
    :alt: PapierkorbLeeren.jpg
 
-**Ausloggen** Um sich vom System abzumelden, klicken Sie auf **Logout**
+**Ausloggen** 
+
+Um sich vom System abzumelden, klicken Sie auf **Logout**
 am rechten oberen Bildschirmrand.
 
