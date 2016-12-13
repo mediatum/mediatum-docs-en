@@ -68,14 +68,14 @@ Workflowschritt. Es erscheint eine solche Liste:
 In dieser Übersicht sehen Sie alle Objekte eines Workflowschrittes (hier
 "prof\_ok").
 
--  **Weiterleiten - Korrektur erforderlich / Bericht veröffentlichen:**
-   Splittet sich in zwei Spalten auf - dem "true" und "false" Knoten,
+-  **Weiterleiten, Korrektur erforderlich / Bericht veröffentlichen:**
+   Splittet sich in zwei Spalten auf dem "true" und "false" Knoten,
    die zum Workflowschritt gehören. Klicken Sie auf einen Knoten, um das
    Objekt dorthin weiterzuleiten.
--  **Editor - Bearbeiten:** Das Objekt öffnet sich in der Editoransicht.
+-  **Editor, Bearbeiten:** Das Objekt öffnet sich in der Editoransicht.
    Hier können Sie die Metadaten bearbeiten oder die Zuordnung zu einem
    Workflowschritt anpassen.
--  **Schritt - Schritt anzeigen:** Zeigt Objekt in dem Workflowschritt
+-  **Schritt, Schritt anzeigen:** Zeigt Objekt in dem Workflowschritt
    an, in dem es sich gerade befindet.
 
 Workflow starten
@@ -88,7 +88,7 @@ Um den Workflow zu starten, gibt es zwei Wege:
    der Name des ersten Schrittes im Workflow, also der Knoten mit dem
    Typ "start").
 -  Navigieren Sie in der Rechercheansicht zu den Workflows und der Liste
-   aller Workflow Schritte - öffnen Sie hier den Knoten "start".
+   aller Workflow Schritte, öffnen Sie hier den Knoten "start".
 
 Aufbau eines Workflows
 ----------------------
@@ -100,7 +100,7 @@ Im Administrationsbereich navigieren Sie zu Workflows > Workflow >
    :alt: WorkflowMeta.jpg
 
 Es öffnet sich ein Fenster, in dem Sie die Metadaten für den Workflow
-eintragen - mindestens den Workflownamen und ordnen Sie Schreibrechte
+eintragen, mindestens den Workflownamen und ordnen Sie Schreibrechte
 ein oder mehreren Benutzergruppen zu. Nachdem sie die Metadaten
 gespeichert haben, sehen Sie unter Workflow die aktualisierte Liste
 aller vorhandener Workflows. Die Einstellungen des Workflows können Sie
@@ -167,7 +167,7 @@ Pfad vergeben werden.
 Vorgehen:
 
 #. Label für True vergeben: Dieser Text erscheint auf dem Button. 
-#. True Pfad einem Knoten zuordnen - wird der Button angeklickt, wird dieser Schritt gestartet. 
+#. True Pfad einem Knoten zuordnen, wird der Button angeklickt, wird dieser Schritt gestartet. 
 #. Falls erwünscht: Schritt 1 und 2 für False wiederholen.
 
 
@@ -268,12 +268,12 @@ Email-Adresse vom Sender, Empfänger, den Inhalt und den Betreff an.
 -  **Bedingung für den Email-Versand:** Die Email wird nur versendet,
    wenn die Bedingung wahr ist. Folgende Bedinungen kann man einrichten:
 
--  ``att:[attrname]=[value]`` — attrname kann jedes Attribut zu
+-  ``att:[attrname]=[value]``: attrname kann jedes Attribut zu
    einem Workflowknoten zuweisen, z.B. author\_fullname
--  ``schema=[valuelist] ( ;-separated)`` — tetstet, ob das Schema
+-  ``schema=[valuelist] ( ;-separated)``: tetstet, ob das Schema
    des Workflowknotenzu einem Wert aus der Liste passt
 -  ``type=[valuelist] (;-separated)``
--  ``hasfile`` — testet nur, ob eine Datei an den Workflowknoten
+-  ``hasfile``: testet nur, ob eine Datei an den Workflowknoten
    angehängt wurde.
 
 -  **PDF-Form als Anhang senden:** Wenn eine PDF Datei an den aktuellen
@@ -359,7 +359,7 @@ Freischaltung
 """""""""""""
 
 Die vom Startknoten eingerichtete Zugriffsbeschränkung, wird mit dem
-"Lesenden Zugriff" überschrieben - das Dokument wird freigeschaltet.
+"Lesenden Zugriff" überschrieben, das Dokument wird freigeschaltet.
 
 Warten
 """"""
@@ -522,13 +522,13 @@ oft verschachtelt werden und somit aus normalerweise max. 2 Alternativen
 
 Folgende Kriterien können als **Bedingung** gesetzt werden:
 
--  ``att:[attrname]=[value]`` — attrname kann jedes Attribut des
+-  ``att:[attrname]=[value]``: attrname kann jedes Attribut des
    Workflowknotens sein, z.B. author\_fullname
--  ``schema=[valuelist] (;-separated)`` — testet, ob das Schema des
+-  ``schema=[valuelist] (;-separated)``: testet, ob das Schema des
    Workflowknotens mit dem aus der Liste übereinstimmt.
--  ``type=[valuelist] (;-separated)`` — testet, ob das Schema des
+-  ``type=[valuelist] (;-separated)``: testet, ob das Schema des
    Workflowknotens mit dem aus der Liste übereinstimmt.
--  ``hasfile:[filename]|[filetype]``— wenn ein kompletter Dateiname
+-  ``hasfile:[filename]|[filetype]``: wenn ein kompletter Dateiname
    mit Dateiendung gegebn ist, wird getestet ob eine Datei mit gleichem
    Namen vorhanden ist. Wird nur das Dateiende angegeben, wird getestet,
    ob eine Dateiendung mit dieser Dateiendung übereinstimmt. Wird kein
@@ -593,8 +593,8 @@ akzeptieren und der Prozess wechselt zum nächsten Workflowschritt.
 PDF-Seiten hinzufügen
 """""""""""""""""""""
 
-Ein PDF-Formular wird im Workflow dem PDF Dokument verangestellt - oder
-- an den Knoten als "pdf-form" Typ angehängt. Die Textfelder des
+Ein PDF-Formular wird im Workflow dem PDF Dokument verangestellt, oder
+an den Knoten als "pdf-form" Typ angehängt. Die Textfelder des
 Formulars werden entsprechend der Attributwerte des Dokuments ausgefüllt
 (bei Übereinstimmung der Gleichheit der Feld- und Attributnamen).
 

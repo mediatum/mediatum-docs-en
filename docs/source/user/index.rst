@@ -1,5 +1,5 @@
-Anwender - Dokumentation
-========================
+Anwender
+========
 
 .. figure:: images/Recherche.png
    :alt: Recherche.png
@@ -137,7 +137,7 @@ der Treffermengen mit Suchen und die Einschränkung der angezeigten Felder sind 
 
 
 
-Weitere Export-Möglichkeiten
+Weitere Exportmöglichkeiten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Print-Funktion
