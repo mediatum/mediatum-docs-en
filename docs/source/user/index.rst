@@ -36,26 +36,75 @@ Möglichkeiten zum Export von Trefferlisten
 ------------------------------------------
 
 Allgemeine Informationen
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^   
+          
+Der Export-Link besitzt folgenden Aufbau:
 
-Folgender Link ist Ausgangspunkt und muss angepasst werden:
-http://mediatum.ub.tum.de/services/export/node/ID/Hierarchie?format=Formatangabe
+   .. code-block:: ruby
+        
+   
+       https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE
 
-Im Link muss eingesetzt werden:
 
--  **ID:** muss mit der ID z.B. 123456 des gewünschten Verzeichnisses
-   ausgetauscht werden. Ermitteln Sie eine ID, indem Sie in das
-   gewünschte Unterverzeichnis navigieren, dort finden Sie im Link
-   "?id=123456".
--  **Hierarchie:** Gemeint ist hier die Ebene innerhalb der des
-   Verzeichnisses gesucht werden sollen.
--  Ohne Angabe der Hierarchie wird nur der Knoten selbst ausgegeben.
--  Um das Eltern-Element anzuzeigen setzen Sie **„parents“** ein.
--  Ausgabe von Inhalten des Knotens (ohne Unterverzeichnissen) erhalten
-   Sie mit **„children“**
--  **„allchildren“** gibt zusätzlich Inhalte der Unterverzeichnisse aus.
--  **attrspec=all** bzw. **attrspec=none** Alle/Keine Felder anzeigen
--  **& limit=999999**: limit auf beliebige Zahl erhöhen
+- **ID:** ID des Verzeichnisses, dessen Inhalt exportiert werden soll. So wird die ID ermittelt: Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.: 
+
+.. code-block:: ruby
+
+      https://mediatum.ub.tum.de/604223
+      
+      
+- **Hierarchie:** Was wird ausgegeben?
+
+    - Keine Angabe: die ID selbst
+    - parents: das Eltern-Element
+    - children: die direkten Kind-Elemente (ohne den Inhalt von Unterverzeichnissen)
+    - allchildren: alle Kind-Elemente (mit den Inhalten von Unterverzeichnissen)
+
+- **Formatangabe:** Die Daten können in unterschiedlichen Formaten ausgegeben werden. XML wird standardmäßig ausgeliefert. Möglich sind auch JSON, CSV und RSS.
+
+
+| **Weitere Optionen:**
+
+
+
+- Einschränkung auf Datentypen mit ``type=[...]``
+
+    - ``?type=directory``: listet nur Unterverzeichnisse des Elements auf
+    - ``?type=document``: listet nur Dokumente auf
+    - ``?type=dt-buchbeitrag``: listet nur Buchbeiträge auf; gesucht wird der Name des Metadatenschemas
+
+- Anzahl der angezeigten Elemente verändern mit ``limit=[...]:`` 
+
+    - ``?limit=5``: Limitierung auf 5 Elemente
+    
+- Einschränkung des Ergebnisses durch eine Suche mit ``q=[...]``
+
+    - ``?q=regen``: der Suchbegriff wird in den Metadaten und im Volltext gesucht
+    - ``?q=year=2016``: der Suchbegriff wird in einem Metadatenfeld (hier: year) gesucht
+          Die Operatoren => (größer gleich) und <= (kleiner gleich) können für numerische Suchen verwendet werden. Die Operator > und < können nicht verwendet werden. 
+          
+- Suche mit regulären Ausdrücken mit ``attrreg=[...]``, schneller als die Suche mit ``q=[...]``
+
+    - ``?attrreg=author-contrib=.*Lei[ß|s].*``: Suche nach Leiß oder Leis im Autorenfeld
+    
+- Sortierung mit ``sortfield=[...]``
+
+    - ``?sortfield=-year``: absteigende Sortierung nach dem Inhalt des Feldes "year"
+    - ``?sortfield=year``: aufsteigende Sortierung nach dem Inhalt des Feldes "year"
+    
+- Ausgabe der Inhalte über definierte Export-Masken im Feld <mask>  mit ``mask=[...]``, angegeben wird der Name der Export-Maske
+    
+    - ``mask=none``: keine Ausgabe
+    - ``mask=default`` oder ``mask=nodesmall``: Kurzanzeige (nodesmall)
+    - ``mask=bibtex``: Ausgabe im Bibtex-Format
+    - ``mask=apa``: Ausgabe im APA-Format 
+    
+- Angezeigte Felder auswählen (beim JSON-Format) mit ``attrspec=[...]`` und ``attrlist=[...]``
+
+    - ``attrspec=none``: keine Felder werden angezeigt
+    - ``attrspec=all``: alle Felder werden angezeigt (default)
+    - ``attrspec=none&attrlist=year,author-contrib``: angezeigt werden nur die Felder year und author-contrib
+
 
 **Ausführliche Informationen:**
 
@@ -64,17 +113,7 @@ Im Link muss eingesetzt werden:
 -  Zu Publikationslisten, mit mediaTUM als Quelle:
    https://www.typo3.tum.de/index.php?id=61&L=0
 
-Ansichten - CSV, JSON, RSS, XML
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-| Es ist möglich mithilfe von bestimmten Links in mediaTUM zu Suchen und
-  sich die Trefferliste in einem der verfügbaren Formate (CSV, JSON,
-  RSS, XML) anzeigen zu lassen. Folgender Link ist Ausgangspunkt und
-  muss angepasst werden:
-  http://mediatum.ub.tum.de/services/export/node/ID/Hierarchie?format=Formatangabe
-| **Formatangabge:** Die Formatangabe wird einfach mit *csv, json, rss*
-  oder *xml* angegeben. Ohne Angabe wird standardmäßig XML ausgegeben.
-
+   
 Download - Excel
 ^^^^^^^^^^^^^^^^
 
