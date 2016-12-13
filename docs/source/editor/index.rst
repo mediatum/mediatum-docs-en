@@ -393,8 +393,10 @@ ein Fragezeichen angezeigt wird, müssen Sie zunächst die Checkbox
 
 Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
 
-Bitte beachten Sie, dass nur Datensätze eines Metadatenschemas
-gleichzeitig bearbeitet werden können.
+.. warning::
+
+    Bitte beachten Sie, dass nur Datensätze eines Metadatenschemas
+    gleichzeitig bearbeitet werden können.
 
 Datensätze löschen
 ^^^^^^^^^^^^^^^^^^
@@ -458,9 +460,11 @@ auf einmal zu publizieren. Beim Publizieren werden die Datensätze in Ihr
 Öffentlichkeit sichtbar. Prüfen Sie daher vorher genau, ob die Daten
 auch richtig eingegeben worden sind.
 
-Bitte beachten Sie, dass nur Datensätze veröffentlicht werden können,
-bei denen alle Pflichtfelder (das sind alle mit einem roten Sternchen
-gekennzeichneten Felder) ausgefüllt sind.
+.. warning::
+
+    Bitte beachten Sie, dass nur Datensätze veröffentlicht werden können,
+    bei denen alle Pflichtfelder (das sind alle mit einem roten Sternchen
+    gekennzeichneten Felder) ausgefüllt sind.
 
 Klicken Sie auf den Upload-Ordner, der die zu veröffentlichenden
 Einträge enthält. Die Datensätze werden zusammen mit dem Hinweis auf den
@@ -473,10 +477,12 @@ Quick-Publisher eingeblendet.
 Klicken Sie auf den Link **Unpublizierte Objekte jetzt publizieren
 (Quick-Publisher).**
 
-Bitte beachten Sie: Es werden automatisch alle Datensätze ausgewählt –
-zu erkennen an dem Häkchen bei den einzelnen Datensätzen. Wenn Sie nur
-bestimmte Datensätze veröffentlichen wollen, entfernen dieses durch
-Anklicken bei den Datensätzen, die Sie nicht publizieren wollen.
+.. warning::
+
+    Bitte beachten Sie: Es werden automatisch alle Datensätze ausgewählt –
+    zu erkennen an dem Häkchen bei den einzelnen Datensätzen. Wenn Sie nur
+    bestimmte Datensätze veröffentlichen wollen, entfernen dieses durch
+    Anklicken bei den Datensätzen, die Sie nicht publizieren wollen.
 
 .. figure:: images/Publizieren2.jpg
    :alt: Publizieren2.jpg
