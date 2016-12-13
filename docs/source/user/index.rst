@@ -23,6 +23,18 @@ werden kann ist individuell, ebenso ob die Suche nach einem bestimmten
 Feld per Eingabe oder mit einem Index umgesetzt wird. Vgl. :ref:`Suche Einrichten`.
 
 
+
+Dokumente in der Vollanzeige
+----------------------------
+
+Nach der Auswahl in der Trefferliste wird das Dokument in der Vollansicht angezeigt. 
+Angezeigt werden die Metadaten des Dokuments, die im Bibtex-Format exportiert werden können.
+Ist ein Volltext vorhanden, kann er über einen Klick auf das Thumbnail aufgerufen werden.
+
+Der Zugriff auf einen Volltext kann über IP-Adressen (z.B. campusweit) oder Benutzergruppen geregelt werden. 
+Nicht immer ist ein Volltext vorhanden, u.a. aus urheberrechtlichen Gründen. 
+
+
 .. _Export von Trefferlisten:
 
 Möglichkeiten zum Export von Trefferlisten
