@@ -31,8 +31,8 @@ Nach dem Login erweitert sich die Menüleiste um:
 Ganz rechts ist ein kleines Dreieck in der Menüleist, über das man den
 Logout erreicht.
 
-User
-----
+Benutzer anlegen/verwalten
+--------------------------
 
 .. figure:: images/Benutzer.jpg
    :alt: Benutzer.jpg
@@ -139,8 +139,8 @@ bereits einen Account hat.**
 |                    |                          | (Mehrfachauswahl).                                  |
 +--------------------+--------------------------+-----------------------------------------------------+
 
-User Group
-----------
+Benutzergruppe anlegen/verwalten
+--------------------------------
 
 Die Benutzergruppe hat analoge Funktionen wie bei den Nutzern, hier nur
 die Unterschiede:
@@ -215,12 +215,7 @@ Im nächsten Bild dient der Datentyp Dokument als Beispiel, die Ansicht
 .. figure:: images/MenKonf3.jpg
    :alt: MenKonf3.jpg
    
-Funktionen in beiden Bereichen
-------------------------------
-
--  |Pfeile| Verändern Sie die Reihenfolge der Optionen mithilfe
-   dieser Pfeile.
--  |Loeschen| Diese Option wird ausgeblendet.
+   
 -  Blenden Sie die Option wieder ein, indem Sie im rechten Dropdownmenü
    auf -Verschieben- klicken und eine Oberkategorie auswählen, zu der
    die Option hinzugefügt werden soll.
