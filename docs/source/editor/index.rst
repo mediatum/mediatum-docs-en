@@ -383,7 +383,7 @@ Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
 Bitte beachten Sie, dass nur Datensätze eines Metadatenschemas
 gleichzeitig bearbeitet werden können.
 
-Datensätze Löschen
+Datensätze löschen
 ^^^^^^^^^^^^^^^^^^
 
 Wechseln Sie zunächst in das Verzeichnis, in dem der zu löschende
@@ -668,15 +668,15 @@ Metadaten editieren > Suchmaske
    
 Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
 
-#. keine Suchmaske
+#. Keine Suchmaske
     Wird hier "keine Suchmaske" ausgewählt, wird in der Recherche
     ausschließlich die einfache Suche angeboten.
 
-#. vererbt von Elternobjekt
+#. Vererbt von Elternobjekt
     Bei dieser Option werden die Einstellungen der Suchmaske des
     hierarchisch höheren Elements vererbt, also identisch übernommen.
 
-#. eigene Suchmaske
+#. Eigene Suchmaske
     Eine eigene Suchmaske kann nur für Kollektionen eingerichtet werden. Es
     wird eine erweiterte Suche angeboten, in der nach unterschiedlichen
     Feldern gesucht werden kann. Diese Felder können mit dem Anklicken von

@@ -52,9 +52,9 @@ Im Link muss eingesetzt werden:
 
 **Ausführliche Informationen:**
 
--  zu erweiterten Suchmöglichkeiten:
+-  Zu erweiterten Suchmöglichkeiten:
    http://wiki.ub.tum.de/mediatum\_dev/index.php5/Mediatume\_dev:Webservice\_REST
--  zu Publikationslisten, mit mediaTUM als Quelle:
+-  Zu Publikationslisten, mit mediaTUM als Quelle:
    https://www.typo3.tum.de/index.php?id=61&L=0
 
 Ansichten - CSV, JSON, RSS, XML

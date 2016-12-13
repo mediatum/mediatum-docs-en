@@ -51,7 +51,7 @@ Mülleimersymbol.
     das Löschen nicht mehr möglich! In diesem Fall müssen sämtliche
     Gruppen des Nutzers entfernt werden. So wird der Account deaktiviert!
 
-Blau unterlegte Felder lassen sich in der Liste direkt ankliegen und
+Blau unterlegte Felder lassen sich in der Liste direkt anklicken und
 bearbeiten.
 
 In der Übersicht:
@@ -170,8 +170,8 @@ Menüpunkt Authenticatior Info
 Hier werden die verschiedene Benutzertypen von der Datenbank
 aufgelistet.
 
--  internal = Interne Benutzer
--  weitere, falls mediaTUM entsprechend ergänzt wurde
+-  Internal = Interne Benutzer
+-  Weitere, falls mediaTUM entsprechend ergänzt wurde
 
 
 Node, File, Setting

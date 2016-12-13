@@ -217,7 +217,7 @@ damit Daten zum Beispiel vom Nutzer kontrolliert werden können.
 
 **Zusätzliche Daten für gewählten Knotentyp:**
 
--  **anzuzeigende Masken (;-separiert):** Hier werden die Maske oder
+-  **Anzuzeigende Masken (;-separiert):** Hier werden die Maske oder
    mehrere Masken angegeben, die angezeigt werden sollen.
 
 Uploadknoten
@@ -237,7 +237,7 @@ Dokument hochladen darf.
    Der Nutzer könnte an dieser Stelle gefragt werden, ob er die Qualität
    geprüft hat.
 
--  **admin\_wfstep\_single\_upload:**
+-  **Admin\_wfstep\_single\_upload:**
 
  -  |Unchecked| Mehrere Uploads möglich.
  -  |Checked| Nur ein Upload möglich.
