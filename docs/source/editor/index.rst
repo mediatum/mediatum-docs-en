@@ -255,13 +255,14 @@ groß sein.
 Datensatz bearbeiten / Daten eingeben
 -------------------------------------
 
-Wechseln Sie zunächst in das Upload-Verzeichnis. Wichtig: Der Hinweis
-(rot hinterlegt) auf die Funktion „Quick-Publisher“ erscheint und weist
-auf unpublizierte Objekte hin. Dieser Schritt ist erst nach der
-Fertigstellung eines Datensatzes nötig. Bitte nutzen Sie diese Funktion
-also erst nach der endgültigen Bearbeitung der Datensätze. Siehe auch
-diese Beschreibung :ref:`Datensätze publizieren`.
+Wechseln Sie zunächst in das Upload-Verzeichnis. Der Hinweis (rot hinterlegt) 
+auf die Funktion „Quick-Publisher“ erscheint und weist auf unpublizierte Objekte hin. 
 
+.. warning::
+
+    **Achtung:** Dieser Schritt ist erst nach der Fertigstellung eines Datensatzes 
+    nötig. Bitte nutzen Sie diese Funktion also erst nach der endgültigen Bearbeitung 
+    der Datensätze. Siehe auch diese Beschreibung :ref:`Datensätze publizieren`.
 
 .. figure:: images/Bearb1.jpg
    :alt: Bearb1.jpg
