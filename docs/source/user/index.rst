@@ -42,10 +42,9 @@ Der Export-Link besitzt folgenden Aufbau:
 
    .. code-block:: ruby
         
-   
        https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE
 
-
+       
 - **ID:** ID des Verzeichnisses, dessen Inhalt exportiert werden soll. So wird die ID ermittelt: Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.: 
 
 .. code-block:: ruby
@@ -64,8 +63,6 @@ Der Export-Link besitzt folgenden Aufbau:
 
 
 | **Weitere Optionen:**
-
-
 
 - Einschränkung auf Datentypen mit ``type=[...]``
 
@@ -114,22 +111,34 @@ Der Export-Link besitzt folgenden Aufbau:
    https://www.typo3.tum.de/index.php?id=61&L=0
 
    
-Download - Excel
-^^^^^^^^^^^^^^^^
+Export im Bibtex-Format
+^^^^^^^^^^^^^^^^^^^^^^^
 
-Ausgangslink:
-http://mediatum.ub.tum.de/services/export/node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel
-**ID** wird mit dem Knoten des zu durchsuchenden Bereichs ausgetauscht.
-Außerdem kann **„allchildren“** ausgetauscht werden, damit nach der
-gewünschten Hierarchiestufe gesucht wird (:ref:`Export von Trefferlisten`). Die
-Einschränkung der Treffer einer Suchanfrage ist nicht möglich und es
-werden immer alle Felder angezeigt.
+.. code-block:: ruby
 
-Suche nach Metadatenschemata
+    https://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain   
+
+
+**ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).   
+   
+Download als Excel-Datei
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Einen Export im Excel-Format erhält man über folgenden Link:
+
+
+.. code-block:: ruby
+
+        http://mediatum.ub.tum.de/services/export/node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel
+
+**ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`). 
+Das Ergebnis kann in einer Tabellenkalkulation sortiert und gefiltert werden. Eine Einschränkung 
+der Treffermengen mit Suchen und die Einschränkung der angezeigten Felder sind nicht möglich. 
+
+
+
+Weitere Export-Möglichkeiten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Soll nach einem bestimmten Metadatenschema gesucht werden, muss die
-Suche auf das gewünschte Metadatenschema eingegrenzt werden. Im Beispiel
-wird nach dem Schema „dt-konferenzbeitrag“ gesucht, es wurde folgender
-Befehl hinzugefügt: **?q=schema=dt-konferenzbeitrag** Beispiel:
-http://mediatum.ub.tum.de/services/export/node/993185/allchildren/?q=schema=dt-konferenzbeitrag
+- Print-Funktion
+- Warenkorb
