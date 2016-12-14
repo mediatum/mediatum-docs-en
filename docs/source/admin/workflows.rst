@@ -185,7 +185,7 @@ den Startknoten.
 
 **Zusätzliche Daten für den gewählten Knotentyp:**
 
--  **Erstellbare Knoten-Typen (;-separiert):** können sie ein oder
+-  **Erstellbare Knoten-Typen (Semikolon-separiert, ";"):** können sie ein oder
    mehrere Metadatenschema(ta) im Format Datentyp/ID angeben.
 
 -  **Text vor Auswahl:** Dieser Text erscheint vor der Auswahl der
@@ -476,11 +476,11 @@ aktuellen Workflowschritt angezeigt.
  -  |Unchecked| Doubletten verbleiben im Workflow.
  -  |Checked| Alle Doubletten werden gelöscht, wenn Sie dem "true" Zweig folgen. Ausschließlich das ausgewählte Dokument verbleibt im Workflow.
 
-LdapAuth
-""""""""
+LDAP-Authentisierung
+""""""""""""""""""""
 
 Zunächst werden Sie nach Ihrer Kennung und dem Passwort von LDAP zur
-Authentifizierungim gefragt (konfiguriert in mediaTUM.cfg). Gelingt die
+Authentifizierung im gefragt (konfiguriert in mediatum.cfg). Gelingt die
 Authentifizierung, wird der aktuelle Knoten zum Workflowschritt des
 "True"-Zweigs übermittelt. Schlägt der Login fehl, wird der Knoten zum
 Workflowschritt des "False"-Zweigs übertragen. Falls es keinen
@@ -616,8 +616,7 @@ Formulars werden entsprechend der Attributwerte des Dokuments ausgefüllt
 -  **PDF\_Form separat an Knoten anhängen:**
 
  -  |Unchecked| PDF-Formulatr wird dem Dokument vorangestellt.
- -  |Checked| PDF-Formular wird dem Knoten als Datei mit dem Typ
-   "pdf-form" angehängt
+ -  |Checked| PDF-Formular wird dem Knoten als Datei mit dem Typ "pdf-form" angehängt
    
 -  **PDF-Form überschreiben:**
 

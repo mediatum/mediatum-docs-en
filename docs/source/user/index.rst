@@ -1,33 +1,40 @@
-Anwender
-========
+Anwender-Dokumentation
+======================
+
+Die folgenden Abschnitte beschreiben Funktionalitäten von mediaTUM für die eine Registrierung und Anmeldung des Nutzers nicht notwendig ist.
 
 .. figure:: images/Recherche.png
    :alt: Recherche.png
    
-   
+
+Navigationsbaum
+---------------
+
+Auf der linken Seite befindet sich der Navigationsbaum.
+Er ist hierarchisch aufgebaut und ermöglicht den gezielten Aufruf einzelner Kollektionen.
+
 
 Suche
 -----
 
 In dem Eingabefeld links oben kann eine einfache Suche durchgeführt werden. 
-Beim Aufruf der Startseite von mediaTUM wird eine Suche im Gesamtbestand durchgeführt. 
+Beim Ausführen einer Suche auf der mediaTUM Startseite wird eine Suche im Gesamtbestand durchgeführt.
 Wechselt man in eine Kollektion oder ein Unterverzeichnis, werden nur diese Bestände durchsucht.
-Für einzelne Kollektionen kann auch eine erweiterte Suche durchgeführt werden, 
-erreichbar über den Link "Erweiterte Suche". Hier kann gezielt nach Inhalten in einzelnen 
-Felder gesucht werden: neben der Eingabe von Suchbegriffen ist eine Auswahl aus Index-Listen möglich. 
+Für einzelne Kollektionen kann auch eine erweiterte Suche durchgeführt werden, erreichbar über den Link "Erweiterte Suche".
+Hier kann gezielt nach Inhalten in einzelnen Felder gesucht werden:
+neben der Eingabe von Suchbegriffen ist eine Auswahl aus Index-Listen möglich.
 Welche Felder durchsuchbar sind, wird vom Inhaber der Kollektion festgelegt: :ref:`Suche Einrichten`.
-
 
 
 Dokumente in der Vollanzeige
 ----------------------------
 
 Nach der Auswahl in der Trefferliste wird das Dokument in der Vollansicht angezeigt. 
-Angezeigt werden die Metadaten des Dokuments, die im Bibtex-Format exportiert werden können.
+Angezeigt werden die Metadaten des Dokuments, die auch im Bibtex-Format exportiert werden können.
 Ist ein Volltext vorhanden, kann er über einen Klick auf das Thumbnail aufgerufen werden.
 
 Der Zugriff auf einen Volltext kann über IP-Adressen (z.B. campusweit) oder Benutzergruppen geregelt werden. 
-Nicht immer ist ein Volltext vorhanden, u.a. aus urheberrechtlichen Gründen. 
+Nicht immer ist ein Volltext vorhanden, z.B. aus urheberrechtlichen Gründen.
 
 
 .. _Export von Trefferlisten:
@@ -38,16 +45,12 @@ Möglichkeiten zum Export von Trefferlisten
 Allgemeine Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^^   
           
-Der Export-Link besitzt folgenden Aufbau:
+Der Export-Link besitzt folgenden Aufbau::
 
-   .. code-block:: ruby
-        
-       https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE
+    https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE
 
-       
-- **ID:** ID des Verzeichnisses, dessen Inhalt exportiert werden soll. So wird die ID ermittelt: Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.: 
-
-.. code-block:: ruby
+- **ID:** ID des Verzeichnisses, dessen Inhalt exportiert werden soll. So wird die ID ermittelt:
+  Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.::
 
       https://mediatum.ub.tum.de/604223
       
@@ -111,12 +114,13 @@ Der Export-Link besitzt folgenden Aufbau:
    https://www.typo3.tum.de/index.php?id=61&L=0
 
    
-Export im Bibtex-Format
+Export im BibTeX-Format
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code-block:: ruby
+Der Export-Link für das BibTeX-Format hat folgenden Aufbau::
 
-    https://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain   
+    http://mediatum.ub.tum.de/services/export/
+    node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain
 
 
 **ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).   
@@ -124,12 +128,10 @@ Export im Bibtex-Format
 Download als Excel-Datei
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Einen Export im Excel-Format erhält man über folgenden Link:
+Einen Export im Excel-Format erhält man über folgenden Link::
 
-
-.. code-block:: ruby
-
-        http://mediatum.ub.tum.de/services/export/node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel
+    http://mediatum.ub.tum.de/services/export/
+    node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel
 
 **ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`). 
 Das Ergebnis kann in einer Tabellenkalkulation sortiert und gefiltert werden. Eine Einschränkung 
@@ -138,16 +140,17 @@ der Treffermengen mit Suchen und die Einschränkung der angezeigten Felder sind 
 
 
 Weitere Exportmöglichkeiten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Print-Funktion
 """"""""""""""
 
+Die Print-Funktion kann über das eingeblendete Druckersymbol aufgerufen werden.
+Mit ihr können alle Einträge einer Kollektion als PDF-Dokumente exportiert werden.
+
 
 Merkliste : BibTeX-Export
 """""""""""""""""""""""""
-
-
 
 .. |MerkStern| image:: ../images/MerkLiStern.png
 
@@ -157,7 +160,7 @@ Merkliste : BibTeX-Export
 
 .. figure:: images/Trefferliste.png
    :alt: Trefferliste.png
-    
+
     
 - Auswahl des gewünschten Verzeichnisses über die Navigation, z.B. „Prof. O. Fischer“
 

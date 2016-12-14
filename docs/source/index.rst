@@ -24,7 +24,7 @@ Contents
    :maxdepth: 2
    :numbered:
 
-   introduction/introduction
+   introduction
    user/index
    editor/index
    admin/index

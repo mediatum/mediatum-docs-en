@@ -4,10 +4,8 @@ Introduction
 ============
 
 mediaTUM is an open source software product for image, document and video archiving and retrieval written in Python.
-It was originally developed in the framework of the DFG project IntegraTUM and is continuously expanded with new functionalities as required.
 
 It can be used as:
-
 
 * Repository for images and videos:
    * Supported formats: JPG, TIFF, MP4
@@ -18,8 +16,8 @@ It can be used as:
    * Zoom function for images
 
 * Document respository:
-   * Supported of different PDF file types: PDF-X, PDF-A
-   * Upload of PDF-files with support of fulltext search
+   * Support for different PDF file types: PDF-X, PDF-A
+   * Upload of PDF documents and fulltext search in their content
    * Automatic extraction of PDF-file metadata
    * Predefined metadata schemas for text-based media
 
@@ -37,10 +35,8 @@ For all these use cases you will also get:
 * A Web-API to request entries in XML or JSON format
 
 
-The source code of mediaTUM is hosted at https://github.com/mediatum/mediatum .
+The source code of mediaTUM is hosted at `github.com/mediatum <https://github.com/mediatum>`_.
 Contributions in the form of pull requests are welcome.
-
-
 
 Concepts & features
 -------------------
@@ -129,7 +125,7 @@ The API is defined by the code in `/web/services <https://github.com/mediatum/me
 
 Eamples:
 
- * with HTTPie: ``http --verify=no "https://mediatumtest.ub.tum.de:8443/services/export/node/1109402?format=json&nodetype&nodename&files"``
+ * with HTTPie: ``http --verify=no "https://mediatum.yourdomain.org/services/export/node/1109402?format=json&nodetype&nodename&files"``
 
 
 Data import

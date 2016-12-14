@@ -4,8 +4,6 @@ Editor
 Erste Schritte
 --------------
 
-
-
 .. |ErstSchri1| image:: images/ErstSchri1.jpg
 .. |ErstSchri2| image:: images/ErstSchri2.jpg
 .. |ErstSchri3| image:: images/ErstSchri3.jpg
@@ -20,14 +18,16 @@ Erste Schritte
 .. |VerschiebenEdit| image:: ../images/VerschiebenEdit.jpg
 .. |KopierenEdit| image:: ../images/KopierenEdit.jpg
 .. |LoeschenEdit| image:: ../images/LoeschenEdit.jpg
-.. |BearbeitenEdit| image:: ../images/BearbeitenEdit.jpg
 
 
+Der Editor-Bereich ermöglicht das Hochladen von Dateien, das Eintragen von Metadaten und die Publikation der
+eingestellten Datensätze innerhalb von Kollektionen und Verzeichnissen.
+Daneben sind zahlreiche weitere Funktionen verfügbar.
 
 .. figure:: ../user/images/Recherche.png
    :alt: Recherche.png
 
-
+Der Editor-Bereich ist nur angemeldeten Nutzern zugänglich.
 Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite 
 links oben auf **Login** klicken. Geben Sie Ihre Kennung sowie das 
 zugehörige Passwort ein und klicken auf **Anmelden**. Sie erkennen 
@@ -38,9 +38,6 @@ Bearbeitungsmodus zu wechseln.
 
 .. figure:: images/Edit.jpg
    :alt: Edit.jpg
-   
-   
-  
    
 
 +----------------+-----------------------------------------------------------------+
@@ -55,16 +52,11 @@ Bearbeitungsmodus zu wechseln.
 +----------------+-----------------------------------------------------------------+
 
 
-
-
-
 |ErstSchri1|
 
-Hier sehen Sie nun die Funktionen Aussehen, Metadaten editieren, Berechtigungen und
-Spezialfunktionen. Diese Funktionen stehen Ihnen zum Beispiel für das
-Bearbeiten von Objekten und Verzeichnissen zur Verfügung.	
-Auf der linken Seite des Bearbeitungsmodus können Sie in den
-Verzeichnissen von mediaTUM navigieren.
+Hier sehen Sie die Funktionen *Aussehen*, *Metadaten editieren*, *Berechtigungen* und *Spezialfunktionen*.
+Diese Funktionen stehen Ihnen für das Bearbeiten von Objekten und Verzeichnissen zur Verfügung.
+Auf der linken Seite des Bearbeitungsmodus können Sie in den Verzeichnissen von mediaTUM navigieren.
 
 
 +-----------------+------------------------------------------------------------+
@@ -78,21 +70,18 @@ Verzeichnissen von mediaTUM navigieren.
 |                 |für die Öffentlichkeit sichtbar.                            |
 +-----------------+------------------------------------------------------------+
 
-In Ihrem Arbeitsverzeichnis legen Sie die Datensätze zunächst an, bevor
-sie veröffentlicht werden. Die blaue Unterlegung zeigt an, in welchem
-Verzeichnis Sie sich im Moment befinden.
+In Ihrem Arbeitsverzeichnis legen Sie die Datensätze zunächst an, bevor sie veröffentlicht werden.
+Die blaue Unterlegung zeigt an, in welchem Verzeichnis Sie sich im Moment befinden.
 
 
 |ErstSchri4|
 
-Oben links finden Sie Symbole für eine schnellere Navigation in Ihrem
-Arbeitsverzeichnis.
+Oben links finden Sie Symbole für eine schnellere Navigation in Ihrem Arbeitsverzeichnis.
 
-Auf der rechten Bildschirmseite befindet sich der Eingabebereich. Hier
-können Sie Datensätze anlegen und bearbeiten, digitale Objekte
-hochladen, Berechtigungen vergeben usw. Dieser Bereich kann vergrößert
-werden. Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der
-Navigation auf den grauen Balken.
+Auf der rechten Bildschirmseite befindet sich der Eingabebereich.
+Hier können Sie Datensätze anlegen und bearbeiten, digitale Objekte hochladen, Berechtigungen vergeben usw.
+Dieser Bereich kann vergrößert werden.
+Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf den grauen Balken.
 
 .. figure:: images/ErstSchri5.jpg
    :alt: ErstSchri5.jpg
@@ -274,7 +263,7 @@ Bearbeite Datensatz
 ^^^^^^^^^^^^^^^^^^^
 
 Wechseln Sie zunächst in das Upload-Verzeichnis. Der Hinweis (rot hinterlegt) 
-auf die Funktion „Quick-Publisher“ erscheint und weist auf unpublizierte Objekte hin. 
+auf die Funktion *Quick-Publisher* erscheint und weist auf unpublizierte Objekte hin.
 
 .. warning::
 
@@ -299,8 +288,8 @@ editieren) auswählen.
    :alt: Bearb2.jpg
 
 
-**Ergebnis:** Die Eingabemaske für die Metadaten öffnet sich. Weitere Optionen:
- der Datensatz kann verschoben (|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
+**Ergebnis:** Die Eingabemaske für die Metadaten öffnet sich.
+Weitere Optionen: der Datensatz kann verschoben (|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
 gelöscht (|LoeschenEdit|) werden.
 
 Daten eingeben und Informationen zu Feldtypen
@@ -403,7 +392,7 @@ Verzeichnisse, die Sie zwar sehen, aber nicht bearbeiten können, werden
 grau dargestellt. Um das Zielverzeichnis auszuwählen, klicken Sie in den
 Kreis hinter dem gewünschten Verzeichnis. Bei Bedarf können Sie auch
 mehrere Verzeichnisse auswählen. Dadurch werden Kopien des Datensatzes
-angelegt, siehe :ref:`Datensätze kopieren`.
+angelegt, siehe :ref:`Datensätze einhängen <Datensätze kopieren>`.
 
 Bestätigen Sie die Auswahl anschließend mit einem Klick auf **OK**. Die
 Auswahl wird nun im Kasten neben **Publizieren** angezeigt. Klicken Sie
@@ -453,8 +442,6 @@ verschieben) aufrufen, die angezeigt wird, wenn Sie den Mauszeiger über
 den betreffenden Datensatz bewegen.
 
 .. _Datensätze kopieren:
-
-
 
 .. Datensätze in Browsingstruktur (Klassifikation) einhängen
 .. """""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -522,16 +509,15 @@ Mehrere Datensätze gleichzeitig bearbeiten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Markieren sie im Verzeichnis mehrere Datensätze und klicken Sie im oberen Navigationsbereich 
-auf das Symbol |Bearbeiten|, |Verschieben|, |Kopieren| oder |Loeschen| so gelangen Sie in die 
+auf das Symbol |BearbeitenEdit|, |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| so gelangen Sie in die
 gleichzeitige Bearbeitungsfunktion.
 
 
-Es ist möglich, mehre Datensätze zu selektieren und dann gleichzeitig zu
-bearbeiten. Wählen Sie dazu die Datensätze eines Verzeichnisses aus,
-indem Sie die **Markieren-Checkbox** der betreffenden Datensätze
-anhaken. Über das Pulldown-Menü **Markieren** können Sie auch alle
-Datensätze eines Verzeichnisses markieren, eine Auswahl invertieren oder
-aufheben.
+Es ist möglich, mehre Datensätze zu selektieren und dann gleichzeitig zu bearbeiten.
+Wählen Sie dazu die Datensätze eines Verzeichnisses aus,
+indem Sie die **Markieren-Checkbox** der betreffenden Datensätze anhaken.
+Über das Pulldown-Menü **Markieren** können Sie auch alle Datensätze eines Verzeichnisses markieren,
+eine Auswahl invertieren oder aufheben.
 
 .. figure:: images/Bearb5.jpg
    :alt: Bearb5.jpg
@@ -550,9 +536,9 @@ Pulldown-Menü **Markieren** befindet.
 
 Die selektierten Datensätze werden nun in einer Eingabemaske angezeigt.
 Ist der Inhalt eines Feldes bei allen Datensätzen identisch, wird der
-Inhalt angezeigt. Bei unterschiedlicher Feldbelegung wird ein
-Fragezeichen im Eingabefeld angezeigt. Nicht belegte Felder bleiben
-leer.
+Inhalt angezeigt.
+Bei unterschiedlicher Feldbelegung wird ein Fragezeichen im Eingabefeld angezeigt.
+Nicht belegte Felder bleiben leer.
 
 Jetzt können Sie neue Inhalte in die Felder eintragen
 :ref:`Datensatz bearbeiten`, diese werden dann in alle
@@ -566,8 +552,6 @@ Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
 
     Bitte beachten Sie, dass nur Datensätze eines Metadatenschemas
     gleichzeitig bearbeitet werden können.
-
-
 
 
 .. FTP-Daten verarbeiten
@@ -604,7 +588,6 @@ neue Ordner mit dem Namen **Neuer Ordner** angelegt.
    :alt: VerzeichnisBearb2.jpg
 
 
-   
 
 Verzeichnisse bearbeiten
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -712,7 +695,7 @@ Metadaten editieren > Suchmaske
 Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
 
 #. Keine Suchmaske
-    Wird hier "keine Suchmaske" ausgewählt, wird in der Recherche
+    Wird hier *keine Suchmaske* ausgewählt, wird in der Recherche
     ausschließlich die einfache Suche angeboten.
 
 #. Vererbt von Elternobjekt
@@ -720,18 +703,18 @@ Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
     hierarchisch höheren Elements vererbt, also identisch übernommen.
 
 #. Eigene Suchmaske
-    Eine eigene Suchmaske kann nur für Kollektionen eingerichtet werden. Es
-    wird eine erweiterte Suche angeboten, in der nach unterschiedlichen
-    Feldern gesucht werden kann. Diese Felder können mit dem Anklicken von
-    "Neues Feld erzeugen" neu erstellt werden. Das Bearbeiten erfolgt mit
-    dem "Plus"-Zeichen. Es kann eine Bezeichnung ausgewählt werden, die
+    Eine eigene Suchmaske kann nur für Kollektionen eingerichtet werden.
+    Es wird eine erweiterte Suche angeboten, in der nach unterschiedlichen
+    Feldern gesucht werden kann.
+    Diese Felder können mit dem Anklicken von *Neues Feld erzeugen* neu erstellt werden.
+    Das Bearbeiten erfolgt mit dem *plus*-Zeichen. Es kann eine Bezeichnung ausgewählt werden, die
     anschließend im Dropdown-Menü der erweiterten Suche auftaucht.
 
     .. figure:: images/Suchfeld2.jpg
        :alt: Suchfeld2.jpg
 
 
-    In dem Feld "Folgende Felder werden durchsucht" wird das Metadatenschema
+    In dem Feld *Folgende Felder werden durchsucht* wird das Metadatenschema
     ausgewählt und anschließend das zu durchsuchende Feld angegeben.
 
 
@@ -743,7 +726,7 @@ Rechteverwaltung für Dokumente und Verzeichnisse
 
 Sie können die Berechtigungen auf einzelne Dokumente oder bestimmte Verzeichnisse separat einstellen.
 Ordnen Sie die Gewünschten Berechtigungen zu, indem Sie das Dokument oder Verzeichnis auswählen und
-anschließend unter "Berechtigungen" > "Rechtevergabe" auswählen. 
+anschließend unter *Berechtigungen* > *Rechtevergabe* auswählen.
 
 Dort finden Sie drei unterschiedliche Berechtigungsformen: sehen, bearbeiten, herunterladen. 
 
