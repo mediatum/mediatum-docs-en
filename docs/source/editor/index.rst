@@ -734,6 +734,57 @@ Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
     In dem Feld "Folgende Felder werden durchsucht" wird das Metadatenschema
     ausgewählt und anschließend das zu durchsuchende Feld angegeben.
 
+
+    
+.. _Grundlegende Rechtevergabe:   
+
+Rechteverwaltung für Dokumente und Verzeichnisse
+------------------------------------------------
+
+Sie können die Berechtigungen auf einzelne Dokumente oder bestimmte Verzeichnisse separat einstellen.
+Ordnen Sie die Gewünschten Berechtigungen zu, indem Sie das Dokument oder Verzeichnis auswählen und
+anschließend unter "Berechtigungen" > "Rechtevergabe" auswählen. 
+
+Dort finden Sie drei unterschiedliche Berechtigungsformen: sehen, bearbeiten, herunterladen. 
+
+
+.. figure::    images/RechtevergabeEditor.png
+   :alt:    RechtevergabeEditor.png
+     
+
+Diese können unabhängig voneinander Gruppen zugeordnet werden. Links sehen Sie, welche Gruppen den unterschiedlichen 
+Kategorien zugeordnet wurden. Diese werden vom Überordner eines Verzeichnisses oder vom Verzeichnis eines 
+Dokuments weitervererbt und damit automatisch voreingestellt.
+Diese Werte können überschrieben werden, mit entsprechenden Gruppen: :ref:`Rechtevergabe Gruppenebene`. Als
+Admin können  Rechte auch für einzelne Nutzer zugeordnet werden: :ref:`Rechtevergabe Admin`.  
+
+Des Weiteren erscheint auf der rechten Seite eine Liste aller vorhandener Gruppen bzw. Benutzern. Diese
+kann mithilfe des Filters für Listeneinträge schneller durchsucht werden. Tragen Sie in das Feld Ihre 
+Suchanfrage ein, und es werden umgehen nur Listeneinträge angezeigt, welche die Eingabe enthalten.
+Wählen Sie Ihren Treffer aus, indem Sie ihn einmal anklicken und anschließend mit << nach Links verschieben
+oder indem Sie Ihn doppelt anklicken.
+
+
+.. _Rechtevergabe Gruppenebene:
+
+Rechtevergabe auf Gruppenebene
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Um eine Gruppe als berechtigt hinzuzufügen, suchen Sie die Gruppe in der rechten Liste und schieben Sie 
+diese nach links. Nach dem Abspeichern wird diese Berechtigung aktiviert.
+
+
+.. figure::    images/RechtevergabeEditor.png
+   :alt:     RechtevergabeEditor.png
+   
+  
+Möchten Sie die Vererbten Berechtigungen entziehen, müssen Sie die Regel "Nicht_Benutzergruppe" nach 
+links verschieben und anschließend speichern, damit das vererbte Recht entzogen wird.
+
+Weitere Informationen für Admins: :ref:`Rechtevergabe Admin`.
+   
+    
+    
     
 Sonstiges
 ---------

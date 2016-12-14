@@ -498,6 +498,46 @@ Es gibt unterschiedliche Feldtypen:
 * **Speichern:** Nach dem Speichern der Änderungen gelangen Sie in die Übersicht der Maske.
 
 
+
+.. _Rechtevergabe Admin:
+
+Rechteverwaltung für Dokumente und Verzeichnisse
+------------------------------------------------
+
+Grundinformationen sind zu finden unter :ref:`Grundlegende Rechtevergabe`. 
+
+
+Besonderheiten auf Gruppenebene:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Grundinformationen sind zu finden unter :ref:`Rechtevergabe Gruppenebene`.
+
+Wurde eine Gruppenregel "Nicht Jeder" erzeugt, kann diese dazu benutzt werden, 
+alle zugeordneten Berechtigungen für ein Verzeichnis oder Dokument auf einmal zu entziehen.
+Ordnen Sie die Gruppe "Nicht jeder" zur linken Seite zu und speichern Sie diese ab, es werden alle 
+Benutzergruppen entfernt. Nur noch Administratoren können nun wieder eine gewünschte Gruppe zuordnen.
+Wenn dies durch Editoren durchgeführt wird, haben diese sich selbst z.B. die Rechte zur Bearbeitung
+entzogen und können in Folge dessen keine Berechtigungen mehr verwalten.
+
+
+
+
+Rechtevergaben auf Benutzerebene:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Wie auch bei der Vergabe von Rechten für bestimmte Gruppen, kann dies auch auf Ebene von einzelnen
+Nutzern erfolgen. Dabei werden alle Nutzer die in mediaTUM registriert sind in der Liste aufgeführt. 
+Suchen Sie die Nutzer heraus und ordnen Sie diese wie gewünscht den einzelnen Berechtigungen (sehen,
+bearbeiten, herunterladen) zu und speichern Sie dies ab.
+Diese Verteiltung von Rechten erfolgt unabhängig der Gruppenrechte. Auch Rechte der Benutzerebene 
+können weitervererbt werden.
+
+.. figure:: images/RechtevergabeBenutzerebene.png
+	:alt: 	RechtevergabeBenutzerebene.png
+
+    
+    
+
 .. |BenutzerAuge| image:: images/BenutzerAuge.jpg
 .. |BenutzerStift| image:: images/BenutzerStift.jpg
 .. |GruppeCreate| image:: images/GruppeCreate.jpg
