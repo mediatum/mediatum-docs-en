@@ -337,14 +337,14 @@ Möglichkeiten zum Export von Trefferlisten
 Allgemeine Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^^   
           
-Der Export-Link besitzt folgenden Aufbau::
+Der Export-Link besitzt folgenden Aufbau:
 
-    https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE
+``https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE``
 
 - **ID:** ID des Verzeichnisses, dessen Inhalt exportiert werden soll. So wird die ID ermittelt:
-  Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.::
+  Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.:
 
-      https://mediatum.ub.tum.de/604223
+  ``https://mediatum.ub.tum.de/604223``
       
       
 - **Hierarchie:** Was wird ausgegeben?
@@ -410,10 +410,9 @@ Der Export-Link besitzt folgenden Aufbau::
 Download als Excel-Datei
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Einen Export im Excel-Format erhält man über folgenden Link::
+Einen Export im Excel-Format erhält man über folgenden Link:
 
-    http://mediatum.ub.tum.de/services/export/
-    node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel
+``http://mediatum.ub.tum.de/services/export/node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
 
 **ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`). 
 Das Ergebnis kann in einer Tabellenkalkulation sortiert und gefiltert werden. Eine Einschränkung 
@@ -426,10 +425,9 @@ BibTeX-Export
 Export im BibTeX-Format
 """""""""""""""""""""""
 
-Der Export-Link für das BibTeX-Format hat folgenden Aufbau::
+Der Export-Link für das BibTeX-Format hat folgenden Aufbau:
 
-    http://mediatum.ub.tum.de/services/export/
-    node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain
+``http://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain``
 
 
 **ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).
