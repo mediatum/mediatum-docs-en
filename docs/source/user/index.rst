@@ -37,6 +37,12 @@ Der Zugriff auf einen Volltext kann über IP-Adressen (z.B. campusweit) oder Ben
 Nicht immer ist ein Volltext vorhanden, z.B. aus urheberrechtlichen Gründen.
 
 
+Publikationsliste
+-----------------
+
+
+
+
 .. _Export von Trefferlisten:
 
 Möglichkeiten zum Export von Trefferlisten
@@ -113,17 +119,7 @@ Der Export-Link besitzt folgenden Aufbau::
 -  Zu Publikationslisten, mit mediaTUM als Quelle:
    https://www.typo3.tum.de/index.php?id=61&L=0
 
-   
-Export im BibTeX-Format
-^^^^^^^^^^^^^^^^^^^^^^^
 
-Der Export-Link für das BibTeX-Format hat folgenden Aufbau::
-
-    http://mediatum.ub.tum.de/services/export/
-    node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain
-
-
-**ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).   
    
 Download als Excel-Datei
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -138,19 +134,24 @@ Das Ergebnis kann in einer Tabellenkalkulation sortiert und gefiltert werden. Ei
 der Treffermengen mit Suchen und die Einschränkung der angezeigten Felder sind nicht möglich. 
 
 
+BibTeX-Export
+^^^^^^^^^^^^^
 
-Weitere Exportmöglichkeiten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Export im BibTeX-Format
+"""""""""""""""""""""""
 
-Print-Funktion
-""""""""""""""
+Der Export-Link für das BibTeX-Format hat folgenden Aufbau::
 
-Die Print-Funktion kann über das eingeblendete Druckersymbol aufgerufen werden.
-Mit ihr können alle Einträge einer Kollektion als PDF-Dokumente exportiert werden.
+    http://mediatum.ub.tum.de/services/export/
+    node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain
 
 
-Merkliste : BibTeX-Export
-"""""""""""""""""""""""""
+**ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).
+
+
+
+Merkliste : Download im BibTeX-Format
+"""""""""""""""""""""""""""""""""""""
 
 .. |MerkStern| image:: ../images/MerkLiStern.png
 
@@ -199,3 +200,10 @@ Merkliste : BibTeX-Export
 
 .. figure:: images/Export.png
    :alt: Export.png
+
+
+Print-Funktion
+^^^^^^^^^^^^^^
+
+Die Print-Funktion kann über das eingeblendete Druckersymbol aufgerufen werden.
+Mit ihr können alle Einträge einer Kollektion als PDF-Dokumente exportiert werden.
