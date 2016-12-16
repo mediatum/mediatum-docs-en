@@ -37,9 +37,295 @@ Der Zugriff auf einen Volltext kann über IP-Adressen (z.B. campusweit) oder Ben
 Nicht immer ist ein Volltext vorhanden, z.B. aus urheberrechtlichen Gründen.
 
 
+
+.. _Publikationsliste:
+
 Publikationsliste
 -----------------
 
+Publikationslisten sind Listen, die mit mediaTUM erzeugt werden und die Sie auf Ihrer Homepage einbauen können.
+Sie können Kollektionen und beliebige Verzeichnisse oder Abfragen zu einem Bereich ausgeben lassen.
+Die einzige Voraussetzung ist, dass die Dokumente sichtbar sein müssen.
+Sie können die Liste mit JavaScript oder das Typo3 Plugin CurlContent erzeugen.
+
+Java Script
+^^^^^^^^^^^
+Mit dem JavaScript-Export können Sie Publikationslisten auf Ihrer Lehrstuhl-Homepage anlegen.
+
+Einstieg
+""""""""
+Mit dem JavaScript-Export können Sie Publikationslisten auf Ihre Lehrstuhl-Homepage anlegen.
+
+**So ermitteln Sie die ID Ihres Lehrstuhl-Verzeichnisses:**
+
+Rufen Sie das Verzeichnis über die Browsing-Struktur auf.
+In der Adresszeile des Browsers finden Sie die gesuchte ID, s. Screenshot.
+Im Beispiel unten handelt es sich um die ID 604223 (Verzeichnis der Universitätsbibliothek).
+
+.. figure:: images/IDErmitteln.png
+   :alt: IDErmitteln.png
+
+Alternativ finden Sie die ID auch im Edit-Bereich, nachdem Sie Ihren Lehrstuhl ausgewählt haben.
+
+.. figure:: images/IDErmittelnEditor.png
+   :alt: IDErmittelnEditor.png
+
+Ein einfaches Code-Beispiel:
+
+::
+
+    <script type="text/javascript" language="javascript"
+    src="https://mediatum.ub.tum.de/js/export.js"> </script>
+
+    <script type="text/javascript">
+        mediatum_config = {
+        };
+    </script>
+    <script type="text/javascript">
+        mediatum_load(615843, 0, '-year','', '', 'de');
+    </script>
+
+
+Kopieren Sie den Text in eine HTML-Seite Ihrer TYPO3-Instanz und tauschen Sie die ID 615843 durch die ID des gewünschten Verzeichnisses aus.
+
+Auf der Webseite wird dann eine Publikationsliste angezeigt:
+
+.. figure:: images/PubLiAusg.png
+   :alt: PubLiAusg.png
+
+
+Anpassungen der Publikationsliste
+"""""""""""""""""""""""""""""""""
+
+**mediatum_load**
+Mit *mediatum_load* können Sie festlegen, welche Inhalte in der Publikationsliste angezeigt werden.
+Die Zeile *mediatum_load* ist wie folgt aufgebaut: *mediatum_load(id, limit, sort, query, format, language);*
+
+Syntax: ``mediatum_load(id, limit,’ sort’, ‘query’, ‘format’, ‘language’);``
+
+Die einzelnen Werte werden mit Komma voneinander dargestellt.
+Der Inhalt der Felder ist in folgender Tabelle beschrieben:
+
+
++----------------+----------------------------------------------------------------------------+
+|id              |ID des Verzeichnisses, dessen Inhalt angezeigt werden soll.                 |
++----------------+----------------------------------------------------------------------------+
+|limit           |Begrenzt die Anzahl der angezeigten Dokumente;                              |
+|                |0 bedeutet, dass alle Dokumente angezeigt werden sollen.                    |
++----------------+----------------------------------------------------------------------------+
+|sort            |Sortierung der Trefferliste nach dem Inhalt eines bestimmten Feldes.        |
+|                |Ein Minuszeichen vor dem Feldnamen dreht die Reichenfolge um.               |
+|                |Beispiel: year für Jahr.                                                    |
+|                |Absteigende Sortierung: -year                                               |
+|                |Aufsteigende Sortierung: year                                               |
++----------------+----------------------------------------------------------------------------+
+|query           |Hier kann eine Suche hinterlegt werden, die das Suchergebnis einschränkt    |
+|                |(z.B. ein Autorenname, so dass die Publikationsliste eines Autors entsteht) |
+|                |z.B. year<=2013 oder author-contrib=Meier                                   |
++----------------+----------------------------------------------------------------------------+
+|format          |Bleibt leer                                                                 |
++----------------+----------------------------------------------------------------------------+
+|language        |Sprache (de oder en)                                                        |
++----------------+----------------------------------------------------------------------------+
+
+
+**mediatum_config**
+
+Mit mediatum_config können Sie weitere Einstellungen vornehmen.
+Im Beispiel oben ist mediatum_config leer, es werden die Grundeinstellungen verwendet.
+
+Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-Format ist das APA-Format defniert.
+
+::
+
+    'output': 'default'
+    'output': 'apa'
+
+#. Feldinhalte anzeigen
+    Sie können festlegen, welche einzelnen Felder angezeigt werden.
+    Die Darstellung der Felder können Sie ebenfalls beeinflussen.
+
+    ::
+
+        <script type="text/javascript" language="javascript"
+        src="https://mediatum.ub.tum.de/js/export.js"> </script>
+        <script type="text/javascript">
+            mediatum_config = {
+                'fields0':['<small style="color:red">[att:pos]</small>',
+                           '[att:author-contrib]',
+                           '<b>[att:title-contrib]</b>',
+                           '[att:year|substring:0,4]'
+                ],
+            };
+        </script>
+        <script type="text/javascript">
+            mediatum_load(615843, 0, '-year','', '', 'de');
+        </script>
+
+    Ergebnis:
+
+    .. figure:: images/FelderAuswahl.png
+        :alt: FelderAuswahl.png
+
+    Die Feldanzeige wird mit *fields0* festgelegt.
+    Hinter *att:* wird der Name des Feldes angegeben, dessen Inhalt angezeigt werden soll.
+    Mit HTML-Tags kann der Inhalt zusätzlich ausgezeichnet werden, z.B. <b></b> für eine fette Formatierung.
+    Der allgemeine Aufbau von *fields* lautet:
+
+    ::
+
+        'fields0':['<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
+                   '<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
+                   '<HTML-Tag>[att:Name des Feldes]</HTML-Tag'
+        ],
+
+    Auf einer Webseite können mehrere Publikationslisten angezeigt werden.
+    Mit *fields0, fields1, fields2* usw. können Sie verschiedene Darstellungen definieren.
+    *fields0* kennzeichnet die erste Liste, *fields1* die zweite Liste usw.
+    Für die Festlegung müssen Sie die Namen der Felder in mediaTUM kennen.
+
+    .. warning::
+
+        Für Admins: Die Feldnamen sind abhängig von eingerichteten :ref:`Sortieren` und können
+        dort mit Adminrechten auch ermittelt werden.
+
+    Wenn Sie weitere Felder in die Publikationsliste einbinden möchten, können Sie diese Feldnamen am einfachsten ermitteln, indem Sie einzelne Dokumente im XML-Format aufrufen. Dafür müssen Sie nur die ID des Dokuments angegeben:
+    Beispiel: ``https://mediatum.ub.tum.de/services/export/node/1225127``
+    Die Feldnamen finden Sie jeweils hinter der Bezeichnung ``<attribute name=…``
+
+#. Navigationselemente
+
+    Mit *type* kann eine Navigation und ein Suchfeld eingebunden werden.
+    In der Navigation erscheinen die Unterverzeichnisse des Verzeichnisses.
+    Mit *asc* und *desc* können sie alphabetisch (vorwärts und rückwärts) sortiert werden.
+    *search* bindet ein Suchfeld ein.
+
+    Der allgemeine Aufbau von type lautet:
+
+    ``'type0':['struct','search','asc'],``
+
+    Beispiel:
+
+    ::
+
+        <script type="text/javascript" language="javascript"
+        src="https://mediatum.ub.tum.de/js/export.js"> </script>
+        <script type="text/javascript">
+            mediatum_config = {
+                'fields0':['<small style="color:red">[att:pos]</small>',
+                           '[att:author-contrib]', '<b>[att:title-contrib]</b>',
+                           '[att:year|substring:0,4]' ],
+                           'type0':['struct','search','asc'],
+                };
+        </script>
+        <script type="text/javascript">
+            mediatum_load(615843, 0, '-year','', '', 'de');
+        </script>
+
+
+    .. figure:: images/Navigationselemente.png
+        :alt: Navigationselemente.png
+
+
+    Feldtrenner: Die Feldinhalte sind standardmäßig durch einen Zeilenumbruch voneinander getrennt.
+
+#. Zusätzliche Definitionen
+
+    ::
+
+        <script type="text/javascript" language="javascript"
+        src="https://mediatum.ub.tum.de/js/export.js"> </script>
+        <script type="text/javascript">
+            mediatum_config = {
+                'fields0':['<small style="color:red">[att:pos]</small>',
+                           '[att:author-contrib]', '<b>[att:title-contrib]</b>',
+                           '[att:year|substring:0,4]' ],
+                           'type0':['struct','search','asc'],
+                           'target':'internal',
+                           'style':'0',
+                           'output':'apa',
+                           'groupby':'year',
+            };
+        </script>
+        <script type="text/javascript">
+            mediatum_load(615843, 0, '-year','', '', 'de');
+        </script>
+
+    Target: Internal: im selben Fenster Öffnen / External: ein weiteres Fenster wird geöffnet
+
+
+    Style "1" (Default): Treffer der Liste werden mit Rahmen dargestellt.
+                                          |
+    .. figure:: images/MitRahmen.png
+        :alt: MitRahmen.png
+
+
+    Style "0": Treffer werden ohne Rahmen dargestellt.
+
+    .. figure:: images/OhneRahmen.png
+         :alt: OhneRahmen.png
+
+    - Output: Gewünschtes Format wird ausgegeben: Apa, BibTex, etc. Je nachdem welche Masken für die Ausgabe verfügbar sind.
+
+    - Groupby: Frei wählbare Grouppierungen können eingerichtet werden, z.B. nach Jahr:
+
+      - ``'groupby': 'year|substring:0,4',``
+
+    - Hierbei ist die vorgegebene Sortierung von mediatum_load von Bedeutung:
+
+      - ``mediatum_load(615843, 0, 'year','', '', '');``
+
+    - -year: oben Neuerscheinungen, year: oben älteste Einträge und unten Neuererscheinungen
+
+#. Was ist noch zu beachten?
+
+    Der JavaScript-Export liefert CSS-Anweisungen mit.
+
+    ::
+
+        <style type="text/css">
+        .mediatum #item{padding:2px; margin:2px; border: 1px solid silver;}
+        .mediatum #item_link{text-decoration:none; color:black;}
+        </style>
+
+    Diese können mit eigenen CSS-Anweisungen überschrieben werden.
+
+    Beispiel:
+
+    ::
+
+        <style>
+            .mediatum__{font-family: arial,verdana,sans-serif; font-size: 12px;
+            padding:0 40px}
+            .mediatum #item__{padding:2px; margin:2px; border-width:0 !important}
+            .mediatum #item_link__{text-decoration:none; color:black}
+
+            h1{font-size:14px}
+            .navigation{padding:5px}
+            .search{font-size:12px;padding:5px}
+            .content{height:400px;overflow:auto}
+            .dl{position:absolute;bottom:0}
+            .mediatum #item{padding:2px; margin:2px; border:0 solid black !important}
+            #groupby_header{font-weight: bold;}
+
+            span.journal{font-style:italic}
+            span.volume{font-style:italic}
+            span.booktitle{font-style:italic}
+            span.reporttitle{font-style:italic}
+            span.casetitle{font-style:italic}
+            span.patentnumber{font-style:italic}
+            </style>
+
+    In die Publikationslisten werden nur Einträge aufgenommen mit „Jeder“-Berechtigung.
+
+    Weiere Informationen finden Sie unter: http://wiki.ub.tum.de/mediatum_dev/index.php5/Mediatum_dev:JavaScriptExport
+
+
+
+Curl Content
+^^^^^^^^^^^^
+
+https://www.typo3.tum.de/index.php?id=118&L=0
 
 
 
@@ -103,7 +389,7 @@ Der Export-Link besitzt folgenden Aufbau::
     - ``mask=none``: keine Ausgabe
     - ``mask=default`` oder ``mask=nodesmall``: Kurzanzeige (nodesmall)
     - ``mask=bibtex``: Ausgabe im Bibtex-Format
-    - ``mask=apa``: Ausgabe im APA-Format 
+    - ``mask=apa``: Ausgabe im APA-Format
     
 - Angezeigte Felder auswählen (beim JSON-Format) mit ``attrspec=[...]`` und ``attrlist=[...]``
 

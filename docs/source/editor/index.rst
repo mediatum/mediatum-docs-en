@@ -772,6 +772,11 @@ Weitere Informationen für Admins: :ref:`Rechtevergabe Admin`.
 Sonstiges
 ---------
 
+**Publikationsliste**
+
+Lassen Sie automatisch auf Ihrer Homepage den aktuellen Inhalt Ihrer Verzeichnisse auf Ihrer Homepage darstellen.
+MehrInformationen finden Sie unter :ref:`Publikationsliste`.
+
 **Papierkorb leeren** |Papierkorb|
 
 Wenn Datensätze oder Verzeichnisse gelöscht werden, werden sie zunächst
