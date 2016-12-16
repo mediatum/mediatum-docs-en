@@ -501,8 +501,8 @@ Es gibt unterschiedliche Feldtypen:
 
 .. _Rechtevergabe Admin:
 
-Rechteverwaltung für Dokumente und Verzeichnisse
-------------------------------------------------
+Rechteverwaltung
+----------------
 
 Grundinformationen sind zu finden unter :ref:`Grundlegende Rechtevergabe`. 
 

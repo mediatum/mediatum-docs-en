@@ -331,8 +331,8 @@ https://www.typo3.tum.de/index.php?id=118&L=0
 
 .. _Export von Trefferlisten:
 
-Möglichkeiten zum Export von Trefferlisten
-------------------------------------------
+Export von Trefferlisten
+------------------------
 
 Allgemeine Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^^   

@@ -721,8 +721,8 @@ Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
     
 .. _Grundlegende Rechtevergabe:   
 
-Rechteverwaltung für Dokumente und Verzeichnisse
-------------------------------------------------
+Rechteverwaltung
+----------------
 
 Sie können die Berechtigungen auf einzelne Dokumente oder bestimmte Verzeichnisse separat einstellen.
 Ordnen Sie die Gewünschten Berechtigungen zu, indem Sie das Dokument oder Verzeichnis auswählen und
