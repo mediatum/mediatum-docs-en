@@ -129,7 +129,7 @@ html_theme_options = { # for alabaster
     'github_user': 'mediatum',
     'github_repo': 'mediatum',
     'show_powered_by': False,
-    'sidebar_width': '20em',
+    'sidebar_width': '16em',
     'page_width': '70em',
     'fixed_sidebar': True, # only in ver 0.7.8 (May 2016)
     'extra_nav_links': {'mediatum.github.io': 'http://mediatum.github.io',
