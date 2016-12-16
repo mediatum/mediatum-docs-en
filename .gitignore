@@ -1,3 +1,5 @@
 *.pyc
 .settings/
 docs/build
+
+.idea
