@@ -129,7 +129,8 @@ html_theme_options = { # for alabaster
     'github_user': 'mediatum',
     'github_repo': 'mediatum',
     'show_powered_by': False,
-    'sidebar_width': '12em',
+    'sidebar_width': '20em',
+    'page_width': '90em',
     'fixed_sidebar': True, # only in ver 0.7.8 (May 2016)
     'extra_nav_links': {'mediatum.github.io': 'http://mediatum.github.io',
                         'github.com/mediatum': 'https:/github.com/mediatum',
@@ -255,8 +256,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'mediatum.tex', 'mediatum Documentation',
-     'mediatum authors', 'manual'),
+    (master_doc, 'mediatum.tex', 'mediaTUM Documentation',
+     'mediaTUM authors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -285,7 +286,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'mediatum', 'mediatum Documentation',
+    (master_doc, 'mediaTUM', 'mediaTUM Documentation',
      [author], 1)
 ]
 
@@ -299,8 +300,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'mediatum', 'mediatum Documentation',
-     author, 'mediatum', 'One line description of project.',
+    (master_doc, 'mediaTUM', 'mediaTUM Documentation',
+     author, 'mediaTUM Team', 'One line description of project.',
      'Miscellaneous'),
 ]
 
