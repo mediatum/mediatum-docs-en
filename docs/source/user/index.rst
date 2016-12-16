@@ -72,7 +72,7 @@ Alternativ finden Sie die ID auch im Edit-Bereich, nachdem Sie Ihren Lehrstuhl a
 
 Ein einfaches Code-Beispiel:
 
-::
+.. code:: javascript
 
     <script type="text/javascript" language="javascript"
     src="https://mediatum.ub.tum.de/js/export.js"> </script>
@@ -145,7 +145,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
     Sie können festlegen, welche einzelnen Felder angezeigt werden.
     Die Darstellung der Felder können Sie ebenfalls beeinflussen.
 
-    ::
+    .. code:: javascript
 
         <script type="text/javascript" language="javascript"
         src="https://mediatum.ub.tum.de/js/export.js"> </script>
@@ -172,7 +172,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
     Mit HTML-Tags kann der Inhalt zusätzlich ausgezeichnet werden, z.B. <b></b> für eine fette Formatierung.
     Der allgemeine Aufbau von *fields* lautet:
 
-    ::
+    .. code:: javascript
 
         'fields0':['<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
                    '<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
@@ -206,7 +206,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     Beispiel:
 
-    ::
+    .. code:: javascript
 
         <script type="text/javascript" language="javascript"
         src="https://mediatum.ub.tum.de/js/export.js"> </script>
@@ -231,7 +231,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
 #. Zusätzliche Definitionen
 
-    ::
+    .. code:: javascript
 
         <script type="text/javascript" language="javascript"
         src="https://mediatum.ub.tum.de/js/export.js"> </script>
@@ -281,7 +281,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     Der JavaScript-Export liefert CSS-Anweisungen mit.
 
-    ::
+    .. code:: css
 
         <style type="text/css">
         .mediatum #item{padding:2px; margin:2px; border: 1px solid silver;}
@@ -292,7 +292,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     Beispiel:
 
-    ::
+    .. code:: css
 
         <style>
             .mediatum__{font-family: arial,verdana,sans-serif; font-size: 12px;
