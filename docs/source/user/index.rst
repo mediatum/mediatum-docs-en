@@ -447,57 +447,57 @@ Der Export-Link für das BibTeX-Format hat folgenden Aufbau:
 **ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).
 
 
+..
+    Merkliste : Download im BibTeX-Format
+    """""""""""""""""""""""""""""""""""""
 
-Merkliste : Download im BibTeX-Format
-"""""""""""""""""""""""""""""""""""""
+    .. |MerkStern| image:: ../images/MerkLiStern.png
 
-.. |MerkStern| image:: ../images/MerkLiStern.png
+    .. |ObjekteMarkieren| image:: images/ObjekteMarkieren.png
 
-.. |ObjekteMarkieren| image:: images/ObjekteMarkieren.png
+    - Aufruf eines beliebigen Verzeichnisses.
 
-- Aufruf eines beliebigen Verzeichnisses.
-
-.. figure:: images/Trefferliste.png
-   :alt: Trefferliste.png
-
-    
-- Auswahl des gewünschten Verzeichnisses über die Navigation, z.B. „Prof. O. Fischer“
+    .. figure:: images/Trefferliste.png
+       :alt: Trefferliste.png
 
 
-.. figure:: images/Auswahl.png
-   :alt: Auswahl.png
-   
-   
-- In der Anzeige werden standardmäßig nur neun Treffer angezeigt. Den Link „alle anzeigen“ anklicken, um eine vollständige Trefferliste zu erhalten.
-- Auf das Symbol |MerkStern| oberhalb der Trefferliste klicken („Aufgelistete Objekte in die Merkliste hinzufügen“).
+    - Auswahl des gewünschten Verzeichnisses über die Navigation, z.B. „Prof. O. Fischer“
 
 
-.. figure:: images/Hinzufügen.png
-   :alt: Hinzufügen.png
-   
-   
-- Es erscheint die Meldung, dass die Dokumente der Merkliste hinzugefügt wurden.
+    .. figure:: images/Auswahl.png
+       :alt: Auswahl.png
 
 
-.. figure:: images/Meldung.png
-   :alt: Meldung.png
-   
-- Klickt man auf das Merklisten-Symbol |MerkStern|, wird der Inhalt der Merkliste angezeigt.
+    - In der Anzeige werden standardmäßig nur neun Treffer angezeigt. Den Link „alle anzeigen“ anklicken, um eine vollständige Trefferliste zu erhalten.
+    - Auf das Symbol |MerkStern| oberhalb der Trefferliste klicken („Aufgelistete Objekte in die Merkliste hinzufügen“).
 
 
-.. figure:: images/MerklisteAnzeigen.png
-   :alt: MerklisteAnzeigen.png
-   
-   
-.. figure:: images/MerklisteInhalt.png
-   :alt: MerklisteInhalt.png
-   
-   
-- Nachdem alle Objekte über den Button |ObjekteMarkieren| markiert worden sind, öffnet man über den Link „Export…“ das Export-Menü. Nach einem Klick auf das bibtex-Symbol wird der gewünschte Bibtex-Export gestartet. Die bibtex-Datei kann nun weiterverarbeitet werden.   
+    .. figure:: images/Hinzufügen.png
+       :alt: Hinzufügen.png
 
 
-.. figure:: images/Export.png
-   :alt: Export.png
+    - Es erscheint die Meldung, dass die Dokumente der Merkliste hinzugefügt wurden.
+
+
+    .. figure:: images/Meldung.png
+       :alt: Meldung.png
+
+    - Klickt man auf das Merklisten-Symbol |MerkStern|, wird der Inhalt der Merkliste angezeigt.
+
+
+    .. figure:: images/MerklisteAnzeigen.png
+       :alt: MerklisteAnzeigen.png
+
+
+    .. figure:: images/MerklisteInhalt.png
+       :alt: MerklisteInhalt.png
+
+
+    - Nachdem alle Objekte über den Button |ObjekteMarkieren| markiert worden sind, öffnet man über den Link „Export…“ das Export-Menü. Nach einem Klick auf das bibtex-Symbol wird der gewünschte Bibtex-Export gestartet. Die bibtex-Datei kann nun weiterverarbeitet werden.
+
+
+    .. figure:: images/Export.png
+       :alt: Export.png
 
 
 Print-Funktion
