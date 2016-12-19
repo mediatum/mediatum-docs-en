@@ -413,6 +413,17 @@ aufrufen, die ID steht in der rechten oberen Ecke.
 
 
 
+Creative Commons Lizenz vergeben
+""""""""""""""""""""""""""""""""
+
+In der Eingabemaske für die Metadaten eines Objekts ist auch das Feld “CC-Lizenz” enthalten.
+Über ein Dropdown-Menü kann die gewünschte Lizenz ausgewählt werden.
+Die Lizenz wird dann bei der Anzeige der Metadaten eingebunden.
+Das CC-Icon ist mit weiteren Informationen zur Lizenz verlinkt.
+
+Weitere Informationen zu Creative Commons Lizenzen können Sie diesem Dokument entnehmen: https://mediatum.ub.tum.de/1289704
+
+
 
 .. _Datensätze verschieben:
 
