@@ -38,6 +38,14 @@ Nicht immer ist ein Volltext vorhanden, z.B. aus urheberrechtlichen Gründen.
 
 
 
+Permalinks
+----------
+
+Einen Permalink - also ein dauerhafter Link - zu einem aufgerufenen Datensatz erhält man über den Link "Dauerhafter Link zum angezeigten Objekt".
+Der Permalink mit dem Schema ``https://mediatum.ub.tum.de/<DokumentID>`` wird dann in der Adresszeile des Browsers angezeigt.
+
+
+
 .. _Publikationsliste:
 
 Publikationsliste
