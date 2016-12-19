@@ -412,11 +412,17 @@ Download als Excel-Datei
 
 Einen Export im Excel-Format erhält man über folgenden Link:
 
-``http://mediatum.ub.tum.de/services/export/node/ID/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
+``http://mediatum.ub.tum.de/services/export/node/<ID>/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
 
-**ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`). 
-Das Ergebnis kann in einer Tabellenkalkulation sortiert und gefiltert werden. Eine Einschränkung 
-der Treffermengen mit Suchen und die Einschränkung der angezeigten Felder sind nicht möglich. 
+Mit allchildren werden alle Kindelemente angezeigt, Vgl. (:ref:`Export von Trefferlisten`).
+Eine Einschränkung mit Suchanfragen ist möglich.
+Es werden alle Felder der Ergebnismenge angezeigt, eine Einschränkung der Spalten ist nicht möglich.
+
+Beispiel mit Sucheinschränkung:
+
+``https://mediatum.ub.tum.de/services/export/node/1175037/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel&sortfield=author&attrreg=author=.*sch.*&q=schema=dt-report``
+
+
 
 
 BibTeX-Export
