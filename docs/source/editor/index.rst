@@ -24,8 +24,8 @@ Der Editor-Bereich ermöglicht das Hochladen von Dateien, das Eintragen von Meta
 eingestellten Datensätze innerhalb von Kollektionen und Verzeichnissen.
 Daneben sind zahlreiche weitere Funktionen verfügbar.
 
-.. figure:: ../user/images/Recherche.png
-   :alt: Recherche.png
+.. figure:: ../user/images/Recherche.jpg
+   :alt: Recherche.jpg
 
 Der Editor-Bereich ist nur angemeldeten Nutzern zugänglich.
 Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite 
