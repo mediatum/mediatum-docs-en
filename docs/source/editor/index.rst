@@ -788,19 +788,23 @@ Sonstiges
 Lassen Sie automatisch auf Ihrer Homepage den aktuellen Inhalt Ihrer Verzeichnisse auf Ihrer Homepage darstellen.
 MehrInformationen finden Sie unter :ref:`Publikationsliste`.
 
-**Papierkorb leeren** |Papierkorb|
+**Papierkorb** |Papierkorb|
 
-Wenn Datensätze oder Verzeichnisse gelöscht werden, werden sie zunächst
-in Ihren Papierkorb geschoben. Dort können Sie wieder hergestellt bzw.
-in andere Verzeichnisse geschoben werden. Sie können den Papierkorb
-leeren und die enthaltenen Elemente endgültig löschen, indem Sie in
-Ihrem Arbeitsverzeichnis zunächst das **Verzeichnis Papierkorb**
-anklicken und anschließend die rechte Maustaste drücken. Es erscheint
-ein Menü, in dem Sie **Papierkorb leeren** auswählen. Anschließend sind
-die Inhalte endgültig gelöscht.
+Wenn Datensätze oder Verzeichnisse gelöscht werden, werden sie zunächst in Ihren Papierkorb geschoben.
+Dort können Sie wieder hergestellt bzw. in andere Verzeichnisse geschoben werden.
+
+Sie können den Papierkorb leeren und die enthaltenen Elemente endgültig löschen, indem Sie in Ihrem Arbeitsverzeichnis zunächst das **Verzeichnis Papierkorb** anklicken.
+Anschließend klicken Sie mit der rechten Maustaste darauf. Es erscheint ein Menü, in dem Sie **Papierkorb leeren** auswählen.
+Anschließend sind die Inhalte endgültig gelöscht.
 
 .. figure:: images/PapierkorbLeeren.jpg
    :alt: PapierkorbLeeren.jpg
+
+
+Möchten Sie die Datei wiederherstellen, verschieben Sie das Dokument  wieder in Ihren Arbeitsbereich.
+Ein Dokument können Sie verschieben, indem Sie auf |VerschiebenEdit| des Dokuments klicken und danach auf Ihr Arbeitsverzeichnis.
+Verschieben Sie mehrere Dokumente gleichzeitig nachdem Sie neben "Markieren" einen Haken gesetzt haben und anschließend im oberen Bereich auf |VerschiebenEdit| klicken.
+So werden bei dem Klick auf Ihren Uploadordner alle ausgewählten Datensätze gleichzeitig verschoben.
 
 **Ausloggen** 
 
