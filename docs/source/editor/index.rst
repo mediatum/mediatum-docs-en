@@ -8,8 +8,9 @@ Erste Schritte
 .. |ErstSchri2| image:: images/ErstSchri2.jpg
 .. |ErstSchri3| image:: images/ErstSchri3.jpg
 .. |ErstSchri4| image:: images/ErstSchri4.jpg
-   
+
 .. |Home| image:: ../images/Home.jpg
+.. |Neu| image:: ../images/Neu.jpg
 .. |Pfeil| image:: ../images/Pfeil.jpg
 .. |Plus| image:: ../images/Plus.jpg
 .. |Papierkorb| image:: ../images/Papierkorb.jpg
@@ -662,6 +663,44 @@ entfernen. Das Verzeichnis ist nicht endgültig gelöscht, sondern wird
 zunächst in den Papierkorb verschoben.
 
 
+Erscheinungsbild
+----------------
+
+Startseite einrichten
+^^^^^^^^^^^^^^^^^^^^^
+
+Sie können für Ihre Kollektionen oder Verzeichnisse eine Startseite anlegen.
+So werden nicht mehr zuerst die Inhalte aufgeführt, sondern Ihre individuelle Seite.
+Auch weitere Seiten können angelegt werden und von der Startseite verlinkt werden.
+
+Wählen Sie zuerst im Editor den Bereich aus, der eine Startseite erhalten soll.
+Zur Erstellung ist es nicht relevant, ob es sich um einen öffentlichen Bereich handelt.
+
+.. figure:: images/StartseiteNeu.png
+   :alt: StartseiteNeu.png
+
+Sobald Sie die Kollektion oder das Verzeichnis angeklickt haben, wodurch es blau hinterlegt wird, können Sie unter **Aussehen > Startseiten verwalten** eine neue Seite erzeugen.
+Klicken Sie auf |Neu| und Sie erhalten ein Eingabefenster für die Inhalte Ihrer Seite.
+Nachdem den Button "Quellcode" angeklickt haben, können Sie HTML Code eingeben und abspeichern.
+Anschließend erhalten Sie einen neuen Eintrag unter Startseiten.
+Vergeben sie hier bei Bedarf einen Namen und wählen Sie links aus, bei welcher Spracheinstellung des Lesers die Seite angezeigt werden soll.
+
+
+Logo
+^^^^
+
+Sie können zu Ihrem Bereich auch ein Logo einblenden, welches auf eine URL verlinkt.
+Diese Funktion steht nur für Kollektionen zur Verfügung, ist aber unabhängig von Startseiten.
+
+Navigieren Sie zuerst zur Kollektion, klicken Sie diese an, damit Sie blau markiert ist und öffnen Sie unter **Metadaten editieren > Logo editieren**.
+
+.. figure:: images/LogoNeu.png
+   :alt: LogoNeu.png
+
+Wählen Sie Ihr Logo aus, laden Sie dieses anschließend mit *Anlegen / Hochladen* hoch und speichern Sie die Änderungen.
+Nun wird auf Ihren Kollektionsseiten das Logo eingeblendet.
+
+Wenn Sie eine URL angegeben haben, wird man beim Klick auf das Logo zum Link weitergeleitet.
 
 .. _Suche einrichten:
 
