@@ -139,6 +139,20 @@ bereits einen Account hat.**
 |                    |                          | (Mehrfachauswahl).                                  |
 +--------------------+--------------------------+-----------------------------------------------------+
 
+
+Überprüfung der Nutzerberechtigungen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sie können die Berechtigungen eines Nutzers prüfen, indem Sie sich mediaTUM aus der Sicht einer bestimmten Kennung anzeigen lassen können.
+Ergänzen Sie hinter der URL zu mediaTUM ``/admin/_become/<Kennung>``, so wechseln Sie quasi in den Account des entsprechenden Nutzers.
+Nach der Überprüfung müssen Sie sich ausloggen und mit Ihrer Adminkennung wieder einloggen, damit Sie diesen Befehl erneut ausführen können.
+
+Beispiel: ``https://mediatum.ub.tum.de/admin/_become/User01``
+
+
+
+
+
 Benutzergruppe anlegen/verwalten
 --------------------------------
 
