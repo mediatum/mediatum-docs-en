@@ -57,6 +57,8 @@ Bearbeitungsmodus zu wechseln.
 
 Hier sehen Sie die Funktionen *Aussehen*, *Metadaten editieren*, *Berechtigungen* und *Spezialfunktionen*.
 Diese Funktionen stehen Ihnen für das Bearbeiten von Objekten und Verzeichnissen zur Verfügung.
+
+
 Auf der linken Seite des Bearbeitungsmodus können Sie in den Verzeichnissen von mediaTUM navigieren.
 
 
@@ -67,8 +69,11 @@ Auf der linken Seite des Bearbeitungsmodus können Sie in den Verzeichnissen von
 +-----------------+------------------------------------------------------------+
 | |ErstSchri3|    |**mediaTUM Gesamtverzeichnis** enthält den veröffentlichten |
 |                 |Bestand. Dorthin verschieben bzw. publizieren Sie die       |
-|                 |fertigen bibliothraphischen Datensätze. Dadurch werden diese|
-|                 |für die Öffentlichkeit sichtbar.                            |
+|                 |fertigen bibliographischen Datensätze. Dadurch werden diese |
+|                 |für die Öffentlichkeit sichtbar. Mit dem |Plus| werden die  |
+|                 |Unterordner angezeigt. Graue Schrift bedeutet, dass Sie für |
+|                 |diesen Bereich keine Rechte haben, schwarze Schrift steht   |
+|                 |dafür, dass Sie Berechtigungen haben.                       |
 +-----------------+------------------------------------------------------------+
 
 In Ihrem Arbeitsverzeichnis legen Sie die Datensätze zunächst an, bevor sie veröffentlicht werden.
@@ -88,7 +93,7 @@ Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf
    :alt: ErstSchri5.jpg
 
 
-   
+I
    
 Datensätze   
 ----------    
