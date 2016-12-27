@@ -246,6 +246,18 @@ Hier das Dropdownmenü:
 Editor für Admins
 ==============================
 
+
+Sie erreichen die untere Ansicht, indem Sie sich mit einer Adminkennung einloggen und anschließend auf *Administration* klicken.
+Dieser Button ist sowohl direkt nach dem Login, als auch im Editor verfügbar.
+Hier eine Übersicht des Adminbereichs im Editor:
+
+.. figure:: images/AdminOverview.png
+   :alt:   AdminOverview.png
+
+
+
+
+
 Symbole
 -------
 
