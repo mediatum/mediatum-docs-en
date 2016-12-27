@@ -15,6 +15,7 @@ Erste Schritte
 .. |Plus| image:: ../images/Plus.jpg
 .. |Papierkorb| image:: ../images/Papierkorb.jpg
 .. |Download| image:: ../images/Download.jpg
+.. |Checked| image:: ../images/Checked.jpg
 .. |BearbeitenEdit| image:: ../images/BearbeitenEdit.jpg
 .. |VerschiebenEdit| image:: ../images/VerschiebenEdit.jpg
 .. |KopierenEdit| image:: ../images/KopierenEdit.jpg
@@ -29,17 +30,17 @@ Daneben sind zahlreiche weitere Funktionen verfügbar.
    :alt: Recherche.jpg
 
 Der Editor-Bereich ist nur angemeldeten Nutzern zugänglich.
-Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite 
-links oben auf **Login** klicken. Geben Sie Ihre Kennung sowie das 
-zugehörige Passwort ein und klicken auf **Anmelden**. Sie erkennen 
-an der Anzeige Ihres Benutzernamens oben links, dass Sie eingeloggt 
-sind. Klicken Sie nun oben links auf Bearbeiten, um in den 
+Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite
+links oben auf **Login** klicken. Geben Sie Ihre Kennung sowie das
+zugehörige Passwort ein und klicken auf **Anmelden**. Sie erkennen
+an der Anzeige Ihres Benutzernamens oben links, dass Sie eingeloggt
+sind. Klicken Sie nun oben links auf Bearbeiten, um in den
 Bearbeitungsmodus zu wechseln.
 
 
 .. figure:: images/Edit.jpg
    :alt: Edit.jpg
-   
+
 
 +----------------+-----------------------------------------------------------------+
 | Symbol         | Beschreibung                                                    |
@@ -60,7 +61,8 @@ Diese Funktionen stehen Ihnen für das Bearbeiten von Objekten und Verzeichnisse
 
 
 Auf der linken Seite des Bearbeitungsmodus können Sie in den Verzeichnissen von mediaTUM navigieren.
-
+Nachdem Sie hier einen Bereich mit linksklick ausgewählt haben, wird dieser blau markiert.
+Dadurch wird das **Kontextmenü** über Rechtsklick verfügbar gemacht.
 
 +-----------------+------------------------------------------------------------+
 | |ErstSchri2|    |**mediaTUM** enthält Ihr persönliches Arbeitsverzeichnis.   |
@@ -94,12 +96,12 @@ Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf
 
 
 I
-   
-Datensätze   
-----------    
+
+Datensätze
+----------
 
 
-Neue Metadaten anlegen   
+Neue Metadaten anlegen
 ^^^^^^^^^^^^^^^^^^^^^^
 
 
@@ -124,7 +126,7 @@ erscheint der Button **Objekt erzeugen**.
 
 
 **Ergebnis:** Nachdem Sie **Objekt erzeugen** angeklickt haben, wird der
-Datensatz im Upload-Ordner angelegt und kann nun editiert werden, 
+Datensatz im Upload-Ordner angelegt und kann nun editiert werden,
 siehe :ref:`Datensatz bearbeiten`.
 
 
@@ -139,7 +141,7 @@ ein und klicken Sie auf **Objekt erzeugen**.
 .. figure:: images/ErstelleDatensatz3.jpg
    :alt: ErstelleDatensatz3.jpg
 
-   
+
 **Ergebnis:** Der Datensatz wird mit den Metadaten, die über die DOI
 ermittelt werden konnten, angelegt und kann jetzt – falls erforderlich -
 bearbeitet und ergänzt werden, siehe :ref:`Datensatz bearbeiten`.
@@ -258,9 +260,53 @@ durchsuchbar gemacht und ein Thumbnail für die Anzeige erzeugt.
 Der Austausch eines digitalen Objekts funktioniert analog, wählen Sie
 dafür zu Beginn **Digitales Objekt austauschen** aus.
 
+Sie können so auch **Attachments** hochladen.
+Wählen sie hierzu einfach den Unterpunkt **Attachment hinzufügen** aus.
+Attachments haben keine Beschränkung des Dateiformats, können aber nur separat im Attachmentbrowser geöffnet werden.
+Hier können Sie mehrere weitere Anhänge hochladen, z.B. eine zweite PDF-Datei oder ein Dokument im beliebigen Datenformat.
+Alternativ können Sie Metadaten für jeden Anhang einzeln anlegen, lesen Sie hierzu den Abschnitt :ref:`Kindelemente`.
+
+
 Mit der Funktion **Thumbnail hochladen** können Sie ein bestehendes
 Thubnail durch ein neues Thumbnail ersetzen. Die Grafik sollte 300x300px
 groß sein.
+
+
+.. _Kindelemente:
+
+Kindelemente
+""""""""""""
+
+Mit Kindelementen können Sie Alternativ zu Attachments die Art der Darstellung Ihrer Dokumente individuell beeinflussen.
+Der Entscheidende Vorteil ist, dass jedes Element eigene Metadaten hat und somit einzeln gefunden werden kann, außerdem wird zwischen diesen Elementen verlinkt.
+
+Ordnen Sie Ihrem Objekt Kindelemente zu, indem Sie unter **Metadaten editieren > digitale Objekte austauschen/hinzufügen** den Reiter **Kindelemente** auswählen.
+Sie sehen eine Übersicht aller angehängeter Objekte, wenn diese bereits verknüpft wurden.
+
+
+.. figure:: images/Kindelement1.png
+   :alt: Kindelement1.png
+
+
+Das Dokument, welches Sie geöffnet haben ist das Elternobjekt, während die Liste aus den Kindelementen besteht.
+Damit ein Kindelement hinzugefügt wird, klicken Sie zunächst auf das |Plus|.
+
+
+.. figure:: images/Kindelement2.png
+   :alt: Kindelement2.png
+
+
+Es öffnet sich die Auswahl, in der Sie Elemente als *Kinder* anhängen können.
+Die Navigationsstruktur wird wie üblich dargestellt und Sie können sowohl aus Ihrem Arbeitsbereich, als auch aus dem Gesamtbestand Elemente als *Kinder* bestimmen.
+Der Inhalt des Ordners, den Sie in der Baumstruktur auswählen, wird unter *Elementknoten* dargestellt.
+Markieren Sie das gewünschte Element nun mit einem Haken |Checked| und bestätigen Sie die Auswahl mit *OK*.
+
+Sie gelangen nun wieder zur ersten Ansicht, bei dem das neue Kindelement aufgelistet wird.
+Die Reihenfolge können Sie bei mehreren Kindelementen per Drag and Drop variieren und anschließend abspeichern.
+
+Die Darstellung der Kindelemente erfolgt sowohl im Editor, durch ein zweites kleineres Thumbnail, als auch in Trefferlisten mit Thumbnails.
+Außerdem werden in der Einzelansicht die Kinder einzeln aufgelistet und können angeklickt werden.
+So gelangt man zu den jeweiligen Metadaten.
 
 
 .. _Datensatz bearbeiten:
@@ -268,13 +314,13 @@ groß sein.
 Bearbeite Datensatz
 ^^^^^^^^^^^^^^^^^^^
 
-Wechseln Sie zunächst in das Upload-Verzeichnis. Der Hinweis (rot hinterlegt) 
+Wechseln Sie zunächst in das Upload-Verzeichnis. Der Hinweis (rot hinterlegt)
 auf die Funktion *Quick-Publisher* erscheint und weist auf unpublizierte Objekte hin.
 
 .. warning::
 
-    **Achtung:** Dieser Schritt ist erst nach der Fertigstellung eines Datensatzes 
-    nötig. Bitte nutzen Sie diese Funktion also erst nach der endgültigen Bearbeitung 
+    **Achtung:** Dieser Schritt ist erst nach der Fertigstellung eines Datensatzes
+    nötig. Bitte nutzen Sie diese Funktion also erst nach der endgültigen Bearbeitung
     der Datensätze. Siehe auch diese Beschreibung :ref:`Datensätze publizieren`.
 
 .. figure:: images/Bearb1.jpg
@@ -412,9 +458,9 @@ z.B.:
 
 .. code-block:: ruby
 
-    http://mediatum.ub.tum.de/1166386 
-    
-Die ID eines Datensatzes finden Sie, wenn Sie den Datensatz im Editbereich 
+    http://mediatum.ub.tum.de/1166386
+
+Die ID eines Datensatzes finden Sie, wenn Sie den Datensatz im Editbereich
 aufrufen, die ID steht in der rechten oberen Ecke.
 
 
@@ -514,7 +560,7 @@ Datensätze löschen
 ^^^^^^^^^^^^^^^^^^
 
 Wechseln Sie zunächst in das Verzeichnis, in dem der zu löschende
-Datensatz liegt. Bewegen Sie den Mauszeiger auf den zu löschenden Datensatz. 
+Datensatz liegt. Bewegen Sie den Mauszeiger auf den zu löschenden Datensatz.
 In der rechten oberen Ecke der Anzeige erscheint das Lösch-Symbol
 (|LoeschenEdit|). Klicken Sie auf dieses Lösch-Symbol. mediaTUM
 fragt noch einmal nach, ob Sie den Datensatz wirklich löschen möchten.
@@ -525,7 +571,7 @@ Papierkorb im Arbeitsverzeichnis verschoben.
 Mehrere Datensätze gleichzeitig bearbeiten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Markieren sie im Verzeichnis mehrere Datensätze und klicken Sie im oberen Navigationsbereich 
+Markieren sie im Verzeichnis mehrere Datensätze und klicken Sie im oberen Navigationsbereich
 auf das Symbol |BearbeitenEdit|, |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| so gelangen Sie in die
 gleichzeitige Bearbeitungsfunktion.
 
@@ -538,9 +584,9 @@ eine Auswahl invertieren oder aufheben.
 
 .. figure:: images/Bearb5.jpg
    :alt: Bearb5.jpg
-   
 
-Klicken Sie anschließend auf |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| und Sie können diese 
+
+Klicken Sie anschließend auf |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| und Sie können diese
 Aktion für alle ausgewählten Dokumente durchführen.
 
 
@@ -733,7 +779,7 @@ ermittelt werden.
 
 
 Erweiterte Suche einrichten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Um eine erweiterte Suche einrichten zu können muss der Bereich in dem
 gesucht werden kann eine Kollektion sein. Nur in Kollektionen kann die
@@ -747,7 +793,7 @@ Metadaten editieren > Suchmaske
 .. figure:: images/Suchfeld.jpg
    :alt: Suchfeld.jpg
 
-   
+
 Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
 
 #. Keine Suchmaske
@@ -774,8 +820,8 @@ Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
     ausgewählt und anschließend das zu durchsuchende Feld angegeben.
 
 
-    
-.. _Grundlegende Rechtevergabe:   
+
+.. _Grundlegende Rechtevergabe:
 
 Rechteverwaltung
 ----------------
@@ -784,21 +830,21 @@ Sie können die Berechtigungen auf einzelne Dokumente oder bestimmte Verzeichnis
 Ordnen Sie die Gewünschten Berechtigungen zu, indem Sie das Dokument oder Verzeichnis auswählen und
 anschließend unter *Berechtigungen* > *Rechtevergabe* auswählen.
 
-Dort finden Sie drei unterschiedliche Berechtigungsformen: sehen, bearbeiten, herunterladen. 
+Dort finden Sie drei unterschiedliche Berechtigungsformen: sehen, bearbeiten, herunterladen.
 
 
 .. figure::    images/RechtevergabeEditor.png
    :alt:    RechtevergabeEditor.png
-     
 
-Diese können unabhängig voneinander Gruppen zugeordnet werden. Links sehen Sie, welche Gruppen den unterschiedlichen 
-Kategorien zugeordnet wurden. Diese werden vom Überordner eines Verzeichnisses oder vom Verzeichnis eines 
+
+Diese können unabhängig voneinander Gruppen zugeordnet werden. Links sehen Sie, welche Gruppen den unterschiedlichen
+Kategorien zugeordnet wurden. Diese werden vom Überordner eines Verzeichnisses oder vom Verzeichnis eines
 Dokuments weitervererbt und damit automatisch voreingestellt.
 Diese Werte können überschrieben werden, mit entsprechenden Gruppen: :ref:`Rechtevergabe Gruppenebene`. Als
-Admin können  Rechte auch für einzelne Nutzer zugeordnet werden: :ref:`Rechtevergabe Admin`.  
+Admin können  Rechte auch für einzelne Nutzer zugeordnet werden: :ref:`Rechtevergabe Admin`.
 
 Des Weiteren erscheint auf der rechten Seite eine Liste aller vorhandener Gruppen bzw. Benutzern. Diese
-kann mithilfe des Filters für Listeneinträge schneller durchsucht werden. Tragen Sie in das Feld Ihre 
+kann mithilfe des Filters für Listeneinträge schneller durchsucht werden. Tragen Sie in das Feld Ihre
 Suchanfrage ein, und es werden umgehen nur Listeneinträge angezeigt, welche die Eingabe enthalten.
 Wählen Sie Ihren Treffer aus, indem Sie ihn einmal anklicken und anschließend mit << nach Links verschieben
 oder indem Sie Ihn doppelt anklicken.
@@ -809,22 +855,22 @@ oder indem Sie Ihn doppelt anklicken.
 Rechtevergabe auf Gruppenebene
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Um eine Gruppe als berechtigt hinzuzufügen, suchen Sie die Gruppe in der rechten Liste und schieben Sie 
+Um eine Gruppe als berechtigt hinzuzufügen, suchen Sie die Gruppe in der rechten Liste und schieben Sie
 diese nach links. Nach dem Abspeichern wird diese Berechtigung aktiviert.
 
 
 .. figure::    images/RechtevergabeEditor.png
    :alt:     RechtevergabeEditor.png
-   
-  
-Möchten Sie die Vererbten Berechtigungen entziehen, müssen Sie die Regel "Nicht_Benutzergruppe" nach 
+
+
+Möchten Sie die Vererbten Berechtigungen entziehen, müssen Sie die Regel "Nicht_Benutzergruppe" nach
 links verschieben und anschließend speichern, damit das vererbte Recht entzogen wird.
 
 Weitere Informationen für Admins: :ref:`Rechtevergabe Admin`.
-   
-    
-    
-    
+
+
+
+
 Sonstiges
 ---------
 
@@ -851,7 +897,7 @@ Ein Dokument können Sie verschieben, indem Sie auf |VerschiebenEdit| des Dokume
 Verschieben Sie mehrere Dokumente gleichzeitig nachdem Sie neben "Markieren" einen Haken gesetzt haben und anschließend im oberen Bereich auf |VerschiebenEdit| klicken.
 So werden bei dem Klick auf Ihren Uploadordner alle ausgewählten Datensätze gleichzeitig verschoben.
 
-**Ausloggen** 
+**Ausloggen**
 
 Um sich vom System abzumelden, klicken Sie auf **Logout**
 am rechten oberen Bildschirmrand.
