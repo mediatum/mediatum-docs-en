@@ -12,6 +12,13 @@ Navigationsbaum
 
 Auf der linken Seite befindet sich der Navigationsbaum.
 Er ist hierarchisch aufgebaut und ermöglicht den gezielten Aufruf einzelner Kollektionen.
+Wenn keine Startseite für den Bereich erstellt wurde, sehen Sie die Inhalte aller Unterordner.
+Klicken Sie auf ein Unterverzeichnis, damit die Anzeige weiter gefiltert wird.
+Handelt es sich um ein Verzeichnis sehen Sie im Navigationsbaum neben dem Verzeichnisnamen eine Zahl.
+Diese nennt die Anzahl aller Dokumente, die in diesem Verzeichnis liegen.
+Wenn Sie weniger Treffer einsehen können, als die Zahl beschreibt, sind interne Dokumente im Verzeichnis enthalten.
+Damit Sie diese einsehen können, müssen Sie sich mit einem Account mit entsprechenden Berechtigungen einloggen.
+
 
 
 Suche
