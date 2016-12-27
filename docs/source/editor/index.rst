@@ -591,81 +591,81 @@ Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
 
 
 
-Verzeichnisse
--------------
+Ordner
+------
 
-Verzeichnis anlegen
-^^^^^^^^^^^^^^^^^^^
+Im folgenden werden die Begriffe *Ordner*, *Verzeichnis* und *Kollektion* verwendet.
+Alle Begriffe beschreiben einen Bereich der in mediaTUM hierarchisch eingegliedert werden kann und mehrere Dokumente zusammenfasst.
+*Ordner* ist als Oberbegriff von *Verzeichnis* und *Kollektion* zu verstehen.
+Besonderheiten der *Kollektion* werden hier erklärt: :ref:`Besonderheiten Kollektion`.
 
-In der Auswahl von **Neuen Ordner anlegen** wählen Sie aus, ob Sie eine
-Kollektion oder ein Verzeichnis anlegen wollen. Anschließend wird der
-neue Ordner mit dem Namen **Neuer Ordner** angelegt.
+Ordner anlegen
+^^^^^^^^^^^^^^
+
+In der Auswahl von **Neuen Ordner anlegen** wählen Sie aus, ob Sie eine Kollektion oder ein Verzeichnis anlegen wollen.
+Anschließend wird der neue Ordner mit dem Namen **Neuer Ordner** angelegt.
 
 .. figure:: images/VerzeichnisBearb2.jpg
    :alt: VerzeichnisBearb2.jpg
 
 
 
-Verzeichnisse bearbeiten
-^^^^^^^^^^^^^^^^^^^^^^^^
+Ordner bearbeiten
+^^^^^^^^^^^^^^^^^
 
-Um ein Verzeichnis bearbeiten zu können, wählen Sie mit einem Klick der
-linken Maustaste dieses Verzeichnis aus. Das Verzeichnis wird durch die
-Auswahl blau markiert.
+Um eine Kollektion oder ein Verzeichnis bearbeiten zu können, wählen Sie mit einem Klick der linken Maustaste diesen Ordner aus.
+Der Ordner wird durch die Auswahl blau markiert.
 
-Mit einem Klick der rechten Maustaste auf ein blau markiertes
-Verzeichnis wird das Menü aufgerufen, das mehrere
-Bearbeitungsmöglichkeiten bietet.
+Mit einem Klick der rechten Maustaste auf ein blau markierter Ordner wird das Menü aufgerufen, das mehrere Bearbeitungsmöglichkeiten bietet.
 
 .. figure:: images/VerzeichnisBearb1.jpg
    :alt: VerzeichnisBearb1.jpg
 
 
 
-Verzeichnisse umbenennen
-^^^^^^^^^^^^^^^^^^^^^^^^
+Ordner umbenennen
+^^^^^^^^^^^^^^^^^
 
-Nachdem Sie mit der linken Maustaste das gewünschte Verzeichnis
-ausgewählt und dann die rechte Maustaste geklickt haben, klicken Sie im
-Menü auf **Bearbeiten**. Es erscheint eine Eingabemaske, in die der
-deutsche und englische Verzeichnisname eingetragen werden können.
-Speichern Sie die Eingaben, um die Änderungen zu sichern. Alternativ
-können Sie nach der Auswahl des Verzeichnisses die Eingabemaske über den
-Navigationspunkt **Metadaten editieren: Metadaten editieren** erreichen.
+Nachdem Sie mit der linken Maustaste den gewünschten Ordner ausgewählt und dann die rechte Maustaste geklickt haben, klicken Sie im Menü auf **Bearbeiten**.
+Es erscheint eine Eingabemaske, in die der deutsche und englische Ordnername eingetragen werden können.
+Speichern Sie die Eingaben, um die Änderungen zu sichern.
+Alternativ können Sie nach der Auswahl des Ordners die Eingabemaske über den Navigationspunkt **Metadaten editieren: Metadaten editieren** erreichen.
 
+Siehe: :ref:`Besonderheiten Kollektion`.
 
+Unterordner  sortieren
+^^^^^^^^^^^^^^^^^^^^^^
 
-Verzeichnisse  sortieren
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Nachdem Sie einen Ordner markiert haben, können Sie die Unterordner über
-eine Spezialfunktion in der **Menüleiste > Spezialfunktionen >
-Unterordner sortieren.**
-
-.. figure:: images/VerzeichnisBearb3.jpg
-   :alt: VerzeichnisBearb3.jpg
+Nachdem Sie einen Ordner markiert haben, können Sie die Unterordner über eine Spezialfunktion unter **Spezialfunktionen > Unterordner sortieren**.
+Für eine automatische Sortierung wählen Sie unter **Automatisch sortieren** im Pulldown-Menü die Eigenschaft aus, nach der sortiert werden soll (z.B. Name des Ordners),
+bestimmen die Sortierrichtung (auf-oder absteigend) und klicken Sie auf den Button **Sortieren**.
+Oder Sie verändern die Reihenfolge der Ordner unter **Manuell sortieren** mit der Drag-and-Drop-Funktion.
 
 
-Für eine automatische Sortierung wählen Sie unter **Automatisch
-sortieren** im Pulldown-Menü die Eigenschaft aus, nach der sortiert
-werden soll (z.B. Name des Ordners), bestimmen die Sortierrichtung (auf-
-oder absteigend) und klicken auf den Button **Sortieren**. Oder Sie
-verändern die Reihenfolge der Ordner unter **Manuell sortieren** mit der
-Drag-and-Drop-Funktion.
+Ordner verschieben
+^^^^^^^^^^^^^^^^^^^
 
-Verzeichnisse verschieben
+Klicken Sie im Bearbeitungsmenü auf **Ordner ausschneiden**.
+Klicken Sie mit der linken Maustaste den Ordner an, in den der Container eingefügt werden soll.
+Im Menü wählen Sie dann die Option **Ordner einfügen** aus.
+
+
+
+Ordner löschen
+^^^^^^^^^^^^^^
+
+Einen ausgewählten Ordner können Sie im Kontextmenü unter **Ordner in Papierkorb verschieben** entfernen.
+Der Ordner so nicht endgültig gelöscht, sondern erst wenn der Papierkorb geleert wird.
+
+
+.. _Besonderheiten Kollektion:
+
+Besonderheiten Kollektion
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Klicken Sie im Bearbeitungsmenü auf **Ordner ausschneiden**. Klicken Sie
-mit der linken Maustaste den Ordner an, in den der Container eingefügt
-werden soll. Im Menü wählen Sie dann die Option **Ordner einfügen** aus.
-
-Verzeichnisse löschen
-^^^^^^^^^^^^^^^^^^^^^
-
-Ein ausgewähltes Verzeichnis können Sie über den Menüpunkt **Löschen**
-entfernen. Das Verzeichnis ist nicht endgültig gelöscht, sondern wird
-zunächst in den Papierkorb verschoben.
+- **Ordner umbenennen:** Hier können Sie zusätzlich eine *Default-Ansicht* der Treffer in diesem Bereich angeben, vgl. :ref:`Default-Ansichten`.
+- **Logo für Startseite:** Kann nur bei Kollektionen eingebunden werden, siehe :ref:`Logo`.
+- **Anzahl Dokumente:** Nur noch im Editor wird die Anzahl der in der Kollektion eingetragenen Dokumente dargestellt. In anderen Ansichten wird diese Zahl verborgen.
 
 
 Erscheinungsbild
@@ -691,11 +691,12 @@ Anschließend erhalten Sie einen neuen Eintrag unter Startseiten.
 Vergeben sie hier bei Bedarf einen Namen und wählen Sie links aus, bei welcher Spracheinstellung des Lesers die Seite angezeigt werden soll.
 
 
+.. _Logo:
+
 Logo
 ^^^^
-
-Sie können zu Ihrem Bereich auch ein Logo einblenden, welches auf eine URL verlinkt.
 Diese Funktion steht nur für Kollektionen zur Verfügung, ist aber unabhängig von Startseiten.
+Sie können für Ihren Bereich ein Logo einblenden, welches optional auf eine URL verlinkt.
 
 Navigieren Sie zuerst zur Kollektion, klicken Sie diese an, damit Sie blau markiert ist und öffnen Sie unter **Metadaten editieren > Logo editieren**.
 
