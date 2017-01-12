@@ -61,7 +61,7 @@ Diese Funktionen stehen Ihnen für das Bearbeiten von Objekten und Verzeichnisse
 
 
 Auf der linken Seite des Bearbeitungsmodus können Sie in den Verzeichnissen von mediaTUM navigieren.
-Nachdem Sie hier einen Bereich mit linksklick ausgewählt haben, wird dieser blau markiert.
+Nachdem Sie hier einen Bereich mit Linksklick ausgewählt haben, wird dieser blau markiert.
 Dadurch wird das **Kontextmenü** über Rechtsklick verfügbar gemacht.
 
 +-----------------+------------------------------------------------------------+
@@ -635,6 +635,8 @@ Speichern Sie die Änderungen ab, indem Sie auf **Speichern** klicken.
     cmd, können Sie auch FTP-Upload Programme nutzen, wie zum Beispiel
     FileZilla.
 
+
+.. _Ordner: 
 
 
 Ordner

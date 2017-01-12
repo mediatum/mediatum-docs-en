@@ -7,14 +7,18 @@ Die folgenden Abschnitte beschreiben Funktionalitäten von mediaTUM für die ein
    :alt: Recherche.jpg
    
 
-Navigationsbaum
----------------
+Navigationsbaum und Kollektionsstrukturbaum
+-------------------------------------------
 
-Auf der linken Seite befindet sich der Navigationsbaum.
-Er ist hierarchisch aufgebaut und ermöglicht den gezielten Aufruf einzelner Kollektionen.
-Wenn keine Startseite für den Bereich erstellt wurde, sehen Sie die Inhalte aller Unterordner.
+Inhalte werden in mediaTUM in einer Hierarchie von Kollektionen und Verzeichnissen bereitgestellt.
+Im Seitenaufbau auf der linken Seite befindet sich der Navigationsbaum.
+Er ist hierarchisch aufgebaut und bietet eine Übersicht aller Inhalte und ermöglicht den gezielten Aufruf einzelner Kollektionen.
+Kollektionen und Verzeichnisse sind weitgehend identisch, die genauen Unterschiede werden im Abschnitt :ref:`Ordner` bzw. :ref:`Besonderheiten Kollektion` erklärt.
+
+
+Wenn keine Startseite für eine Kollektion erstellt wurde, sehen Sie die Inhalte aller Unterordner.
 Klicken Sie auf ein Unterverzeichnis, damit die Anzeige weiter gefiltert wird.
-Handelt es sich um ein Verzeichnis sehen Sie im Navigationsbaum neben dem Verzeichnisnamen eine Zahl.
+Handelt es sich um ein Verzeichnis, sehen Sie im Navigationsbaum neben dem Verzeichnisnamen eine Zahl.
 Diese nennt die Anzahl aller Dokumente, die in diesem Verzeichnis liegen.
 Wenn Sie weniger Treffer einsehen können, als die Zahl beschreibt, sind interne Dokumente im Verzeichnis enthalten.
 Damit Sie diese einsehen können, müssen Sie sich mit einem Account mit entsprechenden Berechtigungen einloggen.
