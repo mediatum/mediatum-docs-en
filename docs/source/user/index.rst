@@ -221,7 +221,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
     *fields0* kennzeichnet die erste Liste, *fields1* die zweite Liste usw.
     Für die Festlegung müssen Sie die Namen der Felder in mediaTUM kennen.
 
-    .. warning::
+    .. note::
 
         Für Admins: Die Feldnamen sind abhängig von eingerichteten :ref:`Sortieren` und können
         dort mit Adminrechten auch ermittelt werden.
