@@ -7,8 +7,8 @@
 mediaTUM documentation
 ######################
 
-mediaTUM is a digital repository for documents, media and data.
-Please refer to the :ref:`intro` to learn more about the possible application areas for mediaTUM.
+mediaTUM is a free Python software which creates central document management and publication server. 
+The brief overview :ref:`intro` describes common uses for mediaTUM 
 
 ========
 Contents

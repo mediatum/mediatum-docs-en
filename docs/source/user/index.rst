@@ -1,7 +1,7 @@
-Anwender-Dokumentation
-======================
+User Documentation
+==================
 
-Die folgenden Abschnitte beschreiben Funktionalitäten von mediaTUM für die eine Registrierung und Anmeldung des Nutzers nicht notwendig ist.
+The following sections describe functionalities of mediaTUM for which registration and login of the user is not necessary.
 
 .. figure:: images/Recherche.jpg
    :alt: Recherche.jpg
@@ -10,122 +10,112 @@ Die folgenden Abschnitte beschreiben Funktionalitäten von mediaTUM für die ein
 Navigation
 ----------
 
-Inhalte werden in mediaTUM in einer Hierarchie von Kollektionen und Verzeichnissen bereitgestellt.
-Im Seitenaufbau auf der linken Seite befindet sich der Navigationsbaum.
-Er ist hierarchisch aufgebaut und bietet eine Übersicht aller Inhalte und ermöglicht den gezielten Aufruf einzelner Kollektionen.
+mediaTUM content is presented in a hierarchy of collections and directories. The navigation tree is located on the left-hand side of a page. 
+It is hierarchically structured and provides an overview of all available content and enables the targeted call-up of individual collections. 
 
-Wenn keine Startseite für eine Kollektion erstellt wurde, sehen Sie die Inhalte aller Unterordner.
-Klicken Sie auf ein Unterverzeichnis, damit die Anzeige weiter gefiltert wird.
-Handelt es sich um ein Verzeichnis, sehen Sie im Navigationsbaum neben dem Verzeichnisnamen eine Zahl.
-Diese nennt die Anzahl aller Dokumente, die in diesem Verzeichnis liegen.
-Wenn Sie weniger Treffer einsehen können, als die Zahl beschreibt, sind interne Dokumente im Verzeichnis enthalten.
-Damit Sie diese einsehen können, müssen Sie sich mit einem Account mit entsprechenden Berechtigungen einloggen.
-
+Some collections in mediaTUM have start pages. 
+If a collection has a start page, you will first land on a start page. In order to reach the content of the collection, click subfolders on the left side. 
+If a collection does not have a start page, you will see the listed content of all subdirectories. Click on a subdirectory to filter the display further. 
+If you see a number next to the directory name in the navigation tree, it indicates the number of all documents in this directory. 
+If you see fewer hits than the number describes, the directory contains documents that are not publicly available. 
+In order to access all available documents in it, log in with an account that has appropriate permissions.
 
 
-Suche
------
+.. _Suche:
 
-In dem Eingabefeld links oben kann eine einfache Suche durchgeführt werden. 
-Beim Ausführen einer Suche auf der mediaTUM Startseite wird eine Suche im Gesamtbestand durchgeführt.
-Wechselt man in eine Kollektion oder ein Unterverzeichnis, werden nur diese Bestände durchsucht.
-Für einzelne Kollektionen kann auch eine erweiterte Suche durchgeführt werden, erreichbar über den Link "Erweiterte Suche".
-Hier kann gezielt nach Inhalten in einzelnen Felder gesucht werden:
-neben der Eingabe von Suchbegriffen ist eine Auswahl aus Index-Listen möglich.
-Welche Felder durchsuchbar sind, wird vom Inhaber der Kollektion festgelegt: :ref:`Suche Einrichten`.
+Search
+------
+
+There are two different types of search modalities in mediaTUM: general and advanced search. 
+General search is possible throughout all mediaTUM collections. Advanced search must be specified by the owner of the collection. 
+
+For general search, enter your search term in the input field on the top left of the page. 
+When performing a search on mediaTUM start page, the entire mediaTUM content is searched. 
+If you switch to a collection or a subdirectory, only their content will be searched. 
+If an advanced search is available in the collection, follow the link "Advanced search". 
+Here you can search specifically for content in individual fields. In addition to entering search terms, a selection from index lists is possible. 
+The owner of the collection can determine which fields are searchable: see Setting up Search. :ref:`Suche Einrichten`.
 
 
-
-
-Inhalte darstellen
+Displaying content
 ------------------
 
 .. _Default-Ansichten:
 
-Ansicht anpassen
-^^^^^^^^^^^^^^^^
+Customizing  view
+^^^^^^^^^^^^^^^^^
+After having carried out a search or clicking on a directory, multiple datasets may be seen on the screen. 
+It is possible to customize the view of results presentation:  
 
-Wenn mehrere Dokumente aufgelistet werden, entweder nach einer Suche oder öffnen eines Bereichs, können Sie die Darstellung anpassen.
-Sie können oben rechts zwischen vier Optionen wählen.
+* List view, text only: Compact display, as no thumbnails are shown
+* List view with thumbnails: Compact display, requires some space as small thumbnails are visible.
+* Thumbnail view: Similar to list view with thumbnails. But more compact, because several documents are in one line.
+* Thumbnail view (large): Only thumbnails are displayed. Takes up the most space, as thumbnails are displayed larger than in other views. No metadata is displayed.
 
-* Listen-Ansicht nur Text: Kompakte Darstellung, da keine Thumbnials dargestellt werden.
-* Listen-Ansicht mit Thumbnail: Kompakte Darstellung, benötigt etwas Platz, da kleine Thumbnails sichtbar sind.
-* Thumbnail-Ansicht: Ähnliche Darstellung wie die Listen-Ansicht mit Thumbnail. Aber kompakter, weil mehrere Dokumente in einer Zeile stehen.
-* Thumbnail-Ansicht(groß): Ausschließlich Thubmnails werden angezeigt. Benötigt am meisten Platz, da die Thumbnails größer als in anderen Ansichten angezeigt werden. Es werden keine Metadaten dargestellt.
+Full Display
+^^^^^^^^^^^^
 
+To see the entire content of a single item in the hitlist, click on it. The metadata of the document is displayed, which can also be exported into BibTeX format. 
+If a full text is available, it can be accessed by clicking on the thumbnail.
 
-
-Vollanzeige
-^^^^^^^^^^^
-
-Nach der Auswahl in der Trefferliste wird das Dokument in der Vollansicht angezeigt. 
-Angezeigt werden die Metadaten des Dokuments, die auch im Bibtex-Format exportiert werden können.
-Ist ein Volltext vorhanden, kann er über einen Klick auf das Thumbnail aufgerufen werden.
-
-Der Zugriff auf einen Volltext kann über IP-Adressen (z.B. campusweit) oder Benutzergruppen geregelt werden. 
-Nicht immer ist ein Volltext vorhanden, z.B. aus urheberrechtlichen Gründen.
+Access to a full text can be managed via IP addresses (e.g. campus-wide) or user groups. A full text is not always available, e.g. for copyright reasons.
 
 
 
 Permalinks
 ----------
 
-Einen Permalink - also ein dauerhafter Link - zu einem aufgerufenen Datensatz erhält man über den Link "Dauerhafter Link zum angezeigten Objekt".
-Der Permalink mit dem Schema ``https://mediatum.ub.tum.de/<DokumentID>`` wird dann in der Adresszeile des Browsers angezeigt.
-
+A permalink - i.e. a permanent link - to a called dataset is obtained via the link "Permanent link for displayed object". 
+The permalink with a scheme ``https://mediatum.ub.tum.de/<DocumentID>`` is displayed in the address line of the browser.
 
 
 .. _Publikationsliste:
 
-Publikationsliste
+Publication lists
 -----------------
 
-Publikationslisten sind Listen, die mit mediaTUM erzeugt werden und die Sie auf Ihrer Homepage einbauen können.
-Sie können Kollektionen und beliebige Verzeichnisse oder Abfragen zu einem Bereich ausgeben lassen.
-Die einzige Voraussetzung ist, dass die Dokumente sichtbar sein müssen.
-Sie können die Liste mit JavaScript oder das Typo3 Plugin CurlContent erzeugen.
+Publication lists are lists that reflect the content in mediaTUM and can be used for representation of that content on the personal homepage. 
+By using queries you can determine which content to show and how to show it in a publication list. 
+Queries can output the content of collections, directories or specific areas. Read Chapter to learn how to determine a query. 
+The only requirement is that datasets in mediaTUM must be publicly visible. Lists can be generated with JavaScript or the Typo3 plugin CurlContent.
 
-Java Script
+JavaScript
 ^^^^^^^^^^^
-Mit dem JavaScript-Export können Sie Publikationslisten auf Ihrer Lehrstuhl-Homepage anlegen.
+With the JavaScript export you can create publication lists on your own homepage. 
+The prerequisite is that JavaScript is allowed to be executed at the corresponding location.
 
-Einstieg
-""""""""
-Mit dem JavaScript-Export können Sie Publikationslisten auf Ihre Lehrstuhl-Homepage anlegen.
 
-**So ermitteln Sie die ID Ihres Lehrstuhl-Verzeichnisses:**
+**This is how you determine the ID of your directory:**
 
-Rufen Sie das Verzeichnis über die Browsing-Struktur auf.
-In der Adresszeile des Browsers finden Sie die gesuchte ID, s. Screenshot.
-Im Beispiel unten handelt es sich um die ID 604223 (Verzeichnis der Universitätsbibliothek).
+Call up a directory via the browser. 
+The ID is in the address line of the browser. In the example below, the ID is 604223 (directory of the university library).
 
 .. figure:: images/IDErmitteln.png
    :alt: IDErmitteln.png
 
-Alternativ finden Sie die ID auch im Edit-Bereich, nachdem Sie Ihren Lehrstuhl ausgewählt haben.
+Alternatively, select your directory. Then find the ID in the Edit area.
 
 .. figure:: images/IDErmittelnEditor.png
    :alt: IDErmittelnEditor.png
 
-Ein einfaches Code-Beispiel:
+A simple code example:
 
 .. code:: javascript
 
-    <script type="text/javascript" language="javascript"
-    src="https://mediatum.ub.tum.de/js/export.js"> </script>
+    <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
 
-    <script type="text/javascript">
+    <script>
         mediatum_config = {
         };
     </script>
-    <script type="text/javascript">
+    <script>
         mediatum_load(615843, 0, '-year','', '', 'de');
     </script>
 
 
-Kopieren Sie den Text in eine HTML-Seite Ihrer TYPO3-Instanz und tauschen Sie die ID 615843 durch die ID des gewünschten Verzeichnisses aus.
+Copy the text into an HTML page and replace the ID 615843 with the ID of the desired directory.
 
-Auf der Webseite wird dann eine Publikationsliste angezeigt:
+A publication list is then displayed on the web page:
 
 .. figure:: images/PubLiAusg.png
    :alt: PubLiAusg.png
@@ -135,58 +125,56 @@ Anpassungen der Publikationsliste
 """""""""""""""""""""""""""""""""
 
 **mediatum_load**
-Mit *mediatum_load* können Sie festlegen, welche Inhalte in der Publikationsliste angezeigt werden.
-Die Zeile *mediatum_load* ist wie folgt aufgebaut: *mediatum_load(id, limit, sort, query, format, language);*
+With *mediatum_load* you can determine which content will be displayed in the publication list. 
+The line *mediatum_load* is structured this way: 
+*mediatum_load (id, limit, sort, query, format, language);*
 
 Syntax: ``mediatum_load(id, limit,’ sort’, ‘query’, ‘format’, ‘language’);``
 
-Die einzelnen Werte werden mit Komma voneinander dargestellt.
-Der Inhalt der Felder ist in folgender Tabelle beschrieben:
-
+Commas separate the individual values from each other. Field definitions are described in the following table:
 
 +----------------+----------------------------------------------------------------------------+
-|id              |ID des Verzeichnisses, dessen Inhalt angezeigt werden soll.                 |
+|id              |ID of the directory whose content is to be displayed                        |
 +----------------+----------------------------------------------------------------------------+
-|limit           |Begrenzt die Anzahl der angezeigten Dokumente;                              |
-|                |0 bedeutet, dass alle Dokumente angezeigt werden sollen.                    |
+|limit           |Limits the number of displayed documents;                                   |
+|                |0 means that all documents are to be displayed                              |
 +----------------+----------------------------------------------------------------------------+
-|sort            |Sortierung der Trefferliste nach dem Inhalt eines bestimmten Feldes.        |
-|                |Ein Minuszeichen vor dem Feldnamen dreht die Reichenfolge um.               |
-|                |Beispiel: year für Jahr.                                                    |
-|                |Absteigende Sortierung: -year                                               |
-|                |Aufsteigende Sortierung: year                                               |
+|sort            |Sorts the hit list according to the content of a specific field.            |
+|                |A minus sign in front of the field name reverses the order.                 |
+|                |Example: year.                                                              |
+|                |Descending sort: -year                                                      |
+|                |Ascending sort: year                                                        |
 +----------------+----------------------------------------------------------------------------+
-|query           |Hier kann eine Suche hinterlegt werden, die das Suchergebnis einschränkt    |
-|                |(z.B. ein Autorenname, so dass die Publikationsliste eines Autors entsteht) |
-|                |z.B. year<=2013 oder author-contrib=Meier                                   |
+|query           |Determines a search that restricts the search result                        |
+|                |(e.g. an author name, so that the publication list                          |
+|                |of the specified author will be displayed)                                  |
+|                |e.g. year<=2013 or author-contrib=Meier                                     |
 +----------------+----------------------------------------------------------------------------+
-|format          |Bleibt leer                                                                 |
+|format          |Remains empty                                                               |
 +----------------+----------------------------------------------------------------------------+
-|language        |Sprache (de oder en)                                                        |
+|language        |Defines language (ge or en)                                                 |
 +----------------+----------------------------------------------------------------------------+
-
 
 **mediatum_config**
 
-Mit mediatum_config können Sie weitere Einstellungen vornehmen.
-Im Beispiel oben ist mediatum_config leer, es werden die Grundeinstellungen verwendet.
+You can specify further settings with mediatum_config.
+In the example above, mediatum_config is empty. This means basic settings will be implemented.
 
-Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-Format ist das APA-Format defniert.
+Determine the output format by using *output*. Choose *default* for a standard format. For the APA format, choose *apa*.
 
 ::
 
     'output': 'default'
     'output': 'apa'
-
-#. Feldinhalte anzeigen
-    Sie können festlegen, welche einzelnen Felder angezeigt werden.
-    Die Darstellung der Felder können Sie ebenfalls beeinflussen.
+	
+#. Displaying field content
+    You can determine which fields will be displayed. 
+    You can also specify how to display the fields.
 
     .. code:: javascript
 
-        <script type="text/javascript" language="javascript"
-        src="https://mediatum.ub.tum.de/js/export.js"> </script>
-        <script type="text/javascript">
+        <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
+        <script>
             mediatum_config = {
                 'fields0':['<small style="color:red">[att:pos]</small>',
                            '[att:author-contrib]',
@@ -195,59 +183,60 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
                 ],
             };
         </script>
-        <script type="text/javascript">
+        <script>
             mediatum_load(615843, 0, '-year','', '', 'de');
         </script>
 
-    Ergebnis:
+    Results:
 
     .. figure:: images/FelderAuswahl.png
         :alt: FelderAuswahl.png
 
-    Die Feldanzeige wird mit *fields0* festgelegt.
-    Hinter *att:* wird der Name des Feldes angegeben, dessen Inhalt angezeigt werden soll.
-    Mit HTML-Tags kann der Inhalt zusätzlich ausgezeichnet werden, z.B. <b></b> für eine fette Formatierung.
-    Der allgemeine Aufbau von *fields* lautet:
+    Specify the field display with *fields0*.
+    After *att:* enter the field name of content that is to be displayed.
+    HTML tags can be used to additionally mark up the content, e.g. <b></b> for bold formatting. 
+    The general structure of fields is:
 
     .. code:: javascript
 
         'fields0':['<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
                    '<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
-                   '<HTML-Tag>[att:Name des Feldes]</HTML-Tag'
+                   '<HTML-Tag>[att:Name des Feldes]</HTML-Tag>'
         ],
 
-    Auf einer Webseite können mehrere Publikationslisten angezeigt werden.
-    Mit *fields0, fields1, fields2* usw. können Sie verschiedene Darstellungen definieren.
-    *fields0* kennzeichnet die erste Liste, *fields1* die zweite Liste usw.
-    Für die Festlegung müssen Sie die Namen der Felder in mediaTUM kennen.
+    Several publication lists can be displayed on a web page. 
+    Define different displays with *fields0, fields1, fields2* etc. 
+    *fields0* identifies the first list, fields1 the second list and so on. 
+    To define displays, you need to know names of the fields in mediaTUM.
+
 
     .. note::
 
-        Für Admins: Die Feldnamen sind abhängig von eingerichteten :ref:`Sortieren` und können
-        dort mit Adminrechten auch ermittelt werden.
+        Für Admins: field names depend on the :ref:`Sortieren`.
 
-    Wenn Sie weitere Felder in die Publikationsliste einbinden möchten, können Sie diese Feldnamen am einfachsten ermitteln, indem Sie einzelne Dokumente im XML-Format aufrufen. Dafür müssen Sie nur die ID des Dokuments angegeben:
-    Beispiel: ``https://mediatum.ub.tum.de/services/export/node/1225127``
-    Die Feldnamen finden Sie jeweils hinter der Bezeichnung ``<attribute name=…``
+    If you want to include further fields in the publication list, the easiest way to identify these field names is to call up individual documents in XML format.
+    You need to enter the ID of the document: 
+    Example: ``https://mediatum.ub.tum.de/services/export/node/1225127`` 
+    You will find the field names in each case behind the designation ``<attribute name=...``
 
-#. Navigationselemente
 
-    Mit *type* kann eine Navigation und ein Suchfeld eingebunden werden.
-    In der Navigation erscheinen die Unterverzeichnisse des Verzeichnisses.
-    Mit *asc* und *desc* können sie alphabetisch (vorwärts und rückwärts) sortiert werden.
-    *search* bindet ein Suchfeld ein.
+#. Navigation elements
 
-    Der allgemeine Aufbau von type lautet:
+    A navigation and a search field can be integrated with the help of *type*.
+    The subdirectories of the directory appear in the navigation. 
+    With asc and desc they can be sorted alphabetically (forwards and backwards). 
+    *search* integrates a search field.
+
+    The general structure of type is:
 
     ``'type0':['struct','search','asc'],``
 
-    Beispiel:
+    Example:
 
     .. code:: javascript
 
-        <script type="text/javascript" language="javascript"
-        src="https://mediatum.ub.tum.de/js/export.js"> </script>
-        <script type="text/javascript">
+        <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
+        <script>
             mediatum_config = {
                 'fields0':['<small style="color:red">[att:pos]</small>',
                            '[att:author-contrib]', '<b>[att:title-contrib]</b>',
@@ -255,7 +244,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
                            'type0':['struct','search','asc'],
                 };
         </script>
-        <script type="text/javascript">
+        <script>
             mediatum_load(615843, 0, '-year','', '', 'de');
         </script>
 
@@ -264,15 +253,14 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
         :alt: Navigationselemente.png
 
 
-    Feldtrenner: Die Feldinhalte sind standardmäßig durch einen Zeilenumbruch voneinander getrennt.
+    Field separator: by default, field contents are separated from each other by a line break.
 
-#. Zusätzliche Definitionen
+#. Additional definitions
 
     .. code:: javascript
 
-        <script type="text/javascript" language="javascript"
-        src="https://mediatum.ub.tum.de/js/export.js"> </script>
-        <script type="text/javascript">
+        <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
+        <script>
             mediatum_config = {
                 'fields0':['<small style="color:red">[att:pos]</small>',
                            '[att:author-contrib]', '<b>[att:title-contrib]</b>',
@@ -284,39 +272,38 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
                            'groupby':'year',
             };
         </script>
-        <script type="text/javascript">
+        <script>
             mediatum_load(615843, 0, '-year','', '', 'de');
         </script>
 
-    Target: Internal: im selben Fenster Öffnen / External: ein weiteres Fenster wird geöffnet
+    Target: Internal: open in the same window / External: open in another window
 
+    Style "1" (default): display hits with frames.
 
-    Style "1" (Default): Treffer der Liste werden mit Rahmen dargestellt.
-                                          |
     .. figure:: images/MitRahmen.png
         :alt: MitRahmen.png
 
-
-    Style "0": Treffer werden ohne Rahmen dargestellt.
+    Style "0": display hits without frames.
 
     .. figure:: images/OhneRahmen.png
          :alt: OhneRahmen.png
 
-    - Output: Gewünschtes Format wird ausgegeben: Apa, BibTex, etc. Je nachdem welche Masken für die Ausgabe verfügbar sind.
+    - Output: desired format will be displayed: APA, BibTex, etc. It depends on which masks are available for the output.
 
-    - Groupby: Frei wählbare Grouppierungen können eingerichtet werden, z.B. nach Jahr:
+    - Groupby: Freely selectable groupings can be set up, e.g. by year:
+
 
       - ``'groupby': 'year|substring:0,4',``
 
-    - Hierbei ist die vorgegebene Sortierung von mediatum_load von Bedeutung:
+    - The predefined sorting of mediatum_load is of importance:
 
       - ``mediatum_load(615843, 0, 'year','', '', '');``
 
-    - -year: oben Neuerscheinungen, year: oben älteste Einträge und unten Neuererscheinungen
+    - year: new publications at the top, year: oldest entries at the top and new publications at the bottom.
 
-#. Was ist noch zu beachten?
+#. The following should be also considered:
 
-    Der JavaScript-Export liefert CSS-Anweisungen mit.
+    The JavaScript export provides CSS instructions.
 
     .. code:: css
 
@@ -325,9 +312,9 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
         .mediatum #item_link{text-decoration:none; color:black;}
         </style>
 
-    Diese können mit eigenen CSS-Anweisungen überschrieben werden.
+    They can be overwritten with your own CSS instructions.
 
-    Beispiel:
+    Example:
 
     .. code:: css
 
@@ -353,109 +340,121 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
             span.patentnumber{font-style:italic}
             </style>
 
-    In die Publikationslisten werden nur Einträge aufgenommen mit „Jeder“-Berechtigung.
+    Please note that only publicly available entries/datasets are included in mediaTUM publication lists. 
 
-    Weiere Informationen finden Sie unter: http://wiki.ub.tum.de/mediatum_dev/index.php5/Mediatum_dev:JavaScriptExport
 
+Umlaut search
+"""""""""""""
+
+We recommend saving the HTML file with the *UTF-8 without BOM encoding*. You can then write terms with umlauts both with 'ü' (e. g. Müller) and with 'ue' (e.g. Mueller). Both spellings will be found.
+
+Errors may occur in the umlaut search when using a different encoding.
+
+In order to avoid this, specify in the file header: 
+
+``<meta http-equiv="content-type" content="text/html; charset=utf-8">``
+
+``<meta charset="utf-8">``
+
+In the mediatum_load line, the query is specified as follows: 
+``unescape(encodeURIComponent('Feldname=SuchbegriffMitUmlaut')),``
+
+Example: ``mediatum_load(603843, 55, 'author.surname', unescape(encodeURIComponent('author.surname=Müller')), '', '');``
 
 
 Curl Content
 ^^^^^^^^^^^^
 
-https://www.typo3.tum.de/index.php?id=118&L=0
+https://www.typo3.tum.de/index.php?id=144
 
 
 
 .. _Export von Trefferlisten:
 
-Export von Trefferlisten
-------------------------
+Exporting hit lists 
+-------------------
 
-Allgemeine Informationen
-^^^^^^^^^^^^^^^^^^^^^^^^   
+General Information
+^^^^^^^^^^^^^^^^^^^
           
-Der Export-Link besitzt folgenden Aufbau:
+The export link is structured in the following way: 
 
 ``https://mediatum.ub.tum.de/services/export/node/ID/HIERARCHIE?format=FORMATANGABE``
 
-- **ID:** ID des Verzeichnisses, dessen Inhalt exportiert werden soll. So wird die ID ermittelt:
-  Nach einem Wechsel in das gewünschte Verzeichnis über den Navigationsbaum kann die gesuchte ID im Adressfeld des Browsers abgelesen werden, z.B.:
+- **ID:** D of the directory whose content will be exported. To identify the ID:
+  with the help of navigation tree, go to the desired directory. Find the ID in the browser address field. For example:
 
   ``https://mediatum.ub.tum.de/604223``
       
-      
-- **Hierarchie:** Was wird ausgegeben?
+- **Hierarchy:** What will be displayed?
 
-    - Keine Angabe: die ID selbst
-    - parents: das Eltern-Element
-    - children: die direkten Kind-Elemente (ohne den Inhalt von Unterverzeichnissen)
-    - allchildren: alle Kind-Elemente (mit den Inhalten von Unterverzeichnissen)
+    - No specification: the ID itself
+    - parents: the parent element
+    - children: direct child elements (without content of subfolders)
+    - allchildren: all child elements (with content of subfolders)
 
-- **Formatangabe:** Die Daten können in unterschiedlichen Formaten ausgegeben werden. XML wird standardmäßig ausgeliefert. Möglich sind auch JSON, CSV und RSS.
+- **Format specification:** data can be output in different formats. By default, XML is used. JSON, CSV and RSS can be chosen. 
 
 
-| **Weitere Optionen:**
+| **Further options:**
 
-- Einschränkung auf Datentypen mit ``type=[...]``
+- Restricting for file types is possible with:  ``type=[...]``
 
-    - ``?type=directory``: listet nur Unterverzeichnisse des Elements auf
-    - ``?type=document``: listet nur Dokumente auf
-    - ``?type=dt-buchbeitrag``: listet nur Buchbeiträge auf; gesucht wird der Name des Metadatenschemas
+    - ``?type=directory``: lists only subfolders of an element 
+    - ``?type=document``: lists only documents
+    - ``?type=dt-buchbeitrag``: lists only book contributions; in this case a name of the metadata schema will be searched for
 
-- Anzahl der angezeigten Elemente verändern mit ``limit=[...]:`` 
+- Number of displayed elements can be specified with ``limit=[...]:`` 
 
-    - ``?limit=5``: Limitierung auf 5 Elemente
+    - ``?limit=5``: limit of 5 elements
     
-- Einschränkung des Ergebnisses durch eine Suche mit ``q=[...]``
+- Restricting result of the search with ``q=[...]``
 
-    - ``?q=regen``: der Suchbegriff wird in den Metadaten und im Volltext gesucht
-    - ``?q=year=2016``: der Suchbegriff wird in einem Metadatenfeld (hier: year) gesucht
-          Die Operatoren => (größer gleich) und <= (kleiner gleich) können für numerische Suchen verwendet werden. Die Operator > und < können nicht verwendet werden. 
+    - ``?q=regen``: the search item will be looked for in both metadata and full text 
+    - ``?q=year=2016``: search item will be looked for in a metadata field (in this case: year
+          Operators => (greater than or equal to) and <= (less than or equal to) can be used for numerical searches. The operators > and < cannot be implemented. 
           
-- Suche mit regulären Ausdrücken mit ``attrreg=[...]``, schneller als die Suche mit ``q=[...]``
+- Search with regular expressions:   ``attrreg=[...]``, faster than search with ``q=[...]``
 
-    - ``?attrreg=author-contrib=.*Lei[ß|s].*``: Suche nach Leiß oder Leis im Autorenfeld
+    - ``?attrreg=author-contrib=.*Lei[ß|s].*``: Search for Leiß or Leis in author field
     
-- Sortierung mit ``sortfield=[...]``
+- Sorting with ``sortfield=[...]``
 
-    - ``?sortfield=-year``: absteigende Sortierung nach dem Inhalt des Feldes "year"
-    - ``?sortfield=year``: aufsteigende Sortierung nach dem Inhalt des Feldes "year"
+    - ``?sortfield=-year``: descending sorting according to content of field "year"
+    - ``?sortfield=year``: ascending sorting according to content of field "year"
     
-- Ausgabe der Inhalte über definierte Export-Masken im Feld <mask>  mit ``mask=[...]``, angegeben wird der Name der Export-Maske
+- Output of content via specified export masks in field <mask> with ``mask=[...]``, name of the export mask is defined
     
-    - ``mask=none``: keine Ausgabe
-    - ``mask=default`` oder ``mask=nodesmall``: Kurzanzeige (nodesmall)
-    - ``mask=bibtex``: Ausgabe im Bibtex-Format
-    - ``mask=apa``: Ausgabe im APA-Format
+    - ``mask=none``: no output
+    - ``mask=default`` or ``mask=nodesmall``: short display (nodesmall)
+    - ``mask=bibtex``: output in BibTeX -Format
+    - ``mask=apa``: output in APA-format
     
-- Angezeigte Felder auswählen (beim JSON-Format) mit ``attrspec=[...]`` und ``attrlist=[...]``
+- Specify displayed fields (for JSON format) with ``attrspec=[...]`` and ``attrlist=[...]``
 
-    - ``attrspec=none``: keine Felder werden angezeigt
-    - ``attrspec=all``: alle Felder werden angezeigt (default)
-    - ``attrspec=none&attrlist=year,author-contrib``: angezeigt werden nur die Felder year und author-contrib
+    - ``attrspec=none``: display no fields 
+    - ``attrspec=all``: display all fields (default)
+    - ``attrspec=none&attrlist=year,author-contrib``: only display fields "year" and "author-contrib" 
 
 
-**Ausführliche Informationen:**
+**Further detailed information:**
 
--  Zu erweiterten Suchmöglichkeiten:
-   http://wiki.ub.tum.de/mediatum\_dev/index.php5/Mediatume\_dev:Webservice\_REST
--  Zu Publikationslisten, mit mediaTUM als Quelle:
-   https://www.typo3.tum.de/index.php?id=61&L=0
+-  List of publications with mediaTUM as a source:
+   https://www.typo3.tum.de/index.php?id=144
 
 
    
-Download als Excel-Datei
-^^^^^^^^^^^^^^^^^^^^^^^^
+Download as Excel File
+^^^^^^^^^^^^^^^^^^^^^^
 
-Einen Export im Excel-Format erhält man über folgenden Link:
+An export in Excel format can be reached via the link: 
 
-``http://mediatum.ub.tum.de/services/export/node/<ID>/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
+``https://mediatum.ub.tum.de/services/export/node/<ID>/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
 
-Mit allchildren werden alle Kindelemente angezeigt, Vgl. (:ref:`Export von Trefferlisten`).
-Eine Einschränkung mit Suchanfragen ist möglich.
-Es werden alle Felder der Ergebnismenge angezeigt, eine Einschränkung der Spalten ist nicht möglich.
+In case of allchildren all child elements will be displayed (refer to Exporting hit lists). A restriction with search queries is possible. 
+All fields of a specified result will be displayed. A restriction of columns is not possible.
 
-Beispiel mit Sucheinschränkung:
+Example of the search restriction:
 
 ``https://mediatum.ub.tum.de/services/export/node/1175037/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel&sortfield=author&attrreg=author=.*sch.*&q=schema=dt-report``
 
@@ -465,72 +464,17 @@ Beispiel mit Sucheinschränkung:
 BibTeX-Export
 ^^^^^^^^^^^^^
 
-Export im BibTeX-Format
+Export in BibTeX-Format
 """""""""""""""""""""""
 
-Der Export-Link für das BibTeX-Format hat folgenden Aufbau:
+Export for a BibTeX format has the following structure: 
 
-``http://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain``
+``https://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain``
 
-
-**ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).
-
-
-..
-    Merkliste : Download im BibTeX-Format
-    """""""""""""""""""""""""""""""""""""
-
-    .. |MerkStern| image:: ../images/MerkLiStern.png
-
-    .. |ObjekteMarkieren| image:: images/ObjekteMarkieren.png
-
-    - Aufruf eines beliebigen Verzeichnisses.
-
-    .. figure:: images/Trefferliste.png
-       :alt: Trefferliste.png
+If necessary **ID** and **allchildren** can be changed. Refer to Exporting hit lists: :ref:`Export von Trefferlisten`
 
 
-    - Auswahl des gewünschten Verzeichnisses über die Navigation, z.B. „Prof. O. Fischer“
-
-
-    .. figure:: images/Auswahl.png
-       :alt: Auswahl.png
-
-
-    - In der Anzeige werden standardmäßig nur neun Treffer angezeigt. Den Link „alle anzeigen“ anklicken, um eine vollständige Trefferliste zu erhalten.
-    - Auf das Symbol |MerkStern| oberhalb der Trefferliste klicken („Aufgelistete Objekte in die Merkliste hinzufügen“).
-
-
-    .. figure:: images/Hinzufügen.png
-       :alt: Hinzufügen.png
-
-
-    - Es erscheint die Meldung, dass die Dokumente der Merkliste hinzugefügt wurden.
-
-
-    .. figure:: images/Meldung.png
-       :alt: Meldung.png
-
-    - Klickt man auf das Merklisten-Symbol |MerkStern|, wird der Inhalt der Merkliste angezeigt.
-
-
-    .. figure:: images/MerklisteAnzeigen.png
-       :alt: MerklisteAnzeigen.png
-
-
-    .. figure:: images/MerklisteInhalt.png
-       :alt: MerklisteInhalt.png
-
-
-    - Nachdem alle Objekte über den Button |ObjekteMarkieren| markiert worden sind, öffnet man über den Link „Export…“ das Export-Menü. Nach einem Klick auf das bibtex-Symbol wird der gewünschte Bibtex-Export gestartet. Die bibtex-Datei kann nun weiterverarbeitet werden.
-
-
-    .. figure:: images/Export.png
-       :alt: Export.png
-
-
-Print-Funktion
+Print-Function
 ^^^^^^^^^^^^^^
 
-Die Print-Funktion kann über das eingeblendete Druckersymbol aufgerufen werden.
-Mit ihr können alle Einträge einer Kollektion als PDF-Dokumente exportiert werden.
+The print function can be activated by clicking on the printer symbol in the upper right corner of the page. This function generates a list of all entries within a collection. The list is exported in a PDF format. 

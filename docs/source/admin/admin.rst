@@ -5,7 +5,8 @@ Benutzer / -gruppen Verwaltung
 .. figure:: images/AdminNeuStart.png
    :alt: AdminNeuStart.png
 
-
+Den Adminbereich erreichen Sie, indem Sie ``/f/admin`` hinter Ihrer URL ergänzen.
+Zum Beispiel unter https://mediatum.ub.tum.de/f/admin/.
 Nach dem Login erweitert sich die Menüleiste um:
 
 -  User
@@ -195,52 +196,6 @@ Die Menüpunkte Node, File und Setting beinhalten Anzeigen, die die
 tieferen Ebenen der Datenbank darstellen. Diese sollen von den Admins
 zunächst nicht weiter berücksichtigt werden. Diese Punkte sollen
 demnächst ausgeblendet werden.
-
-
-System-Einstellungen
-==============================
-
-Menü Konfiguration
-------------------
-
-In der Menü Konfiguration können Sie definieren, welche Optionen im
-Edit- und Administrationsbereich verfügbar sind. Die jeweilige
-Reihenfolge der Buttons ist ebenfalls individuell veränderbar.
-
-
-Im ersten Reiter sehen Sie die Konfiguration des Adminbereichs:
-
-.. figure:: images/MenKonf1.jpg
-   :alt: MenKonf1.jpg
-
-   
-
-Wählen Sie den 2. Reiter aus, damit der Editbereich angezeigt wird.
-Zuerst müssen Sie einen Datentyp aus dem Dropdownmenü auswählen, da die
-Ansicht für jeden Datentyp unterschiedlich eingerichtet werden kann.
-
-.. figure:: images/MenKonf2.jpg
-   :alt: MenKonf2.jpg
-
-
-Im nächsten Bild dient der Datentyp Dokument als Beispiel, die Ansicht
-ähnelt der Konfiguration des Adminbereichs. 
-
-.. figure:: images/MenKonf3.jpg
-   :alt: MenKonf3.jpg
-   
-   
--  Blenden Sie die Option wieder ein, indem Sie im rechten Dropdownmenü
-   auf -Verschieben- klicken und eine Oberkategorie auswählen, zu der
-   die Option hinzugefügt werden soll.
-
-Hier das Dropdownmenü:
-
-.. figure:: images/MenKonf4.jpg
-   :alt: MenKonf4.jpg
-
-
-
 
 
 Editor für Admins
